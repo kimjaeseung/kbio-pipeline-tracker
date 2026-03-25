@@ -1186,5 +1186,412 @@
         "note": "D&D Pharmatech 기술이전 도입. 경구 투여 편의성 목표."
       }
     ]
+  },
+  {
+    "id": "samsung-biologics",
+    "name": "삼성바이오로직스",
+    "ticker": "207940",
+    "market": "KOSPI",
+    "category": "CMO/바이오시밀러",
+    "platform": "위탁생산(CMO) · 위탁개발(CDO) · 바이오시밀러(삼성바이오에피스)",
+    "description": "세계 최대 바이오의약품 위탁생산(CMO) 역량 보유. 삼성바이오에피스를 통해 글로벌 바이오시밀러 시장 선도. 단일 공장 기준 세계 최대 생산능력(60만 리터+).",
+    "partners": [
+      "MSD",
+      "로슈",
+      "애브비",
+      "아스트라제네카",
+      "GSK",
+      "BMS"
+    ],
+    "totalDealValue": "연간 CMO 수주잔고 4조원+",
+    "pipelines": [
+      {
+        "drug": "SB17 (펨브롤리주맙BS)",
+        "target": "PD-1",
+        "indication": "다발성 암종",
+        "phase": "FDA 승인 완료",
+        "moa": "PD-1 면역관문억제 (키트루다 바이오시밀러)",
+        "partner": "삼성바이오에피스",
+        "status": "approved",
+        "note": "2024년 FDA 승인. 키트루다 바이오시밀러 최초 허가 제품 중 하나."
+      },
+      {
+        "drug": "SB27 (우스테키누맙BS)",
+        "target": "IL-12/23",
+        "indication": "건선, 크론병",
+        "phase": "FDA 승인 완료",
+        "moa": "IL-12/23 억제 (스텔라라 바이오시밀러)",
+        "partner": "삼성바이오에피스",
+        "status": "approved",
+        "note": "2024년 FDA 승인. 스텔라라 특허만료 시장 진입."
+      },
+      {
+        "drug": "SB28 (애플리버셉트BS)",
+        "target": "VEGF",
+        "indication": "황반변성(nAMD), 당뇨황반부종",
+        "phase": "FDA 승인 완료",
+        "moa": "VEGF trap (아일리아 바이오시밀러)",
+        "partner": "삼성바이오에피스",
+        "status": "approved",
+        "note": "2024년 FDA 승인. 안과 적응증 바이오시밀러."
+      },
+      {
+        "drug": "5공장 신규 수주",
+        "target": "mRNA/ADC/세포유전자치료",
+        "indication": "차세대 모달리티",
+        "phase": "상업화",
+        "moa": "차세대 바이오의약품 위탁생산",
+        "partner": "다수 글로벌 빅파마",
+        "status": "active",
+        "note": "5공장(2025년 완공, 18만 리터) 가동. mRNA·ADC·CGT 모달리티 대응."
+      }
+    ]
+  },
+  {
+    "id": "crystal-genomics",
+    "name": "크리스탈지노믹스",
+    "ticker": "083790",
+    "market": "KOSDAQ",
+    "category": "저분자화합물",
+    "platform": "구조기반 신약설계(SBDD) · 구조단백질학",
+    "description": "단백질 3D 구조 기반 신약 설계(SBDD) 전문. 아세렉스(폴마콕시브) 골관절염 국내 시판. 혈액암·종양 대상 파이프라인 개발 중.",
+    "partners": [
+      "엘러간",
+      "보령제약"
+    ],
+    "totalDealValue": "-",
+    "pipelines": [
+      {
+        "drug": "아세렉스 (폴마콕시브, CG100649)",
+        "target": "COX-2 선택적 억제",
+        "indication": "골관절염",
+        "phase": "시판 중 (국내)",
+        "moa": "선택적 COX-2 억제제 + CA-I 이중 표적",
+        "partner": "보령제약",
+        "status": "approved",
+        "note": "국내 최초 COX-2/CA-I 이중표적 진통제. 미국·인도 출시 협의."
+      },
+      {
+        "drug": "CG-026806",
+        "target": "FLT3/Aurora B",
+        "indication": "급성골수성백혈병(AML)",
+        "phase": "Phase 1/2",
+        "moa": "FLT3/Aurora B 이중 키나제 억제제",
+        "partner": "-",
+        "status": "active",
+        "note": "FLT3-ITD 돌연변이 AML 대상. 1차/재발불응성 병용 임상 진행."
+      },
+      {
+        "drug": "CG-806",
+        "target": "FLT3/BTK",
+        "indication": "AML/CLL",
+        "phase": "Phase 1",
+        "moa": "비공유결합성 FLT3/BTK 범억제제",
+        "partner": "엘러간 (구 에브비)",
+        "status": "active",
+        "note": "비공유결합 BTK 억제 → 내성 극복 목표. 엘러간과 기술이전 계약."
+      }
+    ]
+  },
+  {
+    "id": "icure",
+    "name": "아이큐어",
+    "ticker": "175250",
+    "market": "KOSDAQ",
+    "category": "경피(패치)제형",
+    "platform": "TDDS (경피약물전달시스템)",
+    "description": "경피약물전달기술(TDDS) 기반 치매·파킨슨 패치제 개발. 도네페질 패치 미국 Phase 3 진행 중. 리바스티그민 패치 국내 시판.",
+    "partners": [
+      "Corium (미국)",
+      "명인제약"
+    ],
+    "totalDealValue": "약 600억원+",
+    "pipelines": [
+      {
+        "drug": "IQ143 (도네페질 패치)",
+        "target": "아세틸콜린에스터라제 억제",
+        "indication": "알츠하이머 치매",
+        "phase": "Phase 3 (미국)",
+        "moa": "경피 AChE 억제 → 아세틸콜린 분해 차단",
+        "partner": "Corium",
+        "status": "active",
+        "note": "미국 FDA Phase 3 진행. 복약 순응도 개선 목적. 2026년 중간 결과 예정."
+      },
+      {
+        "drug": "리바스티그민 패치",
+        "target": "AChE/BuChE 억제",
+        "indication": "알츠하이머, 파킨슨 치매",
+        "phase": "시판 중 (국내/유럽)",
+        "moa": "경피 이중 콜린에스터라제 억제",
+        "partner": "명인제약",
+        "status": "approved",
+        "note": "국내·동남아 시판. 유럽 확장 검토 중."
+      },
+      {
+        "drug": "IQ300 (프라미펙솔 패치)",
+        "target": "도파민 D2/D3 수용체",
+        "indication": "파킨슨병, 하지불안증후군",
+        "phase": "전임상",
+        "moa": "도파민 효현제 경피 전달",
+        "partner": "-",
+        "status": "active",
+        "note": "파킨슨 경구제 → 패치 전환. 야간 복약 불편 해소 목표."
+      }
+    ]
+  },
+  {
+    "id": "pharos-ibio",
+    "name": "파로스아이바이오",
+    "ticker": "203400",
+    "market": "KOSDAQ",
+    "category": "AI신약/혈액암",
+    "platform": "PROPHIA (AI 신약설계 플랫폼)",
+    "description": "AI 기반 신약설계 플랫폼 PROPHIA로 혈액암·희귀질환 치료제 개발. PHI-101 (AML/MDS) 임상 진행 중.",
+    "partners": [
+      "한독"
+    ],
+    "totalDealValue": "-",
+    "pipelines": [
+      {
+        "drug": "PHI-101",
+        "target": "FLT3",
+        "indication": "급성골수성백혈병(AML), 골수이형성증후군(MDS)",
+        "phase": "Phase 2 (국내/미국)",
+        "moa": "FLT3 키나제 억제제 (AI 설계)",
+        "partner": "한독",
+        "status": "active",
+        "note": "FLT3-ITD/TKD 돌연변이 AML 2차치료. FDA 패스트트랙 지정. ORR 50%+ 목표."
+      },
+      {
+        "drug": "PHI-501",
+        "target": "CDK4/6",
+        "indication": "유방암/고형암",
+        "phase": "전임상",
+        "moa": "CDK4/6 억제제 (AI 최적화)",
+        "partner": "-",
+        "status": "active",
+        "note": "기존 CDK4/6 억제제 내성 극복 목표. PROPHIA 플랫폼 적용."
+      }
+    ]
+  },
+  {
+    "id": "rgnomics",
+    "name": "알지노믹스",
+    "ticker": "-",
+    "market": "비상장",
+    "category": "RNA치료제",
+    "platform": "RNA 표적 올리고뉴클레오타이드 플랫폼",
+    "description": "RNA 구조 선택��� 결합 저분자·올리고뉴클레오타이드 신약 개발. 희귀 유전 질환·바이러스 감염증 대상. 기술보증기금 스타트업.",
+    "partners": [],
+    "totalDealValue": "-",
+    "pipelines": [
+      {
+        "drug": "RG-101",
+        "target": "HCV IRES RNA",
+        "indication": "C형 간염(HCV)",
+        "phase": "전임상",
+        "moa": "HCV RNA 내부 리보솜 진입 부위(IRES) 표적 차단",
+        "partner": "-",
+        "status": "active",
+        "note": "RNA 구조 선택적 결합 기술 적용. 소분자로 RNA 직접 표적."
+      },
+      {
+        "drug": "RG-201",
+        "target": "근긴장성 이영양증 CUG repeat RNA",
+        "indication": "근긴장성 이영양증 1형(DM1)",
+        "phase": "전임상",
+        "moa": "독성 RNA 리피트 특이적 결합 → MBNL1 단백질 방출",
+        "partner": "-",
+        "status": "active",
+        "note": "희귀 근육 질환 RNA 교정 치료제. 치료 대안 없는 미충족 수요."
+      }
+    ]
+  },
+  {
+    "id": "ceres-tech",
+    "name": "씨어스테크놀로지",
+    "ticker": "397030",
+    "market": "KOSDAQ",
+    "category": "의료기기/피부과학",
+    "platform": "광학·물리에너지 기반 피부치료 플랫폼",
+    "description": "레이저·광역동치료(PDT)·물리에너지 기반 피부과학 의료기기 개발. 여드름·색소질환·피부재생 적응증. 국내외 병의원 공급.",
+    "partners": [
+      "동국제약"
+    ],
+    "totalDealValue": "-",
+    "pipelines": [
+      {
+        "drug": "CERES PDT 시스템",
+        "target": "여드름균(P. acnes) / 피지선",
+        "indication": "여드름, 색소질환",
+        "phase": "시판 중 (국내/수출)",
+        "moa": "광역동치료(PDT) — 광감각제 + 광조사 → 활성산소 생성 → 균 사멸",
+        "partner": "동국제약",
+        "status": "approved",
+        "note": "국내 피부과 병의원 공급. 동국제약 PDT 광감각제 공동 개발·판매."
+      },
+      {
+        "drug": "CERES Skin Booster",
+        "target": "진피 섬유아세포",
+        "indication": "피부재생, 탄력개선",
+        "phase": "허가 완료 (의료기기)",
+        "moa": "마이크로니들+물리에너지 복합 → 콜라겐 재생 촉진",
+        "partner": "-",
+        "status": "approved",
+        "note": "피부과·성형외과 에스테틱 시장 공급."
+      }
+    ]
+  },
+  {
+    "id": "vuno",
+    "name": "뷰노",
+    "ticker": "338220",
+    "market": "KOSDAQ",
+    "category": "의료AI",
+    "platform": "VUNO Med (딥러닝 의료영상 AI 플랫폼)",
+    "description": "딥러닝 기반 의료영상 AI 진단 소프트웨어 개발. FDA 510(k) 및 국내 식약처 허가 보유. 골연령·뇌·폐·흉부 AI 분석 제품 라인업.",
+    "partners": [
+      "분당서울대병원",
+      "서울아산병원",
+      "세브란스병원"
+    ],
+    "totalDealValue": "-",
+    "pipelines": [
+      {
+        "drug": "VUNO Med-BoneAge",
+        "target": "골성숙도 자동 분석",
+        "indication": "소아 성장 평가",
+        "phase": "FDA 510(k) 허가",
+        "moa": "X-ray 영상 AI 딥러닝 → 골연령 자동 판독",
+        "partner": "-",
+        "status": "approved",
+        "note": "미국 FDA 510(k), 국내 식약처 허가 보유. 소아과·정형외과 적용."
+      },
+      {
+        "drug": "VUNO Med-DeepBrain",
+        "target": "뇌 위축 정량화",
+        "indication": "치매/신경퇴행성 질환",
+        "phase": "허가 완료 (국내)",
+        "moa": "MRI 뇌영상 AI 분석 → 해마 위축 정량화 (알츠하이머 조기 진단)",
+        "partner": "-",
+        "status": "approved",
+        "note": "식약처 허가. 국내 상급종합병원 도입 확산."
+      },
+      {
+        "drug": "VUNO Med-LungCT AI",
+        "target": "폐결절 자동 검출",
+        "indication": "폐암 조기 발견",
+        "phase": "허가 완료 (국내/해외)",
+        "moa": "CT 영상 AI → 폐결절 검출·측정·악성도 예측",
+        "partner": "-",
+        "status": "approved",
+        "note": "국내 허가 + 동남아·중동 수출. 폐암 검진 효율화."
+      },
+      {
+        "drug": "VUNO Med-DeepCARS",
+        "target": "심정지 조기 예측",
+        "indication": "중환자실 심정지 예방",
+        "phase": "허가 완료 (국내)",
+        "moa": "활력징후 시계열 AI 분석 → 심정지 위험 조기 경보",
+        "partner": "-",
+        "status": "approved",
+        "note": "국내 종합병원 중환자실 도입. 사망률 저감 임상 근거."
+      }
+    ]
+  },
+  {
+    "id": "lunit",
+    "name": "루닛",
+    "ticker": "328130",
+    "market": "KOSDAQ",
+    "category": "의료AI/바이오마커",
+    "platform": "Lunit SCOPE (병리 AI 바이오마커) · Lunit INSIGHT (영상진단 AI)",
+    "description": "AI 기반 암 진단·예후 예측 플랫폼. 아스트라제네카·MSD 등 글로벌 빅파마와 임상 협력. Lunit SCOPE로 면역항암제 반응 예측 바이오마커 선도.",
+    "partners": [
+      "아스트라제네카",
+      "MSD",
+      "머크 KGaA",
+      "얀센",
+      "Guardant Health"
+    ],
+    "totalDealValue": "약 2,800억원+",
+    "pipelines": [
+      {
+        "drug": "Lunit SCOPE IO",
+        "target": "TIL (종양침윤림프구) / PD-L1",
+        "indication": "폐암·유방암·위암 등 고형암 면역항암제 선별",
+        "phase": "임상 협력 다수 진행",
+        "moa": "병리슬라이드 AI 분석 → TIL/PD-L1 정량화 → 면역항암제 반응 예측",
+        "partner": "아스트라제네카·MSD",
+        "status": "active",
+        "note": "AZ·MSD 임상에 바이오마커로 활용. ASCO·ESMO 다수 데이터 발표."
+      },
+      {
+        "drug": "Lunit INSIGHT CXR",
+        "target": "흉부 이상 10종",
+        "indication": "폐암·결핵·폐렴 조기 발견",
+        "phase": "FDA 510(k) 허가",
+        "moa": "흉부 X-ray AI → 결절/기흉/폐렴 등 자동 검출",
+        "partner": "-",
+        "status": "approved",
+        "note": "미국 FDA 510(k) + 국내 식약처 허가. 100개국+ 공급."
+      },
+      {
+        "drug": "Lunit INSIGHT MMG",
+        "target": "유방암 결절",
+        "indication": "유방암 조기 발견",
+        "phase": "FDA 허가 (De Novo)",
+        "moa": "유방촬영(마모그래피) AI → 악성 결절 검출",
+        "partner": "-",
+        "status": "approved",
+        "note": "미국 FDA De Novo 허가. 유방암 검진 보조."
+      },
+      {
+        "drug": "Lunit SCOPE HER2",
+        "target": "HER2 발현 정량",
+        "indication": "HER2+ 유방암/위암 바이오마커",
+        "phase": "CE-IVD 허가 (유럽)",
+        "moa": "병리 AI → HER2 발현 수준 정밀 정량화",
+        "partner": "머크 KGaA",
+        "status": "active",
+        "note": "유럽 CE-IVD 허가. 머크 KGaA 임상 협력. 동반진단 가능성."
+      }
+    ]
+  },
+  {
+    "id": "curiox-bio",
+    "name": "큐리옥스바이오시스템즈",
+    "ticker": "403870",
+    "market": "KOSDAQ",
+    "category": "단일세포분석/바이오장비",
+    "platform": "Laminar Wash 단일세포 처리 플랫폼",
+    "description": "혈액 기반 단일세포 분석을 위한 Laminar Wash 원심분리 대체 기술 보유. 흐름세포분석·단일세포시퀀싱(scRNA-seq) 전처리 장비 개발. 글로벌 연구기관·병원 공급.",
+    "partners": [
+      "베크만쿨터",
+      "BioLegend"
+    ],
+    "totalDealValue": "-",
+    "pipelines": [
+      {
+        "drug": "HydroSpin",
+        "target": "혈액 단일세포 처리",
+        "indication": "면역세포 분석, CAR-T 제조 품질관리",
+        "phase": "시판 중 (글로벌)",
+        "moa": "층류(Laminar flow) 세척 원리 → 원심분리 없이 세포 손실 최소화",
+        "partner": "베크만쿨터",
+        "status": "approved",
+        "note": "원심분리 대비 세포 회수율 2~3배. CAR-T 제조·면역학 연구실 채택 확대."
+      },
+      {
+        "drug": "HemoPalette",
+        "target": "전혈 단일세포 고속 처리",
+        "indication": "유세포분석, scRNA-seq 전처리",
+        "phase": "시판 중 (글로벌)",
+        "moa": "자동화 Laminar Wash → 적혈구 제거 + 단핵구 보존 동시 처리",
+        "partner": "BioLegend",
+        "status": "approved",
+        "note": "BioLegend와 공동 마케팅. 단일세포 시퀀싱 전처리 표준화 목표."
+      }
+    ]
   }
 ]
