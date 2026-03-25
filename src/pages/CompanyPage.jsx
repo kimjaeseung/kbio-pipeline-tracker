@@ -5,11 +5,13 @@ import tagsData from '../data/tags.json';
 import { PHASE_COLOR, CATEGORY_COLORS } from '../utils/constants';
 import { drugToSlug, getLeadPipeline } from '../utils/helpers';
 import PipelineTimeline from '../components/PipelineTimeline';
+import PipelineRoadmap from '../components/PipelineRoadmap';
 import GameChangerBadge from '../components/GameChangerBadge';
 import PhaseBar from '../components/PhaseBar';
 import WatchButton from '../components/WatchButton';
 import CompanyEventTimeline from '../components/CompanyEventTimeline';
 import AdSlot from '../components/AdSlot';
+import catalystsData from '../data/catalysts.json';
 
 export default function CompanyPage() {
   const { companyId } = useParams();
@@ -34,6 +36,7 @@ export default function CompanyPage() {
   const catColor = CATEGORY_COLORS[company.category] || '#64748b';
   const realPartners = company.partners.filter(p => !['자체', '자체 개발', '자체 개발 중심'].includes(p));
   const leadPipeline = getLeadPipeline(company.pipelines);
+  const companyCatalysts = catalystsData.events.filter(e => e.companyId === company.id);
 
   return (
     <div className="animate-fade-in">
@@ -86,13 +89,17 @@ export default function CompanyPage() {
         </div>
       </div>
 
-      {/* Pipeline Timeline */}
+      {/* Pipeline Roadmap — 시각화 타임라인 */}
       <section style={{ marginBottom: 32 }}>
-        <h2 style={{ fontSize: 16, fontWeight: 700, color: '#f1f5f9', marginBottom: 12, borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: 8 }}>
-          파이프라인 타임라인
+        <h2 style={{ fontSize: 16, fontWeight: 700, color: '#f1f5f9', marginBottom: 4, borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: 8 }}>
+          파이프라인 로드맵
         </h2>
-        <PipelineTimeline
+        <div style={{ fontSize: 11, color: '#475569', marginBottom: 12 }}>
+          약물명 클릭 시 상세 분석 페이지로 이동 · 다이아몬드(◆) = 다가오는 촉매 이벤트
+        </div>
+        <PipelineRoadmap
           pipelines={company.pipelines}
+          catalysts={companyCatalysts}
           onDrugClick={(p) => navigate(`/pipeline/${drugToSlug(p.drug)}`)}
         />
       </section>
@@ -156,11 +163,10 @@ export default function CompanyPage() {
         </h2>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
           {company.pipelines.map((p, i) => (
-            <div key={i} style={{ display: 'grid', gridTemplateColumns: '120px 1fr', alignItems: 'center', gap: 12 }}>
+            <div key={i} style={{ display: 'grid', gridTemplateColumns: '180px 1fr', alignItems: 'start', gap: 12, marginBottom: 4 }}>
               <span
-                style={{ fontSize: 12, color: '#cbd5e1', fontWeight: 600, cursor: 'pointer', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
+                style={{ fontSize: 12, color: '#cbd5e1', fontWeight: 600, cursor: 'pointer', lineHeight: 1.4, wordBreak: 'break-word', paddingTop: 2 }}
                 onClick={() => navigate(`/pipeline/${drugToSlug(p.drug)}`)}
-                title={p.drug}
               >
                 {p.drug}
               </span>

@@ -11,6 +11,7 @@ import CompetitorCompare from '../components/CompetitorCompare';
 import PhaseBar from '../components/PhaseBar';
 import WatchButton from '../components/WatchButton';
 import AdSlot from '../components/AdSlot';
+import MadInsight from '../components/MadInsight';
 
 const IMPACT_STYLES = {
   positive: { border: '#10b981', bg: 'rgba(16,185,129,0.06)', dot: '#10b981', label: '긍정' },
@@ -135,9 +136,12 @@ export default function PipelinePage() {
       </div>
 
       {/* Phase Bar */}
-      <div style={{ marginBottom: 32, maxWidth: 400 }}>
+      <div style={{ marginBottom: 24, maxWidth: 400 }}>
         <PhaseBar phase={pipeline.phase} />
       </div>
+
+      {/* Mad Insight — 형이 알려주는 미친 포인트 */}
+      <MadInsight drugName={pipeline.drug} />
 
       {/* Game Changer Cards */}
       {tags.length > 0 && (
@@ -158,6 +162,42 @@ export default function PipelinePage() {
                 defaultExpanded
               />
             ))}
+          </div>
+        </section>
+      )}
+
+      {/* Revenue Estimate */}
+      {pipeline.revenueEstimate && (
+        <section style={{ marginBottom: 32 }}>
+          <h2 style={{ fontSize: 16, fontWeight: 700, color: '#f1f5f9', marginBottom: 16, borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: 8 }}>
+            💰 예상 수익 분석
+          </h2>
+          {pipeline.marketSize && (
+            <div style={{ marginBottom: 14, padding: '10px 14px', background: 'rgba(16,185,129,0.06)', border: '1px solid rgba(16,185,129,0.2)', borderRadius: 8 }}>
+              <span style={{ fontSize: 11, color: '#34d399', fontWeight: 700 }}>📊 시장 규모 (TAM)  </span>
+              <span style={{ fontSize: 13, color: '#a7f3d0', fontWeight: 600 }}>{pipeline.marketSize}</span>
+            </div>
+          )}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 12 }}>
+            {[
+              { key: 'bull', label: '🟢 강세 시나리오', color: '#10b981', bg: 'rgba(16,185,129,0.06)', border: 'rgba(16,185,129,0.2)' },
+              { key: 'base', label: '🔵 기본 시나리오', color: '#3b82f6', bg: 'rgba(59,130,246,0.06)', border: 'rgba(59,130,246,0.2)' },
+              { key: 'bear', label: '🔴 약세 시나리오', color: '#ef4444', bg: 'rgba(239,68,68,0.06)', border: 'rgba(239,68,68,0.2)' },
+            ].map(s => pipeline.revenueEstimate[s.key] && (
+              <div key={s.key} style={{ background: s.bg, border: `1px solid ${s.border}`, borderRadius: 10, padding: '14px 16px' }}>
+                <div style={{ fontSize: 11, fontWeight: 700, color: s.color, marginBottom: 8 }}>{s.label}</div>
+                <div style={{ fontSize: 13, color: '#e2e8f0', fontWeight: 600, lineHeight: 1.5 }}>{pipeline.revenueEstimate[s.key]}</div>
+              </div>
+            ))}
+          </div>
+          {pipeline.revenueEstimate.logic && (
+            <div style={{ marginTop: 12, padding: '10px 14px', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 8 }}>
+              <div style={{ fontSize: 11, color: '#64748b', fontWeight: 600, marginBottom: 4 }}>📐 계산 논리</div>
+              <div style={{ fontSize: 11, color: '#94a3b8', lineHeight: 1.7 }}>{pipeline.revenueEstimate.logic}</div>
+            </div>
+          )}
+          <div style={{ fontSize: 10, color: '#475569', marginTop: 8 }}>
+            ※ 예상치는 공개된 시장 데이터·임상 결과 기반 추정값으로 실제 수익과 다를 수 있습니다.
           </div>
         </section>
       )}
@@ -325,6 +365,48 @@ export default function PipelinePage() {
                 </p>
               </div>
             ))}
+          </div>
+        </section>
+      )}
+
+      {/* Analyst Reports */}
+      {tagsData[pipeline.drug]?.analystReports?.length > 0 && (
+        <section style={{ marginBottom: 32 }}>
+          <h2 style={{ fontSize: 16, fontWeight: 700, color: '#f1f5f9', marginBottom: 16, borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: 8 }}>
+            📋 증권사 리포트
+          </h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+            {tagsData[pipeline.drug].analystReports.map((r, i) => (
+              <a
+                key={i}
+                href={r.searchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  padding: '12px 16px',
+                  background: 'rgba(255,255,255,0.03)',
+                  border: '1px solid rgba(255,255,255,0.08)',
+                  borderRadius: 8,
+                  textDecoration: 'none',
+                  cursor: 'pointer',
+                  transition: 'background 0.15s',
+                }}
+                onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.06)'}
+                onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.03)'}
+              >
+                <div>
+                  <div style={{ fontSize: 12, fontWeight: 600, color: '#e2e8f0', marginBottom: 3 }}>{r.title}</div>
+                  <div style={{ fontSize: 11, color: '#64748b' }}>{r.firm} · {r.date}</div>
+                </div>
+                <span style={{ fontSize: 12, color: '#3b82f6', flexShrink: 0, marginLeft: 12 }}>↗</span>
+              </a>
+            ))}
+            <div style={{ fontSize: 10, color: '#475569', marginTop: 4 }}>
+              * 네이버 증권 종목별 리포트 페이지로 이동합니다. 최신 리포트는 해당 페이지에서 확인하세요.
+            </div>
           </div>
         </section>
       )}

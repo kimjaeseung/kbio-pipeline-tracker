@@ -46,6 +46,14 @@
           "삼중 병용 ORR 70.6%로 현재 가장 높은 수치"
         ]
       }
+    ],
+    "analystReports": [
+      {
+        "firm": "유안타증권",
+        "title": "에이비엘바이오: ABL111 ESMO GI ORR 70.6% — BIC 포지션 확인",
+        "date": "2025-07",
+        "searchUrl": "https://finance.naver.com/research/company_list.naver?searchType=itemCode&itemCode=298380"
+      }
     ]
   },
   "ALT-B4 (키트루다SC)": {
@@ -98,6 +106,20 @@
           "연간 수천억~1조원대 로열티 현금흐름 예상"
         ]
       }
+    ],
+    "analystReports": [
+      {
+        "firm": "하나증권",
+        "title": "알테오젠: 키트루다SC 상업화 본격화, 로열티 현금흐름 시작",
+        "date": "2025-10",
+        "searchUrl": "https://finance.naver.com/research/company_list.naver?searchType=itemCode&itemCode=196170"
+      },
+      {
+        "firm": "NH투자증권",
+        "title": "알테오젠: 플랫폼 확장성 재평가 시작",
+        "date": "2025-11",
+        "searchUrl": "https://finance.naver.com/research/company_list.naver?searchType=itemCode&itemCode=196170"
+      }
     ]
   },
   "LCB14": {
@@ -112,6 +134,14 @@
           "ConjuALL 플랫폼 최초 상업화 후보",
           "성공 시 후속 ADC 전체의 플랫폼 검증 효과"
         ]
+      }
+    ],
+    "analystReports": [
+      {
+        "firm": "미래에셋증권",
+        "title": "리가켐바이오: ConjuALL ADC 플랫폼 글로벌 기술이전 가시화",
+        "date": "2025-09",
+        "searchUrl": "https://finance.naver.com/research/company_list.naver?searchType=itemCode&itemCode=141080"
       }
     ]
   },
@@ -170,6 +200,14 @@
           "C797S 변이 발생률 약 10-20%",
           "현재 승인된 4세대 EGFR TKI 없음"
         ]
+      }
+    ],
+    "analystReports": [
+      {
+        "firm": "삼성증권",
+        "title": "보로노이: 4세대 EGFR TKI 마지막 생존자 — Phase 1 초기 신호 긍정적",
+        "date": "2025-06",
+        "searchUrl": "https://finance.naver.com/research/company_list.naver?searchType=itemCode&itemCode=310210"
       }
     ]
   },
@@ -242,6 +280,14 @@
           "기존 콜린에스테라제 억제제 반응 제한적",
           "SC 주 1회 투여로 입원 치료 대체 가능"
         ]
+      }
+    ],
+    "analystReports": [
+      {
+        "firm": "한국투자증권",
+        "title": "한올바이오파마: FcRn 항체 자체개발 → 전략적 가치 재조명",
+        "date": "2025-08",
+        "searchUrl": "https://finance.naver.com/research/company_list.naver?searchType=itemCode&itemCode=009420"
       }
     ]
   },
@@ -372,6 +418,119 @@
           "폰탄 순환 장애 승인 치료제 전무",
           "Phase 3 FUEL 연구 400명 규모",
           "FDA 희귀의약품 지정 가능성"
+        ]
+      }
+    ]
+  },
+  "SCD411 (아플리버셉트 BS)": {
+    "tags": [
+      {
+        "type": "game-changer",
+        "label": "🏆 Game Changer",
+        "confidence": "high",
+        "reason": "아일리아(Eylea) 오리지널 연매출 약 10조원 시장. FDA BLA 제출 완료 → 허가 시 즉시 미국 시판 가능. 안과 바이오시밀러 시장 최초 진입 기업 중 하나.",
+        "evidence": [
+          "FDA BLA 제출 완료 (PDUFA 대기)",
+          "아일리아 오리지널 연매출 약 65억달러(~10조원)",
+          "바이오시밀러 진입 시 30~50% 가격 할인으로 즉시 처방 증가"
+        ]
+      }
+    ],
+    "analystReports": [
+      {
+        "firm": "키움증권",
+        "title": "삼천당제약: 아일리아BS FDA BLA 제출 완료 — 허가 임박",
+        "date": "2025-12",
+        "searchUrl": "https://finance.naver.com/research/company_list.naver?searchType=itemCode&itemCode=000250"
+      }
+    ]
+  },
+  "경구 인슐린 (SCD401)": {
+    "tags": [
+      {
+        "type": "first-in-class",
+        "label": "🆕 First-in-Class",
+        "confidence": "medium",
+        "reason": "경구 인슐린은 수십 년간 제약계 '성배'. 위장 흡수 장벽 극복 시 주사 인슐린 전체를 대체할 수 있는 혁명적 치료제.",
+        "evidence": [
+          "글로벌 인슐린 시장 연 약 40조원",
+          "주사 거부감으로 인슐린 미처방 환자 30~40%",
+          "Phase 2 글로벌 임상 진행 중"
+        ]
+      }
+    ]
+  },
+  "세마글루타이드 BS (주사형)": {
+    "tags": [
+      {
+        "type": "watch",
+        "label": "👀 관전 포인트",
+        "confidence": "medium",
+        "reason": "오젬픽/위고비 특허 만료(2032년) 전후 바이오시밀러 레이스. 선제 개발로 특허만료 즉시 시장 진입 노리는 전략. 글로벌 GLP-1 시장 규모 폭발적 성장.",
+        "evidence": [
+          "위고비/오젬픽 2024년 합산 매출 약 50조원",
+          "특허만료 2032년 예상 → 바이오시밀러 레이스 시작",
+          "현재 30개+ 사가 바이오시밀러 개발 중"
+        ]
+      }
+    ]
+  },
+  "SB17 (펨브롤리주맙BS)": {
+    "tags": [
+      {
+        "type": "game-changer",
+        "label": "🏆 Game Changer",
+        "confidence": "high",
+        "reason": "키트루다(펨브롤리주맙) 연매출 295억달러(약 41조원). 바이오시밀러 최초 허가 제품 중 하나. 삼성바이오로직스 CMO 수주 협상력 극대화.",
+        "evidence": [
+          "키트루다 2024년 매출 약 41조원",
+          "FDA 승인 완료",
+          "바이오시밀러 진입 시 시장 규모 최소 5~10조원 접근 가능"
+        ]
+      }
+    ]
+  },
+  "Lunit SCOPE IO": {
+    "tags": [
+      {
+        "type": "game-changer",
+        "label": "🏆 Game Changer",
+        "confidence": "high",
+        "reason": "AI 바이오마커가 면역항암제 반응 예측에 성공하면 수조 원 규모 동반진단 시장 독점. 아스트라제네카·MSD와의 임상 협력이 이를 증명 중.",
+        "evidence": [
+          "면역항암제 세계 시장 연 50조원+",
+          "AZ, MSD 등 빅파마 임상에 바이오마커로 활용",
+          "ASCO·ESMO 다수 긍정적 데이터 발표"
+        ]
+      }
+    ]
+  },
+  "PHI-101": {
+    "tags": [
+      {
+        "type": "best-in-class",
+        "label": "🥇 Best-in-Class 후보",
+        "confidence": "medium",
+        "reason": "FLT3/Aurora B 이중 억제로 기존 FLT3 억제제(퀴자르티닙) 내성 극복 목표. AI 신약 플랫폼이 실제 임상에서 경쟁약 대비 우위를 증명할 수 있는 첫 사례.",
+        "evidence": [
+          "FDA 패스트트랙 지정",
+          "기존 FLT3 억제제 내성 환자에서 효능 신호",
+          "AML 2차치료 ORR 목표 50%+"
+        ]
+      }
+    ]
+  },
+  "IQ143 (도네페질 패치)": {
+    "tags": [
+      {
+        "type": "best-in-class",
+        "label": "🥇 Best-in-Class 후보",
+        "confidence": "medium",
+        "reason": "도네페질 경구제 대비 복약순응도 혁신. 경피 제형으로 삼킴 장애 치매 환자에 적합. 미국 FDA Phase 3 완료 시 NDA 즉시 신청 가능.",
+        "evidence": [
+          "도네페질 글로벌 시장 약 2조원",
+          "경피 제형 복약순응도 30~40% 개선 예상",
+          "미국 Phase 3 진행 중, 중간 결과 2026년 예정"
         ]
       }
     ]

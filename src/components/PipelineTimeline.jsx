@@ -21,7 +21,7 @@ export default function PipelineTimeline({ pipelines, onDrugClick }) {
             style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 5, cursor: onDrugClick ? 'pointer' : 'default' }}
             onClick={() => onDrugClick && onDrugClick(p)}
           >
-            <span style={{ fontSize: 11, color: '#94a3b8', width: 80, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', flexShrink: 0 }}>
+            <span style={{ fontSize: 11, color: '#94a3b8', width: 130, flexShrink: 0, lineHeight: 1.35, wordBreak: 'break-word' }}>
               {p.drug}
             </span>
             <div style={{ flex: 1, height: 14, background: 'rgba(255,255,255,0.04)', borderRadius: 7, position: 'relative', overflow: 'visible' }}>
@@ -35,8 +35,8 @@ export default function PipelineTimeline({ pipelines, onDrugClick }) {
                 borderRadius: '50%', background: color, border: '2px solid #0f172a',
               }} />
             </div>
-            <span style={{ fontSize: 10, color: '#64748b', width: 80, textAlign: 'right', whiteSpace: 'nowrap', flexShrink: 0 }}>
-              {p.indication}
+            <span style={{ fontSize: 10, color: '#64748b', width: 90, textAlign: 'right', flexShrink: 0, lineHeight: 1.35, wordBreak: 'break-word' }}>
+              {p.indication?.split('/')[0]}
             </span>
           </div>
         );
