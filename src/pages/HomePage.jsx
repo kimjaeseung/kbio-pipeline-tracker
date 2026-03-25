@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import companies from '../data/companies.json';
 import tagsData from '../data/tags.json';
 import { PHASE_ORDER, PHASE_COLOR, CATEGORY_COLORS } from '../utils/constants';
@@ -9,6 +10,8 @@ import CompanyCard from '../components/CompanyCard';
 import FilterBar from '../components/FilterBar';
 import UpcomingCatalysts from '../components/UpcomingCatalysts';
 import PipelineTimeline from '../components/PipelineTimeline';
+import RecentUpdates from '../components/RecentUpdates';
+import AdSlot from '../components/AdSlot';
 
 const totalPipelines = companies.reduce((s, c) => s + c.pipelines.length, 0);
 const inClinical = countClinical(companies);
@@ -64,6 +67,15 @@ export default function HomePage() {
 
   return (
     <div className="animate-fade-in">
+      <Helmet>
+        <title>K-Bio Pipeline Tracker | 국내 바이오텍 임상 파이프라인 분석</title>
+        <meta name="description" content={`${companies.length}개 기업, ${totalPipelines}개 파이프라인의 임상 현황, 게임체인저 분석, 경쟁약 비교를 한눈에.`} />
+        <meta property="og:title" content="K-Bio Pipeline Tracker | 국내 바이오텍 임상 파이프라인 분석" />
+        <meta property="og:description" content={`${companies.length}개 기업 · ${totalPipelines}개 파이프라인 · 게임체인저 분석`} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+      </Helmet>
+
       {/* Stats */}
       <div style={{ display: 'flex', gap: 12, marginBottom: 24, flexWrap: 'wrap' }}>
         {[
@@ -78,6 +90,9 @@ export default function HomePage() {
           </div>
         ))}
       </div>
+
+      {/* Recent Updates */}
+      <RecentUpdates maxItems={5} />
 
       {/* Upcoming Catalysts */}
       <UpcomingCatalysts maxItems={4} />
@@ -122,11 +137,15 @@ export default function HomePage() {
       {/* Grid View */}
       {view === 'grid' && filtered.length > 0 && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: 16, animation: 'fadeIn 0.3s ease' }}>
-          {filtered.map(c => (
-            <CompanyCard key={c.id} company={c} onWatchToggle={() => setWatchlistVersion(v => v + 1)} />
+          {filtered.map((c, i) => (
+            <>
+              <CompanyCard key={c.id} company={c} onWatchToggle={() => setWatchlistVersion(v => v + 1)} />
+              {i === 7 && <div key="ad-mid" style={{ gridColumn: '1 / -1' }}><AdSlot format="in-feed" /></div>}
+            </>
           ))}
         </div>
       )}
+      <AdSlot format="horizontal" />
 
       {/* Table View */}
       {view === 'table' && filtered.length > 0 && (

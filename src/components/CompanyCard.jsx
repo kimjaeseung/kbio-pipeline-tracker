@@ -17,7 +17,7 @@ export default function CompanyCard({ company, onWatchToggle }) {
     return tagInfo ? tagInfo.tags : [];
   });
   const hasGameChanger = companyTags.some(t => t.type === 'game-changer');
-  const uniqueTypes = [...new Set(companyTags.map(t => t.type))].slice(0, 2);
+  const topTag = companyTags.find(t => t.type === 'game-changer') || companyTags[0];
 
   return (
     <div
@@ -26,7 +26,7 @@ export default function CompanyCard({ company, onWatchToggle }) {
         background: 'rgba(255,255,255,0.03)',
         border: `1px solid ${hasGameChanger ? 'rgba(245,158,11,0.2)' : 'rgba(255,255,255,0.06)'}`,
         borderRadius: 12, padding: 20, cursor: 'pointer',
-        transition: 'all 0.2s ease', position: 'relative',
+        transition: 'all 0.2s ease',
       }}
       onMouseEnter={e => {
         e.currentTarget.style.background = 'rgba(255,255,255,0.06)';
@@ -39,25 +39,22 @@ export default function CompanyCard({ company, onWatchToggle }) {
         e.currentTarget.style.transform = 'translateY(0)';
       }}
     >
-      {/* Top-right: Watch + Tag badges */}
-      <div style={{ position: 'absolute', top: 12, right: 12, display: 'flex', gap: 4, alignItems: 'center', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
-        <WatchButton id={company.id} size="sm" onToggle={onWatchToggle} />
-        {uniqueTypes.map((type, i) => {
-          const tag = companyTags.find(t => t.type === type);
-          return <GameChangerBadge key={i} type={type} label={tag.label} confidence={tag.confidence} size="sm" />;
-        })}
-      </div>
-
-      {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 10, paddingRight: 80 }}>
-        <div>
-          <h3 style={{ margin: 0, fontSize: 16, fontWeight: 700, color: '#f1f5f9' }}>{company.name}</h3>
-          <span style={{ fontSize: 11, color: '#64748b' }}>{company.ticker} · {company.market}</span>
+      {/* Header row */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 4 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6, minWidth: 0 }}>
+          <h3 style={{ margin: 0, fontSize: 16, fontWeight: 700, color: '#f1f5f9', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{company.name}</h3>
+          <WatchButton id={company.id} size="sm" onToggle={onWatchToggle} />
         </div>
         <span style={{
           fontSize: 10, fontWeight: 600, color: catColor, background: catColor + '18',
-          padding: '3px 8px', borderRadius: 4, whiteSpace: 'nowrap', flexShrink: 0,
+          padding: '3px 8px', borderRadius: 4, whiteSpace: 'nowrap', flexShrink: 0, marginLeft: 8,
         }}>{company.category}</span>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8, flexWrap: 'wrap' }}>
+        <span style={{ fontSize: 11, color: '#64748b' }}>{company.ticker} · {company.market}</span>
+        {topTag && (
+          <GameChangerBadge type={topTag.type} label={topTag.label} confidence={topTag.confidence} size="sm" />
+        )}
       </div>
 
       {/* Description */}

@@ -68,11 +68,16 @@ export default function Layout({ children }) {
       {/* Footer */}
       <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', padding: '20px 24px', background: 'rgba(255,255,255,0.01)', marginTop: 40 }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
-          <p style={{ fontSize: 11, color: '#64748b', lineHeight: 1.7, margin: 0 }}>
+          <p style={{ fontSize: 11, color: '#64748b', lineHeight: 1.7, margin: '0 0 10px' }}>
             ⚠️ 본 서비스는 공개된 학회 발표, 공시, IR 자료를 기반으로 정리한 정보이며, 투자 조언이 아닙니다.
             게임체인저·경쟁력 분석은 공개 데이터 기반의 참고 의견이며, 임상 결과는 후속 연구에서 변동될 수 있습니다.
             투자 판단은 본인의 책임 하에 이루어져야 합니다.
           </p>
+          <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+            <Link to="/privacy" style={{ fontSize: 11, color: '#475569', textDecoration: 'none' }}>개인정보처리방침</Link>
+            <Link to="/terms" style={{ fontSize: 11, color: '#475569', textDecoration: 'none' }}>이용약관</Link>
+            <a href="https://github.com/kimjaeseung/kbio-pipeline-tracker" target="_blank" rel="noopener noreferrer" style={{ fontSize: 11, color: '#475569', textDecoration: 'none' }}>GitHub</a>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,54 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # UTC 00:00 = KST 09:00
+  workflow_dispatch:      # 수동 실행 가능
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run DART updater
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python scripts/update_dart.py
+
+      - name: Run ClinicalTrials updater
+        run: python scripts/update_clinicaltrials.py
+
+      - name: Process updates with Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/process_updates.py
+
+      - name: Check for data changes
+        id: check
+        run: |
+          git add src/data/changelog.json
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "변경사항 없음"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "변경사항 감지됨"
+          fi
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: daily data update $(date +%Y-%m-%d)"
+          git push
+        # Vercel이 push 감지해서 자동 빌드+배포

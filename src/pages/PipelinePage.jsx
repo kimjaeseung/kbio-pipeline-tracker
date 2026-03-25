@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import companies from '../data/companies.json';
 import clinicalData from '../data/clinical-evidence.json';
 import tagsData from '../data/tags.json';
@@ -9,6 +10,7 @@ import GameChangerBadge from '../components/GameChangerBadge';
 import CompetitorCompare from '../components/CompetitorCompare';
 import PhaseBar from '../components/PhaseBar';
 import WatchButton from '../components/WatchButton';
+import AdSlot from '../components/AdSlot';
 
 const IMPACT_STYLES = {
   positive: { border: '#10b981', bg: 'rgba(16,185,129,0.06)', dot: '#10b981', label: '긍정' },
@@ -60,8 +62,20 @@ export default function PipelinePage() {
   const tags = tagsData[pipeline.drug]?.tags || [];
   const evidence = clinicalData[pipeline.drug];
 
+  const topTag = tags[0];
+  const descParts = [
+    `${pipeline.drug} ${pipeline.phase} - ${pipeline.indication}.`,
+    topTag ? `${topTag.label}.` : '',
+  ].filter(Boolean).join(' ');
+
   return (
     <div className="animate-fade-in">
+      <Helmet>
+        <title>{pipeline.drug} ({company.name}) 임상 분석 | K-Bio Pipeline Tracker</title>
+        <meta name="description" content={descParts} />
+        <meta property="og:title" content={`${pipeline.drug} | ${company.name} | K-Bio Pipeline Tracker`} />
+        <meta property="og:description" content={descParts} />
+      </Helmet>
       {/* Breadcrumb */}
       <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginBottom: 20, fontSize: 12, color: '#64748b' }}>
         <span style={{ cursor: 'pointer', color: '#94a3b8' }} onClick={() => navigate('/')}>홈</span>
@@ -208,6 +222,8 @@ export default function PipelinePage() {
           ))}
         </section>
       )}
+
+      <AdSlot format="in-feed" />
 
       {/* Competitor Comparison */}
       {evidence?.competitorComparison && evidence.competitorComparison.competitors.length > 0 && (

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "dart-sample-003",
+    "date": "2026-03-20",
+    "company": "알테오젠",
+    "companyId": "alteogen",
+    "type": "regulatory",
+    "summary": "ALT-B4 (도스탈리맙SC) GSK 라이선스 본계약 체결",
+    "importance": "high",
+    "source": "DART",
+    "url": "https://dart.fss.or.kr"
+  },
+  {
+    "id": "dart-sample-002",
+    "date": "2026-03-15",
+    "company": "리가켐바이오",
+    "companyId": "legochem",
+    "type": "clinical_result",
+    "summary": "LCB84 Phase 1 중간 데이터: ORR 38%, 내약성 양호",
+    "importance": "high",
+    "source": "DART",
+    "url": "https://dart.fss.or.kr"
+  },
+  {
+    "id": "ct-sample-001",
+    "date": "2026-03-10",
+    "company": "보로노이",
+    "companyId": "voronoi",
+    "type": "clinical_result",
+    "summary": "VRN11 Phase 1a: EGFR C797S 변이 환자 종양 축소 확인",
+    "importance": "high",
+    "source": "ClinicalTrials.gov",
+    "url": "https://clinicaltrials.gov"
+  },
+  {
+    "id": "dart-sample-001",
+    "date": "2026-03-05",
+    "company": "에이비엘바이오",
+    "companyId": "abl",
+    "type": "clinical_result",
+    "summary": "ABL111 Phase 1b 확장 코호트 모집 완료, 2026 ASCO 발표 예정",
+    "importance": "medium",
+    "source": "DART",
+    "url": "https://dart.fss.or.kr"
+  },
+  {
+    "id": "ct-sample-002",
+    "date": "2026-02-28",
+    "company": "한림제약",
+    "companyId": "hanlim",
+    "type": "regulatory",
+    "summary": "HL161 미국 FDA BLA 신청 완료",
+    "importance": "high",
+    "source": "DART",
+    "url": "https://dart.fss.or.kr"
+  }
+]

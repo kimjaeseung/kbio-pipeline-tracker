@@ -1,13 +1,15 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import companies from '../data/companies.json';
 import tagsData from '../data/tags.json';
 import { PHASE_COLOR, CATEGORY_COLORS } from '../utils/constants';
-import { drugToSlug } from '../utils/helpers';
+import { drugToSlug, getLeadPipeline } from '../utils/helpers';
 import PipelineTimeline from '../components/PipelineTimeline';
 import GameChangerBadge from '../components/GameChangerBadge';
 import PhaseBar from '../components/PhaseBar';
 import WatchButton from '../components/WatchButton';
 import CompanyEventTimeline from '../components/CompanyEventTimeline';
+import AdSlot from '../components/AdSlot';
 
 export default function CompanyPage() {
   const { companyId } = useParams();
@@ -31,9 +33,16 @@ export default function CompanyPage() {
 
   const catColor = CATEGORY_COLORS[company.category] || '#64748b';
   const realPartners = company.partners.filter(p => !['자체', '자체 개발', '자체 개발 중심'].includes(p));
+  const leadPipeline = getLeadPipeline(company.pipelines);
 
   return (
     <div className="animate-fade-in">
+      <Helmet>
+        <title>{company.name} 파이프라인 분석 | K-Bio Pipeline Tracker</title>
+        <meta name="description" content={`${company.name}의 ${company.pipelines.length}개 파이프라인 임상 현황. ${leadPipeline ? `${leadPipeline.drug} ${leadPipeline.phase}.` : ''} 경쟁약 비교 및 게임체인저 분석.`} />
+        <meta property="og:title" content={`${company.name} | K-Bio Pipeline Tracker`} />
+        <meta property="og:description" content={company.description} />
+      </Helmet>
       {/* Back button */}
       <button
         onClick={() => navigate('/')}
@@ -160,6 +169,8 @@ export default function CompanyPage() {
           ))}
         </div>
       </section>
+
+      <AdSlot format="in-feed" />
 
       {/* Company Event Timeline */}
       <section style={{ marginTop: 32 }}>
