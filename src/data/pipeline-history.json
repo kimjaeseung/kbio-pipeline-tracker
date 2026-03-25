@@ -1,0 +1,107 @@
+{
+  "ABL111": {
+    "history": [
+      { "date": "2022-09", "phase": "전임상", "event": "ABL111 (Givastomig) 전임상 효능 확인. CLDN18.2 × 4-1BB 이중항체 선도물질 선정.", "highlight": false },
+      { "date": "2023-03", "phase": "IND 승인", "event": "미국 FDA IND 승인. 한국·미국 동시 임상 1상 개시 승인.", "highlight": true },
+      { "date": "2023-08", "phase": "Phase 1", "event": "임상 1상 첫 환자 투여 (FPI). 용량증량 파트 시작.", "highlight": true },
+      { "date": "2024-01", "phase": "Phase 1", "event": "노바브릿지(구 아이맵) 글로벌 파트너십 체결. ABL111 권리이전.", "highlight": false },
+      { "date": "2024-09", "phase": "Phase 1b", "event": "용량증량 파트 종료. 추천 용량 결정(RP2D). 확장 코호트(Phase 1b) 진입.", "highlight": true },
+      { "date": "2025-01", "phase": "Phase 1b", "event": "니볼루맙 + mFOLFOX 삼중병용 코호트 환자 모집 완료.", "highlight": false },
+      { "date": "2025-07", "phase": "Phase 1b", "event": "ESMO GI 2025 삼중병용 데이터 발표 (ORR 70.6%, Grade 3+ AE 6%). 위식도암 1차 치료 경쟁약 대비 최고 수치.", "highlight": true }
+    ]
+  },
+  "ABL001": {
+    "history": [
+      { "date": "2018-06", "phase": "전임상", "event": "ABL001 (Navicixizumab) 전임상 완료. VEGF-A × DLL4 이중항체.", "highlight": false },
+      { "date": "2019-01", "phase": "Phase 1", "event": "임상 1상 미국 개시. 단독 투여 용량증량.", "highlight": true },
+      { "date": "2021-04", "phase": "Phase 1", "event": "FDA 패스트트랙 지정. 담도암 2차 치료 적응증.", "highlight": true },
+      { "date": "2022-11", "phase": "Phase 2", "event": "Phase 2 담도암 파클리탁셀 병용 코호트 개시.", "highlight": true },
+      { "date": "2024-06", "phase": "Phase 2/3", "event": "ASCO 2024 Phase 2 데이터 발표: ORR 17.1%, DCR 71.4%. Phase 2/3 전환 계획 발표.", "highlight": true }
+    ]
+  },
+  "ABL503": {
+    "history": [
+      { "date": "2020-03", "phase": "전임상", "event": "ABL503 PD-L1 × 4-1BB 이중항체 선도물질 선정.", "highlight": false },
+      { "date": "2021-11", "phase": "IND 승인", "event": "아이맵(I-Mab)과 공동 개발 계약 체결.", "highlight": false },
+      { "date": "2022-06", "phase": "Phase 1", "event": "임상 1상 개시. 진행성 고형암 대상.", "highlight": true },
+      { "date": "2023-09", "phase": "Phase 1", "event": "용량증량 3주 간격→6주 간격 전환. 안전성·편의성 개선.", "highlight": false },
+      { "date": "2025-04", "phase": "Phase 1", "event": "AACR 2025 Phase 1 데이터 발표. DCR 45%, Grade 3+ AE 8%. 6주 간격 투여 안전성 확인.", "highlight": true }
+    ]
+  },
+  "ABL301": {
+    "history": [
+      { "date": "2019-05", "phase": "전임상", "event": "ABL301 α-syn × IGF1R BBB 셔틀 이중항체 개념 확립.", "highlight": false },
+      { "date": "2021-08", "phase": "전임상", "event": "사노피와 글로벌 라이선스 계약. 계약금 + 마일스톤 약 1조원 규모.", "highlight": true },
+      { "date": "2022-04", "phase": "IND 승인", "event": "사노피 스폰서십으로 미국 FDA IND 승인.", "highlight": true },
+      { "date": "2022-09", "phase": "Phase 1", "event": "임상 1상 첫 환자 투여.", "highlight": true },
+      { "date": "2024-03", "phase": "Phase 1 완료", "event": "AD/PD 2024 Phase 1 완료 결과 발표. CSF α-시누클레인 80% 감소. BBB 투과성 입증.", "highlight": true }
+    ]
+  },
+  "ALT-B4 (키트루다SC)": {
+    "history": [
+      { "date": "2019-12", "phase": "전임상", "event": "알테오젠 Hybrozyme 플랫폼 기반 MSD와 키트루다 SC 전환 계약 체결. 계약금 + 마일스톤 약 1,200억원.", "highlight": true },
+      { "date": "2020-06", "phase": "임상 준비", "event": "키트루다SC 생체동등성 임상 설계 완료. PK/PD 연구 시작.", "highlight": false },
+      { "date": "2021-09", "phase": "Phase 1/2", "event": "키트루다SC (MK-3475A) 글로벌 Phase 1/2 생체동등성 임상 개시.", "highlight": true },
+      { "date": "2023-07", "phase": "Phase 3", "event": "키트루다SC 다수 적응증 pivotal 임상 진입. 38개 적응증 대상.", "highlight": false },
+      { "date": "2024-11", "phase": "허가 신청", "event": "FDA BLA 제출. 키트루다SC 38개 적응증 허가 신청.", "highlight": true },
+      { "date": "2025-09", "phase": "FDA 승인", "event": "키트루다 SC (큐렉스) FDA 승인. 알테오젠 Hybrozyme 플랫폼 최초 상업화. 투여시간 30분→1-2분.", "highlight": true }
+    ]
+  },
+  "LCB14": {
+    "history": [
+      { "date": "2018-09", "phase": "전임상", "event": "LCB14 ConjuALL HER2 ADC 전임상 효능 확인.", "highlight": false },
+      { "date": "2019-11", "phase": "IND 승인", "event": "포순제약(중국)과 LCB14 라이선스 계약. 중국 임상 포함 아시아 개발권.", "highlight": true },
+      { "date": "2020-06", "phase": "Phase 1", "event": "한국·중국 Phase 1 임상 개시.", "highlight": true },
+      { "date": "2022-08", "phase": "Phase 1/2", "event": "Phase 1/2 용량증량 완료. RP2D 결정.", "highlight": false },
+      { "date": "2024-06", "phase": "Phase 3 (중국)", "event": "ASCO 2024 Phase 1/2 데이터 발표: ORR 54.5%, DCR 90.9%. 중국 Phase 3 개시.", "highlight": true },
+      { "date": "2025-01", "phase": "Phase 3 (중국)", "event": "중국 Phase 3 환자 모집 완료. 조건부 허가 신청 목표 2025년 하반기.", "highlight": false }
+    ]
+  },
+  "LCB71": {
+    "history": [
+      { "date": "2021-03", "phase": "전임상", "event": "LCB71 ROR1 ADC 전임상 선도물질 선정. 에이비엘바이오 협력 시작.", "highlight": false },
+      { "date": "2022-06", "phase": "IND 승인", "event": "시스톤과 공동개발 계약. ROR1 ADC 아시아 권리 포함.", "highlight": true },
+      { "date": "2022-11", "phase": "Phase 1", "event": "림프종 대상 Phase 1 임상 개시.", "highlight": true },
+      { "date": "2023-08", "phase": "Phase 1b", "event": "고형암 코호트 추가. Phase 1b 확장.", "highlight": false },
+      { "date": "2025-06", "phase": "Phase 1b", "event": "ASCO 2025 고형암 데이터 발표: ORR 28.6%, DCR 71.4%.", "highlight": true }
+    ]
+  },
+  "VRN11": {
+    "history": [
+      { "date": "2021-06", "phase": "전임상", "event": "VRN11 EGFR C797S 4세대 TKI 전임상 선도물질 선정.", "highlight": false },
+      { "date": "2022-12", "phase": "전임상", "event": "전임상 효능·안전성 확인. 글로벌 IND 신청 준비.", "highlight": false },
+      { "date": "2023-09", "phase": "IND 승인", "event": "한국·대만 IND 승인. Phase 1a 개시.", "highlight": true },
+      { "date": "2024-01", "phase": "Phase 1a", "event": "Phase 1a 첫 환자 투여.", "highlight": true },
+      { "date": "2025-04", "phase": "Phase 1a", "event": "AACR 2025 초기 코호트 데이터 발표. DCR 60% 확인.", "highlight": true },
+      { "date": "2026-01", "phase": "Phase 1b", "event": "글로벌 Phase 1b/2 확장 개시 예정 (미국, 유럽 포함).", "highlight": false }
+    ]
+  },
+  "VRN10": {
+    "history": [
+      { "date": "2021-11", "phase": "전임상", "event": "VRN10 HER2 TKI 전임상 선도물질 선정.", "highlight": false },
+      { "date": "2023-06", "phase": "IND 승인", "event": "한국·호주 IND 승인. Phase 1a 개시.", "highlight": true },
+      { "date": "2023-11", "phase": "Phase 1a", "event": "Phase 1a 첫 환자 투여.", "highlight": true },
+      { "date": "2025-06", "phase": "Phase 1a", "event": "ASCO 2025 초기 데이터 발표. DCR 50% 확인.", "highlight": true }
+    ]
+  },
+  "HL161 (바토클리맙)": {
+    "history": [
+      { "date": "2017-04", "phase": "전임상", "event": "한올바이오파마 HL161 항-FcRn 항체 로이반트에 기술이전.", "highlight": true },
+      { "date": "2018-09", "phase": "Phase 1", "event": "로이반트 주도로 Phase 1 개시 (임시로리스 브랜드명).", "highlight": true },
+      { "date": "2020-06", "phase": "Phase 2", "event": "gMG 대상 Phase 2 개시.", "highlight": false },
+      { "date": "2021-11", "phase": "Phase 3", "event": "ADAPT-SC+ Phase 3 개시. gMG 167명 대상.", "highlight": true },
+      { "date": "2023-05", "phase": "Phase 3", "event": "로이반트, 한올에 HL161 개발권 반환. 자체 개발 전환.", "highlight": true },
+      { "date": "2024-06", "phase": "Phase 3", "event": "EAN 2024 Phase 3 결과 발표: MG-ADL 4.7점 개선, 반응률 60%. IgG 75% 감소.", "highlight": true },
+      { "date": "2026-06", "phase": "BLA 신청", "event": "FDA BLA 제출 예정 (2026 상반기).", "highlight": false }
+    ]
+  },
+  "OLX101A": {
+    "history": [
+      { "date": "2019-03", "phase": "전임상", "event": "OLX101A asiRNA 비후성 반흔 전임상 효능 확인.", "highlight": false },
+      { "date": "2020-09", "phase": "Phase 1", "event": "Phase 1 안전성 확인 완료.", "highlight": false },
+      { "date": "2022-01", "phase": "Phase 2", "event": "Phase 2a 비후성 반흔 임상 개시.", "highlight": true },
+      { "date": "2024-03", "phase": "Phase 2", "event": "AAD 2024 Phase 2a 결과: VSS 35% 개선, 반흔 두께 40% 감소.", "highlight": true },
+      { "date": "2025-12", "phase": "Phase 2", "event": "Phase 2 최종 결과 발표. 허가 신청 준비.", "highlight": false }
+    ]
+  }
+}

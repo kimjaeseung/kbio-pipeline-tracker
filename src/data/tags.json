@@ -1,0 +1,379 @@
+{
+  "ABL111": {
+    "competitorInsights": [
+      {
+        "date": "2024-03",
+        "competitor": "Zolbetuximab (졸베툭시맙)",
+        "event": "FDA 승인 획득 (VYLON - 위암 1차 치료)",
+        "impact": "negative",
+        "analysis": "경쟁약이 먼저 승인받아 시장 선점. 다만 ABL111은 ORR 70.6% vs Zolbetuximab 37.4%, AE 6% vs 21%로 효능·안전성 모두 우위. 후발 진입해도 Best-in-Class 포지셔닝 가능."
+      },
+      {
+        "date": "2025-11",
+        "competitor": "AZD0901 (아스트라제네카)",
+        "event": "Phase 1 환자 모집 시작",
+        "impact": "neutral",
+        "analysis": "빅파마의 같은 Claudin18.2 타겟 진입. 경쟁 심화되나 ABL111이 이미 Phase 1b에서 강력한 데이터를 보유하고 있어 당장 위협은 제한적."
+      },
+      {
+        "date": "2025-07",
+        "competitor": "CT041 (CARsgen CAR-T)",
+        "event": "ASCO 2025 Phase 1/2 업데이트 발표",
+        "impact": "neutral",
+        "analysis": "CAR-T ORR 57.1%는 인상적이나, 제조 복잡성·독성·접근성 한계. ABL111은 단클론항체 제형으로 훨씬 접근성 높아 실제 경쟁은 제한적."
+      }
+    ],
+    "tags": [
+      {
+        "type": "game-changer",
+        "label": "🏆 Game Changer",
+        "confidence": "high",
+        "reason": "같은 Claudin18.2 타겟의 승인약 Zolbetuximab 대비 ORR 약 2배(70.6% vs 37.4%), 부작용 1/3 수준(6% vs 21%). 효능·안전성 동시 우위는 Best-in-Class 가능성을 시사.",
+        "evidence": [
+          "ESMO GI 2025 Phase 1b ORR 70.6%",
+          "Grade 3+ AE 6% (Zolbetuximab 21% 대비 현저히 낮음)",
+          "삼중 병용에서도 안전성 유지"
+        ]
+      },
+      {
+        "type": "unmet-need",
+        "label": "⚡ 미충족 수요",
+        "confidence": "high",
+        "reason": "위식도암은 5년 생존율 20% 미만의 예후 불량 암종. 기존 면역항암제 단독 효능이 낮아 고효율 병용요법에 대한 미충족 수요 매우 높음.",
+        "evidence": [
+          "위식도암 세계 5번째 사망 원인",
+          "1차 치료 PD-1 단독 ORR 20-40% 수준",
+          "삼중 병용 ORR 70.6%로 현재 가장 높은 수치"
+        ]
+      }
+    ]
+  },
+  "ALT-B4 (키트루다SC)": {
+    "competitorInsights": [
+      {
+        "date": "2023-01",
+        "competitor": "ENHANZE (Halozyme)",
+        "event": "허셉틴SC, 다잘렉스SC 등 누적 승인 12개 제품 돌파",
+        "impact": "negative",
+        "analysis": "할로자임이 SC 전환 시장 선점. 그러나 알테오젠 Hybrozyme은 특허 구조 차별화로 MSD, 다이이찌산쿄 같은 할로자임 파트너사까지 유치 중."
+      },
+      {
+        "date": "2025-09",
+        "competitor": "키트루다 큐렉스 (Keytruda SC)",
+        "event": "FDA 승인 - 알테오젠 기술 적용 제품",
+        "impact": "positive",
+        "analysis": "알테오젠 Hybrozyme 기반 최초 FDA 승인 상업화 제품. 플랫폼 검증 완료. 로열티 수익 시작. 추가 파트너사 유치 모멘텀 확보."
+      },
+      {
+        "date": "2026-01",
+        "competitor": "도스탈리맙SC (GSK)",
+        "event": "라이선스 계약 체결",
+        "impact": "positive",
+        "analysis": "GSK와 추가 계약 체결. 파트너 다변화로 단일 고객 리스크 감소. 플랫폼 확장성 재확인."
+      }
+    ],
+    "tags": [
+      {
+        "type": "platform-expansion",
+        "label": "🔗 플랫폼 확장성",
+        "confidence": "high",
+        "reason": "IV→SC 전환 기술은 모든 정맥주사 바이오의약품에 적용 가능. 항체·ADC·이중항체·RNA 등 모달리티 무관. 이미 MSD(키트루다), 다이이찌산쿄(엔허투), 아스트라제네카, 산도즈, GSK 등 6개사 계약으로 검증됨.",
+        "evidence": [
+          "키트루다SC FDA 승인 (2025.9) - 상업화 완료",
+          "엔허투SC 개발 중 - 글로벌 최초 ADC SC",
+          "총 계약 규모 10.7조원+",
+          "특허 2043년까지 보호",
+          "항체, ADC, 이중항체, RNA 등 적용 가능"
+        ]
+      },
+      {
+        "type": "game-changer",
+        "label": "🏆 Game Changer",
+        "confidence": "high",
+        "reason": "키트루다 연매출 41조원의 SC 전환을 독점 공급. 투여시간 30분→1-2분 단축으로 환자 편의성·병원 효율성 혁신. 할로자임 독점이던 시장에 유일한 대항마.",
+        "evidence": [
+          "키트루다 2024년 매출 41조원 (295억 달러)",
+          "투여시간 30분→1-2분",
+          "SC 전환 시 환자의 30-40% 전환 예상",
+          "연간 수천억~1조원대 로열티 현금흐름 예상"
+        ]
+      }
+    ]
+  },
+  "LCB14": {
+    "tags": [
+      {
+        "type": "first-mover",
+        "label": "🥇 First Mover",
+        "confidence": "medium",
+        "reason": "리가켐바이오의 첫 상업화 후보. ConjuALL 플랫폼으로 만든 HER2-ADC가 중국 임상 3상을 진행 중이며, 이 약이 성공하면 ConjuALL 플랫폼 전체의 가치가 입증됨.",
+        "evidence": [
+          "포순제약 통해 중국 Phase 3 진행 중",
+          "ConjuALL 플랫폼 최초 상업화 후보",
+          "성공 시 후속 ADC 전체의 플랫폼 검증 효과"
+        ]
+      }
+    ]
+  },
+  "LCB71": {
+    "tags": [
+      {
+        "type": "unmet-need",
+        "label": "⚡ 미충족 수요",
+        "confidence": "medium",
+        "reason": "ROR1은 정상 성인 조직에서 발현 없고 종양에서만 발현. 다양한 고형암 및 혈액암에서 발현되나 현재 승인약 없어 미충족 수요 높음.",
+        "evidence": [
+          "ROR1 승인 치료제 현재 없음",
+          "림프종·고형암 광범위 발현",
+          "Phase 1b ORR 28.6% (초기 신호)"
+        ]
+      }
+    ]
+  },
+  "VRN11": {
+    "competitorInsights": [
+      {
+        "date": "2023-08",
+        "competitor": "BLU-945 (Blueprint Medicines)",
+        "event": "Phase 1/2 용량 최적화 완료, ORR 20% 발표",
+        "impact": "neutral",
+        "analysis": "BLU-945 단독 효능 제한적. 오시머티닙 병용 시 효과 증가되나 복잡성 증가. VRN11 단독 투여 전략이 더 단순하고 환자 순응도 높을 수 있음."
+      },
+      {
+        "date": "2025-03",
+        "competitor": "BBT-176 (Bridge Biotherapeutics)",
+        "event": "개발 중단 발표",
+        "impact": "positive",
+        "analysis": "경쟁 4세대 EGFR TKI가 임상 실패로 중단. VRN11의 시장 기회 확대. 차별화된 설계의 중요성 재확인."
+      }
+    ],
+    "tags": [
+      {
+        "type": "game-changer",
+        "label": "🏆 Game Changer 후보",
+        "confidence": "medium",
+        "reason": "현재 3세대 EGFR TKI(오시머티닙) 내성 후 표준치료가 없는 상황에서 C797S 변이를 극복하는 4세대 TKI. 미충족 수요가 매우 큰 시장. Phase 1a 초기 코호트 DCR 60%는 긍정적 신호.",
+        "evidence": [
+          "오시머티닙 내성(C797S) 극복 표적",
+          "현재 C797S 내성 후 승인약 부재",
+          "Phase 1a DCR 60% 초기 신호",
+          "2026년 글로벌 Phase 1b/2상 진입 예정"
+        ]
+      },
+      {
+        "type": "unmet-need",
+        "label": "⚡ 미충족 수요",
+        "confidence": "high",
+        "reason": "오시머티닙(타그리소) 내성 환자 연간 수만 명 발생. C797S 변이 극복 4세대 TKI 현재 승인약 전무. 매우 높은 미충족 수요.",
+        "evidence": [
+          "타그리소 연매출 약 7조원 → 내성 환자군 거대 시장",
+          "C797S 변이 발생률 약 10-20%",
+          "현재 승인된 4세대 EGFR TKI 없음"
+        ]
+      }
+    ]
+  },
+  "VRN10": {
+    "tags": [
+      {
+        "type": "watch",
+        "label": "👀 관전 포인트",
+        "confidence": "medium",
+        "reason": "경구 HER2 TKI로서 ADC 대비 투여 편의성 장점. 그러나 T-DXd 등 우수한 HER2 ADC들이 승인된 상황에서 차별화 포인트 확인 필요.",
+        "evidence": [
+          "경구 투여 편의성",
+          "Phase 1a DCR 50% 초기 신호",
+          "뇌전이 적응증 확장 가능성 (경구 TKI 강점)"
+        ]
+      }
+    ]
+  },
+  "HL161 (바토클리맙)": {
+    "competitorInsights": [
+      {
+        "date": "2021-12",
+        "competitor": "Efgartigimod (에프가티지모드, argenx)",
+        "event": "FDA 승인 (gMG 최초 FcRn 항체 승인)",
+        "impact": "negative",
+        "analysis": "FcRn 항체 시장 최초 선점. 그러나 바토클리맙은 IgG 감소율 75% vs efgartigimod 60%로 데이터 우위. 후발 진입에도 Best-in-Class 포지션 가능."
+      },
+      {
+        "date": "2023-06",
+        "competitor": "Rozanolixizumab (UCB)",
+        "event": "FDA 승인 (gMG)",
+        "impact": "negative",
+        "analysis": "경쟁약 추가 승인으로 시장 복잡화. 그러나 MG-ADL 개선 점수는 바토클리맙이 4.7점으로 로자놀릭시주맙 3.4점 대비 우위."
+      },
+      {
+        "date": "2024-06",
+        "competitor": "Nipocalimab (J&J)",
+        "event": "FDA 승인 (gMG)",
+        "impact": "neutral",
+        "analysis": "빅파마 J&J 진입. 경쟁 심화되나 바토클리맙의 IgG 감소율과 SC 편의성은 차별화 유지. 희귀질환 시장은 복수 승인약 공존 가능."
+      },
+      {
+        "date": "2023-05",
+        "competitor": "로이반트 반환",
+        "event": "로이반트가 한올에 HL161 개발권 반환",
+        "impact": "positive",
+        "analysis": "단기 주가 충격이나 장기적으로 한올이 전체 권리 보유. 성공 시 마일스톤 분배 없이 전액 수익 귀속. 개발비 직접 부담이나 upside 극대화."
+      }
+    ],
+    "tags": [
+      {
+        "type": "best-in-class",
+        "label": "🥇 Best-in-Class 후보",
+        "confidence": "medium",
+        "reason": "같은 FcRn 항체 클래스에서 IgG 감소율 75%로 경쟁약(efgartigimod 60%) 대비 우월. MG-ADL 개선 점수도 경쟁약 대비 우수. 로이반트 반환 후 자체 개발로 경제성 개선.",
+        "evidence": [
+          "IgG 감소율 75% (efgartigimod 60% 대비 우위)",
+          "MG-ADL 4.7점 개선 (경쟁약 3.4-4.0점 대비 우위)",
+          "ADAPT-SC+ Phase 3 반응률 60% vs 위약 29%",
+          "로이반트 반환으로 개발비 절감"
+        ]
+      },
+      {
+        "type": "unmet-need",
+        "label": "⚡ 미충족 수요",
+        "confidence": "high",
+        "reason": "중증근무력증은 희귀난치성 자가면역 질환. 장기적 치료 부담이 크며, 더 효과적이고 편의성 높은 치료제 수요 지속.",
+        "evidence": [
+          "gMG 유병률 10만명당 14-20명",
+          "기존 콜린에스테라제 억제제 반응 제한적",
+          "SC 주 1회 투여로 입원 치료 대체 가능"
+        ]
+      }
+    ]
+  },
+  "ABL001": {
+    "tags": [
+      {
+        "type": "big-pharma-validated",
+        "label": "🤝 빅파마 검증",
+        "confidence": "medium",
+        "reason": "FDA 패스트트랙 지정. VEGF-A × DLL4 이중 표적으로 혈관신생 억제 및 종양 혈관 정상화. 담도암 2차 치료에서 ORR 17.1%로 표준치료 대비 유의미.",
+        "evidence": [
+          "FDA 패스트트랙 지정",
+          "담도암 2차 치료 ORR 17.1%",
+          "DCR 71.4% (높은 질병통제율)"
+        ]
+      }
+    ]
+  },
+  "ABL301": {
+    "tags": [
+      {
+        "type": "big-pharma-validated",
+        "label": "🤝 빅파마 검증",
+        "confidence": "high",
+        "reason": "사노피가 직접 스폰서로 Phase 1 임상을 진행. 글로벌 탑10 빅파마의 투자·스폰서십으로 기술력 외부 검증.",
+        "evidence": [
+          "사노피 직접 스폰서십",
+          "BBB 셔틀 이중항체 첫 임상 성공",
+          "파킨슨병 CNS 투과 증명"
+        ]
+      },
+      {
+        "type": "first-in-class",
+        "label": "🆕 First-in-Class",
+        "confidence": "medium",
+        "reason": "BBB(혈뇌장벽) 셔틀 기반 α-시누클레인 타겟 이중항체. 이 기전으로 임상에 진입한 최초의 이중항체.",
+        "evidence": [
+          "BBB 셔틀 이중항체 기반 파킨슨 치료제 최초",
+          "IGF1R 활용 BBB 통과 전략",
+          "CSF α-시누클레인 80% 감소 (Phase 1)"
+        ]
+      }
+    ]
+  },
+  "ABL503": {
+    "tags": [
+      {
+        "type": "watch",
+        "label": "👀 관전 포인트",
+        "confidence": "medium",
+        "reason": "PD-L1/4-1BB 이중 표적으로 기존 4-1BB 단독 항체의 간독성 문제 해결 가능성. Phase 1 초기 결과가 긍정적이나 후속 데이터 필요.",
+        "evidence": [
+          "6주 간격 투여로 독성 최소화",
+          "4-1BB 단독 개발 실패(간독성) 교훈 적용",
+          "PD-L1 공동 활성화로 선택성 증대"
+        ]
+      }
+    ]
+  },
+  "PT320": {
+    "tags": [
+      {
+        "type": "first-in-class",
+        "label": "🆕 First-in-Class",
+        "confidence": "medium",
+        "reason": "GLP-1 작용제의 파킨슨 적응증 최초 월 1회 서방형 제제. 비만·당뇨약으로 개발된 GLP-1 작용제를 신경퇴행성 질환에 적용한 선구적 시도.",
+        "evidence": [
+          "GLP-1 작용제 파킨슨 적응증 월 1회 최초",
+          "Phase 2에서 운동기능 개선 신호",
+          "비만·파킨슨 병용 치료 가능성"
+        ]
+      }
+    ]
+  },
+  "OLX101A": {
+    "tags": [
+      {
+        "type": "first-in-class",
+        "label": "🆕 First-in-Class",
+        "confidence": "medium",
+        "reason": "세계 최초 국소 도포형 siRNA 치료제. 비후성 반흔에 RNAi를 직접 적용하는 완전히 새로운 치료 접근법.",
+        "evidence": [
+          "최초 국소 도포 비대칭 siRNA 임상",
+          "Phase 2a VSS 35% 개선",
+          "피부 표적 RNAi 원천 기술 보유"
+        ]
+      }
+    ]
+  },
+  "인보사(TG-C)": {
+    "tags": [
+      {
+        "type": "first-in-class",
+        "label": "🆕 First-in-Class",
+        "confidence": "low",
+        "reason": "퇴행성 관절염 대상 세계 최초 세포유전자치료제. 단, 한국 허가취소 이력으로 불확실성 높음.",
+        "evidence": [
+          "세계 최초 관절염 세포유전자치료제 (개념)",
+          "미국 FDA Phase 3 진행 중",
+          "한국 허가취소 후 미국 임상으로 재도전"
+        ]
+      }
+    ]
+  },
+  "FC303": {
+    "tags": [
+      {
+        "type": "watch",
+        "label": "👀 관전 포인트",
+        "confidence": "medium",
+        "reason": "PSMA PET 진단 Phase 3에서 민감도 92%로 기존 승인 경쟁제품과 동등 이상. 국내 제조 기반 가격 경쟁력 있으나 허가 일정 불확실.",
+        "evidence": [
+          "Phase 3 민감도 92%, 특이도 88%",
+          "기존 68Ga-PSMA-11 동등 성능",
+          "국내 제조 기반 가격 경쟁력"
+        ]
+      }
+    ]
+  },
+  "유데나필": {
+    "tags": [
+      {
+        "type": "unmet-need",
+        "label": "⚡ 미충족 수요",
+        "confidence": "high",
+        "reason": "폰탄 수술 받은 선천성 심장병 환자에서 표준 치료 없음. 청소년 환자군으로 미충족 수요 극히 높고, 희귀의약품 지정 가능성.",
+        "evidence": [
+          "폰탄 순환 장애 승인 치료제 전무",
+          "Phase 3 FUEL 연구 400명 규모",
+          "FDA 희귀의약품 지정 가능성"
+        ]
+      }
+    ]
+  }
+}

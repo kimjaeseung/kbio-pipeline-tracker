@@ -1,0 +1,281 @@
+[
+  {
+    "id": "abl",
+    "name": "에이비엘바이오",
+    "ticker": "298380",
+    "market": "KOSDAQ",
+    "category": "이중항체",
+    "platform": "Grabody (이중항체 플랫폼)",
+    "description": "이중항체 기술 기반 항체치료제 연구개발. 사노피·GSK·릴리 등 글로벌 빅파마와 대형 기술이전 체결.",
+    "partners": ["사노피", "GSK", "일라이 릴리", "아이맵(I-Mab)", "노바브릿지"],
+    "totalDealValue": "약 5.6조원+",
+    "pipelines": [
+      { "drug": "ABL301", "target": "α-syn × IGF1R", "indication": "파킨슨병", "phase": "Phase 1 완료", "moa": "BBB 셔틀 이중항체", "partner": "사노피", "status": "active", "note": "사노피 스폰서로 후속 임상 진행 예정" },
+      { "drug": "ABL001", "target": "VEGF-A × DLL4", "indication": "담도암/대장암", "phase": "Phase 2/3", "moa": "혈관신생 억제 이중항체", "partner": "컴패스", "status": "active", "note": "FDA 패스트트랙 지정. 담도암 2차 치료 ORR 17.1%" },
+      { "drug": "ABL503", "target": "PD-L1 × 4-1BB", "indication": "고형암", "phase": "Phase 1", "moa": "면역관문억제 + T세포 활성화", "partner": "아이맵", "status": "active", "note": "6주 간격 투여 안전성/유효성 유지 확인" },
+      { "drug": "ABL111", "target": "CLDN18.2 × 4-1BB", "indication": "위식도암", "phase": "Phase 1b", "moa": "종양선택적 T세포 활성화", "partner": "노바브릿지", "status": "active", "note": "ESMO GI 2025 ORR 70.6%, ≥G3 AE 6%" },
+      { "drug": "ABL105", "target": "HER2 × 4-1BB", "indication": "HER2+ 고형암", "phase": "Phase 1", "moa": "HER2 표적 면역활성", "partner": "유한양행", "status": "active", "note": "" },
+      { "drug": "ABL206", "target": "ROR1 × B7H3 ADC", "indication": "고형암", "phase": "IND 승인", "moa": "이중항체 ADC", "partner": "네옥바이오", "status": "active", "note": "2026년 중반 임상 1상 개시 예정" },
+      { "drug": "ABL209", "target": "EGFR × MUC1 ADC", "indication": "고형암", "phase": "IND 승인", "moa": "이중항체 ADC", "partner": "네옥바이오", "status": "active", "note": "2026년 중반 임상 1상 개시 예정" }
+    ]
+  },
+  {
+    "id": "alteogen",
+    "name": "알테오젠",
+    "ticker": "196170",
+    "market": "KOSDAQ",
+    "category": "플랫폼(SC전환)",
+    "platform": "Hybrozyme (히알루로니다제 SC전환)",
+    "description": "정맥주사→피하주사 전환 플랫폼. 키트루다SC FDA 승인으로 상업화 달성. 2025년 매출 2,159억원.",
+    "partners": ["MSD(머크)", "아스트라제네카", "산도즈", "다이이찌산쿄", "GSK(테사로)"],
+    "totalDealValue": "약 10.7조원+",
+    "pipelines": [
+      { "drug": "ALT-B4 (키트루다SC)", "target": "PD-1 SC전환", "indication": "고형암 38개 적응증", "phase": "FDA 승인", "moa": "히알루로니다제 기반 SC 전환", "partner": "MSD", "status": "approved", "note": "2025.9 FDA 승인. 투여시간 30분→1-2분" },
+      { "drug": "ALT-B4 (엔허투SC)", "target": "HER2-ADC SC전환", "indication": "유방암 등", "phase": "임상 진행중", "moa": "ADC SC 전환 (글로벌 최초)", "partner": "다이이찌산쿄", "status": "active", "note": "글로벌 최초 ADC SC 제형" },
+      { "drug": "ALT-B4 (도스탈리맙SC)", "target": "PD-1 SC전환", "indication": "자궁내막암 등", "phase": "계약 체결", "moa": "SC 전환", "partner": "GSK(테사로)", "status": "active", "note": "2026.1 라이선스 계약" },
+      { "drug": "ALT-B4 (추가)", "target": "미공개", "indication": "미공개", "phase": "옵션 계약", "moa": "SC 전환", "partner": "미공개 빅파마", "status": "active", "note": "2026년 본계약 결정 예정" },
+      { "drug": "ALT-L9", "target": "VEGF", "indication": "황반변성", "phase": "허가", "moa": "아일리아 바이오시밀러", "partner": "자체", "status": "approved", "note": "" },
+      { "drug": "ALT-P1", "target": "성장호르몬", "indication": "소아성장호르몬결핍증", "phase": "Phase 2", "moa": "NexP 지속형", "partner": "자체", "status": "active", "note": "주1회 투여" },
+      { "drug": "비만치료제", "target": "GLP-1 등", "indication": "비만", "phase": "전임상", "moa": "초장기지속형 월1회", "partner": "자체", "status": "active", "note": "릴리 레타트루타이드급 체중감소 관찰" }
+    ]
+  },
+  {
+    "id": "legochem",
+    "name": "리가켐바이오",
+    "ticker": "141080",
+    "market": "KOSDAQ",
+    "category": "ADC",
+    "platform": "ConjuALL (ADC 플랫폼)",
+    "description": "세계 최다 ADC 파이프라인 보유. 2027년까지 20개 파이프라인 목표. 2025 1Q 매출 516억(+66%).",
+    "partners": ["얀센(J&J)", "포순제약", "시스톤", "소티오", "익수다"],
+    "totalDealValue": "다수 기술이전",
+    "pipelines": [
+      { "drug": "LCB14", "target": "HER2 ADC", "indication": "유방암", "phase": "Phase 3 (중국)", "moa": "ConjuALL ADC", "partner": "포순제약", "status": "active", "note": "중국 조건부 허가 신청 목표 (2025)" },
+      { "drug": "LCB84", "target": "미공개 ADC", "indication": "고형암", "phase": "Phase 1", "moa": "ConjuALL ADC", "partner": "얀센", "status": "active", "note": "옵션 행사 시 약 2,600억원 기술료" },
+      { "drug": "LCB71", "target": "ROR1 ADC", "indication": "림프종/고형암", "phase": "Phase 1b", "moa": "ConjuALL ADC", "partner": "시스톤/에이비엘바이오", "status": "active", "note": "ASCO 고형암 데이터 발표" },
+      { "drug": "LCB97", "target": "미공개 ADC", "indication": "고형암", "phase": "Phase 1", "moa": "차세대 ADC", "partner": "자체", "status": "active", "note": "" },
+      { "drug": "IKS014", "target": "HER2 ADC", "indication": "식도암", "phase": "Phase 1", "moa": "ConjuALL ADC", "partner": "익수다", "status": "active", "note": "ASCOGI 2026 예비 결과 발표" },
+      { "drug": "LCB39", "target": "STING agonist", "indication": "고형암", "phase": "전임상→IND", "moa": "종양선택적 면역항암", "partner": "자체", "status": "active", "note": "2026년 IND. Best-in-class 가능성" }
+    ]
+  },
+  {
+    "id": "voronoi",
+    "name": "보로노이",
+    "ticker": "310210",
+    "market": "KOSDAQ",
+    "category": "저분자 표적치료제",
+    "platform": "PRISM (AI 기반 저분자 설계)",
+    "description": "AI 기반 저분자 신약 설계 플랫폼. EGFR·HER2 표적 항암제 자체 임상 진행중.",
+    "partners": ["자체 개발 중심"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "VRN11", "target": "EGFR C797S", "indication": "비소세포폐암(3세대 내성)", "phase": "Phase 1a", "moa": "4세대 EGFR TKI", "partner": "자체", "status": "active", "note": "한국·대만 진행. 2026 글로벌 1b/2상" },
+      { "drug": "VRN10", "target": "HER2", "indication": "HER2+ 고형암", "phase": "Phase 1a", "moa": "HER2 TKI", "partner": "자체", "status": "active", "note": "한국·호주 진행. 2026 글로벌 1b/2상" },
+      { "drug": "VRN07", "target": "EGFR Exon20ins", "indication": "비소세포폐암", "phase": "전임상", "moa": "EGFR Exon20 TKI", "partner": "자체", "status": "active", "note": "" },
+      { "drug": "뇌투과성 TKI", "target": "미공개", "indication": "뇌전이 고형암", "phase": "연구단계", "moa": "CNS 침투 저분자", "partner": "자체", "status": "preclinical", "note": "CMO 영입으로 글로벌 임상 준비" }
+    ]
+  },
+  {
+    "id": "peptron",
+    "name": "펩트론",
+    "ticker": "087010",
+    "market": "KOSDAQ",
+    "category": "서방형 제제",
+    "platform": "SmartDepot (서방형 미소구체)",
+    "description": "서방형 주사제 플랫폼 기술 보유. 장기지속 제형으로 투여편의성 개선.",
+    "partners": ["자체 개발"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "PT320", "target": "GLP-1R", "indication": "파킨슨병/비만", "phase": "Phase 2", "moa": "엑세나타이드 서방형", "partner": "자체", "status": "active", "note": "월 1회 투여 서방형" },
+      { "drug": "PT403", "target": "GLP-1R/GCGR", "indication": "비만", "phase": "Phase 1", "moa": "이중작용 서방형", "partner": "자체", "status": "active", "note": "" }
+    ]
+  },
+  {
+    "id": "ybiologics",
+    "name": "와이바이오로직스",
+    "ticker": "206650",
+    "market": "KOSDAQ",
+    "category": "항체",
+    "platform": "완전인간항체 발굴",
+    "description": "완전인간항체 발굴 플랫폼 기반 면역항암제 개발.",
+    "partners": ["자체 개발"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "YBL-006", "target": "PD-L1", "indication": "고형암", "phase": "Phase 1", "moa": "항-PD-L1 항체", "partner": "자체", "status": "active", "note": "" },
+      { "drug": "YBL-013", "target": "TIGIT", "indication": "고형암", "phase": "전임상", "moa": "항-TIGIT 항체", "partner": "자체", "status": "preclinical", "note": "" }
+    ]
+  },
+  {
+    "id": "samchundang",
+    "name": "삼천당제약",
+    "ticker": "000250",
+    "market": "KOSPI",
+    "category": "비만/GLP-1",
+    "platform": "GLP-1 제네릭/바이오시밀러",
+    "description": "비만치료제(GLP-1) 시장 진출 추진. 세마글루타이드 바이오시밀러 개발.",
+    "partners": ["자체"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "세마글루타이드 BS", "target": "GLP-1R", "indication": "비만/당뇨", "phase": "Phase 1", "moa": "세마글루타이드 바이오시밀러", "partner": "자체", "status": "active", "note": "위고비/오젬픽 바이오시밀러" }
+    ]
+  },
+  {
+    "id": "aimed",
+    "name": "에임드바이오",
+    "ticker": "900300",
+    "market": "KOSDAQ",
+    "category": "면역항암",
+    "platform": "T세포 기반 면역치료",
+    "description": "T세포 기반 면역항암 치료제 개발.",
+    "partners": ["자체"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "AB-101", "target": "T세포 활성화", "indication": "고형암", "phase": "전임상", "moa": "NK/T세포 치료제", "partner": "자체", "status": "preclinical", "note": "" }
+    ]
+  },
+  {
+    "id": "mezion",
+    "name": "메지온",
+    "ticker": "140410",
+    "market": "KOSDAQ",
+    "category": "심혈관/비뇨기",
+    "platform": "PDE5 억제제",
+    "description": "발기부전 치료제 '엠빅스' 판매. 심혈관·비뇨기 파이프라인 보유.",
+    "partners": ["자체"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "유데나필", "target": "PDE5", "indication": "발기부전/폰탄순환", "phase": "Phase 3", "moa": "PDE5 억제", "partner": "자체", "status": "active", "note": "폰탄 순환 개선 FDA 임상 3상" }
+    ]
+  },
+  {
+    "id": "kolon",
+    "name": "코오롱티슈진",
+    "ticker": "950160",
+    "market": "KOSDAQ",
+    "category": "유전자치료제",
+    "platform": "TissueGene-C (세포유전자치료)",
+    "description": "세계 최초 세포유전자치료제 인보사 개발사. 미국 FDA 임상 3상 진행.",
+    "partners": ["자체 (미국법인)"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "인보사(TG-C)", "target": "TGF-β1", "indication": "퇴행성 관절염", "phase": "Phase 3 (미국)", "moa": "세포유전자치료제", "partner": "자체", "status": "active", "note": "미국 FDA 임상 3상. 한국 허가취소 후 재도전" }
+    ]
+  },
+  {
+    "id": "dnd",
+    "name": "디앤디파마텍",
+    "ticker": "347770",
+    "market": "KOSDAQ",
+    "category": "펩타이드 신약",
+    "platform": "GPCR 표적 펩타이드",
+    "description": "GPCR 타겟 펩타이드 신약 개발. NASH·비만 등 대사질환 파이프라인.",
+    "partners": ["자체"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "DD01", "target": "GLP-1/GIP/GCGR", "indication": "비만/NASH", "phase": "Phase 1", "moa": "삼중작용제(Triple Agonist)", "partner": "자체", "status": "active", "note": "" },
+      { "drug": "DD02", "target": "미공개", "indication": "대사질환", "phase": "전임상", "moa": "펩타이드", "partner": "자체", "status": "preclinical", "note": "" }
+    ]
+  },
+  {
+    "id": "aprilbio",
+    "name": "에이프릴바이오",
+    "ticker": "397030",
+    "market": "KOSDAQ",
+    "category": "이중항체",
+    "platform": "TRIBODY (삼중특이성 항체)",
+    "description": "삼중특이성 항체 플랫폼(TRIBODY) 기반 면역항암제 개발.",
+    "partners": ["레고켐바이오"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "APB-R3", "target": "c-Met × EGFR × PD-L1", "indication": "고형암", "phase": "Phase 1", "moa": "삼중특이성 항체", "partner": "자체", "status": "active", "note": "삼중표적 동시 공략" },
+      { "drug": "APB-A1", "target": "미공개 ADC", "indication": "고형암", "phase": "전임상", "moa": "TRIBODY ADC", "partner": "자체", "status": "preclinical", "note": "" }
+    ]
+  },
+  {
+    "id": "hanall",
+    "name": "한올바이오파마",
+    "ticker": "009420",
+    "market": "KOSPI",
+    "category": "항체 신약",
+    "platform": "자가면역·안과 항체",
+    "description": "자가면역·안과 분야 항체 신약 개발. 롯데바이오로직스 자회사.",
+    "partners": ["롯데바이오로직스", "로이반트"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "HL161 (바토클리맙)", "target": "FcRn", "indication": "중증근무력증/ITP", "phase": "Phase 3", "moa": "항-FcRn 항체", "partner": "로이반트→한올", "status": "active", "note": "라이선스 반환 후 자체 개발" },
+      { "drug": "HL036 (타나프리맙)", "target": "IL-33", "indication": "아토피/건성안", "phase": "Phase 2", "moa": "항-IL-33 항체", "partner": "자체", "status": "active", "note": "" }
+    ]
+  },
+  {
+    "id": "olix",
+    "name": "올릭스",
+    "ticker": "226950",
+    "market": "KOSDAQ",
+    "category": "RNA 치료제",
+    "platform": "비대칭 siRNA (asiRNA)",
+    "description": "세계 최초 비대칭 siRNA 플랫폼. 피부·안과 RNAi 치료제 개발.",
+    "partners": ["자체"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "OLX101A", "target": "CTGF", "indication": "비후성 반흔", "phase": "Phase 2", "moa": "비대칭 siRNA", "partner": "자체", "status": "active", "note": "국소도포 RNAi" },
+      { "drug": "OLX301A", "target": "미공개", "indication": "건성 황반변성", "phase": "Phase 1", "moa": "안과 RNAi", "partner": "자체", "status": "active", "note": "" }
+    ]
+  },
+  {
+    "id": "futurechem",
+    "name": "퓨처켐",
+    "ticker": "220100",
+    "market": "KOSDAQ",
+    "category": "방사성의약품",
+    "platform": "방사성동위원소 표지 기술",
+    "description": "방사성의약품(핵의학) 전문. 진단·치료 동시 활용 테라노스틱스.",
+    "partners": ["자체"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "FC303", "target": "PSMA", "indication": "전립선암(진단)", "phase": "Phase 3", "moa": "68Ga-PSMA PET", "partner": "자체", "status": "active", "note": "전립선암 PET 진단" },
+      { "drug": "FC705", "target": "PSMA", "indication": "전립선암(치료)", "phase": "전임상", "moa": "177Lu-PSMA 치료", "partner": "자체", "status": "preclinical", "note": "테라노스틱스" }
+    ]
+  },
+  {
+    "id": "kanap",
+    "name": "카나프테라퓨틱스",
+    "ticker": "438860",
+    "market": "KOSDAQ",
+    "category": "항체 신약",
+    "platform": "차세대 항체 공학",
+    "description": "이중항체·ADC 기반 면역항암 신약 개발.",
+    "partners": ["자체"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "CNA3103", "target": "Claudin18.2 ADC", "indication": "위암 등", "phase": "Phase 1", "moa": "ADC", "partner": "자체", "status": "active", "note": "" }
+    ]
+  },
+  {
+    "id": "stcube",
+    "name": "에스티큐브",
+    "ticker": "052020",
+    "market": "KOSDAQ",
+    "category": "면역항암",
+    "platform": "면역관문 항체",
+    "description": "면역관문 표적 항암 항체 개발. AACR 학회 발표 이력.",
+    "partners": ["리가켐바이오"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "STC-001", "target": "VISTA (면역관문)", "indication": "고형암", "phase": "전임상", "moa": "항-VISTA 항체", "partner": "자체", "status": "preclinical", "note": "차세대 면역관문 억제" }
+    ]
+  },
+  {
+    "id": "kostecsis",
+    "name": "코스텍시스",
+    "ticker": "445560",
+    "market": "KOSDAQ",
+    "category": "세포치료제",
+    "platform": "NK세포 치료",
+    "description": "자연살해(NK)세포 기반 세포치료제 개발.",
+    "partners": ["자체"],
+    "totalDealValue": "-",
+    "pipelines": [
+      { "drug": "KSP-001", "target": "NK세포", "indication": "혈액암/고형암", "phase": "Phase 1", "moa": "동종 NK세포 치료", "partner": "자체", "status": "active", "note": "" }
+    ]
+  }
+]

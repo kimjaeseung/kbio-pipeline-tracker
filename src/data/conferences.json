@@ -1,0 +1,160 @@
+{
+  "conferences": [
+    {
+      "id": "jpm-2026",
+      "name": "JP모건 헬스케어 컨퍼런스",
+      "shortName": "JPM",
+      "date": "2026-01-13",
+      "endDate": "2026-01-16",
+      "location": "샌프란시스코, 미국",
+      "type": "investor",
+      "significance": "연초 바이오 업계 최대 투자자 행사. 기업들이 연간 전략, 파이프라인 업데이트, 파트너십 계획 발표. 기술이전 협상도 이 시기에 집중.",
+      "relevantCompanies": ["alteogen", "abl", "legochem"],
+      "status": "completed"
+    },
+    {
+      "id": "aacr-2026",
+      "name": "AACR 연간학술대회",
+      "shortName": "AACR",
+      "date": "2026-04-24",
+      "endDate": "2026-04-29",
+      "location": "시카고, 미국",
+      "type": "oncology",
+      "significance": "전임상~초기 임상 연구 중심. 새로운 기전·타겟 공개 무대. 혁신적 항암 플랫폼 데이터 발표의 핵심 학회.",
+      "relevantCompanies": ["legochem", "voronoi", "stcube", "abl"],
+      "status": "upcoming"
+    },
+    {
+      "id": "asco-2026",
+      "name": "ASCO (미국임상종양학회)",
+      "shortName": "ASCO",
+      "date": "2026-05-29",
+      "endDate": "2026-06-02",
+      "location": "시카고, 미국",
+      "type": "oncology",
+      "significance": "세계 최대 종양학 학회. 주요 임상 데이터 발표의 최고 무대. Phase 2/3 피봇 데이터 발표가 집중되어 주가 변동성 극대화.",
+      "relevantCompanies": ["legochem", "abl", "voronoi", "aprilbio", "kanap"],
+      "status": "upcoming"
+    },
+    {
+      "id": "esmo-gi-2026",
+      "name": "ESMO GI (유럽위장관종양학회)",
+      "shortName": "ESMO GI",
+      "date": "2026-07-01",
+      "endDate": "2026-07-03",
+      "location": "바르셀로나, 스페인",
+      "type": "oncology",
+      "significance": "위암, 담도암, 대장암 등 위장관 암종 전문 학회. ABL111(위식도암), ABL001(담도암) 데이터 발표 주요 무대.",
+      "relevantCompanies": ["abl", "legochem", "kanap"],
+      "status": "upcoming"
+    },
+    {
+      "id": "esmo-2026",
+      "name": "ESMO (유럽종양학회)",
+      "shortName": "ESMO",
+      "date": "2026-09-12",
+      "endDate": "2026-09-16",
+      "location": "베를린, 독일",
+      "type": "oncology",
+      "significance": "ASCO와 함께 세계 양대 종양학 학회. 유럽 시장 진출 및 글로벌 허가 전략에 핵심.",
+      "relevantCompanies": ["abl", "legochem", "voronoi"],
+      "status": "upcoming"
+    },
+    {
+      "id": "sitc-2026",
+      "name": "SITC (면역항암학회)",
+      "shortName": "SITC",
+      "date": "2026-11-04",
+      "endDate": "2026-11-08",
+      "location": "휴스턴, 미국",
+      "type": "immuno-oncology",
+      "significance": "면역항암제 전문 학회. 체크포인트 억제제, CAR-T, 이중항체, NK세포 치료 데이터 집중 발표.",
+      "relevantCompanies": ["abl", "stcube", "ybiologics", "kostecsis"],
+      "status": "upcoming"
+    },
+    {
+      "id": "ash-2026",
+      "name": "ASH (미국혈액학회)",
+      "shortName": "ASH",
+      "date": "2026-12-05",
+      "endDate": "2026-12-08",
+      "location": "올랜도, 미국",
+      "type": "hematology",
+      "significance": "혈액암 관련 세계 최대 학회. ADC, CAR-T, 이중항체의 혈액암 데이터 발표 핵심 무대.",
+      "relevantCompanies": ["legochem", "kostecsis"],
+      "status": "upcoming"
+    },
+    {
+      "id": "wclc-2026",
+      "name": "WCLC (세계폐암학회)",
+      "shortName": "WCLC",
+      "date": "2026-09-07",
+      "endDate": "2026-09-10",
+      "location": "암스테르담, 네덜란드",
+      "type": "oncology",
+      "significance": "폐암 전문 세계 최대 학회. EGFR, ALK, ROS1 등 폐암 표적치료제 데이터 발표 핵심.",
+      "relevantCompanies": ["voronoi", "abl"],
+      "status": "upcoming"
+    },
+    {
+      "id": "sabcs-2026",
+      "name": "San Antonio Breast Cancer Symposium",
+      "shortName": "SABCS",
+      "date": "2026-12-08",
+      "endDate": "2026-12-12",
+      "location": "샌안토니오, 미국",
+      "type": "oncology",
+      "significance": "유방암 분야 세계 최대 학회. HER2 ADC, ER/PR 표적 데이터 발표 핵심.",
+      "relevantCompanies": ["legochem", "alteogen"],
+      "status": "upcoming"
+    },
+    {
+      "id": "ean-2026",
+      "name": "EAN (유럽신경학학회)",
+      "shortName": "EAN",
+      "date": "2026-06-20",
+      "endDate": "2026-06-23",
+      "location": "헬싱키, 핀란드",
+      "type": "neurology",
+      "significance": "신경과 분야 유럽 최대 학회. 중증근무력증, 파킨슨 등 신경계 질환 데이터 발표.",
+      "relevantCompanies": ["hanall", "abl", "peptron"],
+      "status": "upcoming"
+    },
+    {
+      "id": "acc-2026",
+      "name": "ACC (미국심장학회)",
+      "shortName": "ACC",
+      "date": "2026-03-28",
+      "endDate": "2026-03-30",
+      "location": "시카고, 미국",
+      "type": "cardiology",
+      "significance": "심혈관 분야 최대 학회. 폰탄 순환 장애, 심부전 데이터 발표.",
+      "relevantCompanies": ["mezion"],
+      "status": "upcoming"
+    },
+    {
+      "id": "aad-2026",
+      "name": "AAD (미국피부과학회)",
+      "shortName": "AAD",
+      "date": "2026-03-20",
+      "endDate": "2026-03-23",
+      "location": "마이애미, 미국",
+      "type": "dermatology",
+      "significance": "피부과 분야 최대 학회. 비후성 반흔, 아토피 피부염 데이터 발표.",
+      "relevantCompanies": ["olix", "hanall"],
+      "status": "upcoming"
+    },
+    {
+      "id": "adpd-2026",
+      "name": "AD/PD (알츠하이머/파킨슨 학회)",
+      "shortName": "AD/PD",
+      "date": "2026-03-04",
+      "endDate": "2026-03-08",
+      "location": "빈, 오스트리아",
+      "type": "neurology",
+      "significance": "알츠하이머, 파킨슨 분야 최대 학회. 신경퇴행성질환 신약 초기 데이터 발표.",
+      "relevantCompanies": ["abl", "peptron"],
+      "status": "upcoming"
+    }
+  ]
+}

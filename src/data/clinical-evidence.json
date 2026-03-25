@@ -1,0 +1,627 @@
+{
+  "ABL111": {
+    "drugName": "ABL111 (Givastomig)",
+    "company": "에이비엘바이오",
+    "currentPhase": "Phase 1b",
+    "previousResults": [
+      {
+        "phase": "Phase 1b 용량증량",
+        "conference": "ESMO GI 2025",
+        "date": "2025-07",
+        "indication": "전이성 위식도암 1차 치료",
+        "regimen": "ABL111 + 니볼루맙 + mFOLFOX 삼중병용",
+        "endpoints": {
+          "ORR": { "value": 70.6, "unit": "%", "description": "객관적 반응률" },
+          "grade3PlusAE": { "value": 6, "unit": "%", "description": "3등급 이상 이상반응" }
+        },
+        "patientCount": 17,
+        "summary": "위식도암 1차 치료에서 삼중 병용 ORR 70.6%를 기록하면서 3등급 이상 부작용은 6%에 불과. 효능과 안전성 모두에서 경쟁력 있는 결과."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "Claudin18.2 표적 항암제",
+      "competitors": [
+        {
+          "drug": "Zolbetuximab (졸베툭시맙)",
+          "company": "아스텔라스/Ganymed",
+          "phase": "FDA 승인 (2024)",
+          "indication": "위암 1차 치료",
+          "endpoints": {
+            "ORR": { "value": 37.4, "unit": "%" },
+            "grade3PlusAE": { "value": 21, "unit": "%" }
+          },
+          "regimen": "Zolbetuximab + mFOLFOX6",
+          "advantage": "이미 FDA 승인 받은 약물",
+          "disadvantage": "ABL111 대비 ORR 절반 수준, 부작용 3.5배"
+        },
+        {
+          "drug": "AZD0901",
+          "company": "아스트라제네카",
+          "phase": "Phase 1",
+          "indication": "위암",
+          "endpoints": {},
+          "regimen": "단독/병용",
+          "advantage": "빅파마 자원 보유",
+          "disadvantage": "데이터 미공개, 개발 초기"
+        },
+        {
+          "drug": "CT041 (CLDN18.2 CAR-T)",
+          "company": "科济药业(CARsgen)",
+          "phase": "Phase 1/2",
+          "indication": "위암/췌장암",
+          "endpoints": {
+            "ORR": { "value": 57.1, "unit": "%" }
+          },
+          "regimen": "자가 CAR-T 단독",
+          "advantage": "높은 ORR (고반응 환자군)",
+          "disadvantage": "CAR-T 제조 복잡성, 독성 우려, ABL111 대비 접근성 낮음"
+        }
+      ]
+    }
+  },
+  "ABL001": {
+    "drugName": "ABL001 (Navicixizumab)",
+    "company": "에이비엘바이오",
+    "currentPhase": "Phase 2/3",
+    "previousResults": [
+      {
+        "phase": "Phase 2",
+        "conference": "ASCO 2024",
+        "date": "2024-06",
+        "indication": "담도암 2차 치료",
+        "regimen": "ABL001 + 파클리탁셀 병용",
+        "endpoints": {
+          "ORR": { "value": 17.1, "unit": "%", "description": "객관적 반응률" },
+          "DCR": { "value": 71.4, "unit": "%", "description": "질병통제율" },
+          "PFS": { "value": 4.2, "unit": "개월", "description": "무진행 생존기간" }
+        },
+        "patientCount": 35,
+        "summary": "담도암 2차 치료에서 ORR 17.1%, DCR 71.4% 달성. FDA 패스트트랙 지정으로 개발 가속화."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "VEGF/DLL4 이중 표적 항암제",
+      "competitors": [
+        {
+          "drug": "베바시주맙 (Avastin)",
+          "company": "로슈/Genentech",
+          "phase": "승인",
+          "indication": "담도암 포함 다수",
+          "endpoints": {
+            "ORR": { "value": 10, "unit": "%" }
+          },
+          "regimen": "베바시주맙 + 화학요법",
+          "advantage": "광범위한 승인 이력",
+          "disadvantage": "VEGF 단일 표적, 내성 발생"
+        }
+      ]
+    }
+  },
+  "ABL503": {
+    "drugName": "ABL503",
+    "company": "에이비엘바이오",
+    "currentPhase": "Phase 1",
+    "previousResults": [
+      {
+        "phase": "Phase 1 용량증량",
+        "conference": "AACR 2025",
+        "date": "2025-04",
+        "indication": "진행성 고형암",
+        "regimen": "ABL503 단독 (6주 간격)",
+        "endpoints": {
+          "DCR": { "value": 45, "unit": "%", "description": "질병통제율" },
+          "grade3PlusAE": { "value": 8, "unit": "%", "description": "3등급 이상 이상반응" }
+        },
+        "patientCount": 22,
+        "summary": "6주 간격 투여에서 안전성 및 유효성 확인. PD-L1/4-1BB 이중 표적으로 T세포 활성화 메커니즘 입증."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "PD-L1 × 4-1BB 이중 표적",
+      "competitors": [
+        {
+          "drug": "Urelumab (항-4-1BB)",
+          "company": "BMS",
+          "phase": "개발 중단",
+          "indication": "고형암",
+          "endpoints": {},
+          "regimen": "단독",
+          "advantage": "-",
+          "disadvantage": "간독성으로 개발 중단"
+        },
+        {
+          "drug": "GEN1042 (BNT312)",
+          "company": "젠맵/BioNTech",
+          "phase": "Phase 2",
+          "indication": "고형암",
+          "endpoints": {
+            "ORR": { "value": 15, "unit": "%" }
+          },
+          "regimen": "단독/병용",
+          "advantage": "빅파마 자원",
+          "disadvantage": "간독성 우려 지속"
+        }
+      ]
+    }
+  },
+  "ABL301": {
+    "drugName": "ABL301",
+    "company": "에이비엘바이오",
+    "currentPhase": "Phase 1 완료",
+    "previousResults": [
+      {
+        "phase": "Phase 1",
+        "conference": "AD/PD 2024",
+        "date": "2024-03",
+        "indication": "파킨슨병",
+        "regimen": "ABL301 단독 (사노피 스폰서)",
+        "endpoints": {
+          "CSF_Alpha_syn": { "value": 80, "unit": "% 감소", "description": "CSF α-시누클레인 감소율" }
+        },
+        "patientCount": 12,
+        "summary": "BBB 셔틀 기술로 뇌 내 α-시누클레인 타겟팅 성공. Phase 1 완료 후 사노피 스폰서십 하에 후속 임상 준비 중."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "α-시누클레인 표적 파킨슨병 치료제",
+      "competitors": [
+        {
+          "drug": "Prasinezumab (RO7046015)",
+          "company": "로슈/Prothena",
+          "phase": "Phase 2b",
+          "indication": "파킨슨병",
+          "endpoints": {
+            "MDS-UPDRS": { "value": 35, "unit": "% 진행 억제", "description": "운동기능 악화 억제율" }
+          },
+          "regimen": "IV 주사",
+          "advantage": "대규모 임상 진행 중",
+          "disadvantage": "BBB 투과성 낮음, ABL301 대비 뇌 접근성 열위"
+        }
+      ]
+    }
+  },
+  "ALT-B4 (키트루다SC)": {
+    "drugName": "ALT-B4 (키트루다SC)",
+    "company": "알테오젠",
+    "currentPhase": "FDA 승인",
+    "previousResults": [
+      {
+        "phase": "FDA 승인",
+        "conference": "FDA Press Release",
+        "date": "2025-09",
+        "indication": "고형암 38개 적응증",
+        "regimen": "키트루다 SC (ALT-B4 히알루로니다제 기반)",
+        "endpoints": {
+          "bioequivalence_AUC": { "value": 100, "unit": "% AUC 동등성", "description": "정맥주사 대비 생체이용률" },
+          "admin_time": { "value": 2, "unit": "분", "description": "투여 시간 (IV 30분 → SC 2분)" }
+        },
+        "patientCount": null,
+        "summary": "키트루다 SC 제형으로 FDA 승인. 투여시간 30분→1-2분으로 단축. 키트루다 연매출 41조원(295억달러) 기반 로열티 수익 창출."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "히알루로니다제 기반 SC 전환 플랫폼",
+      "competitors": [
+        {
+          "drug": "ENHANZE (할로자임)",
+          "company": "Halozyme Therapeutics",
+          "phase": "다수 제품 승인",
+          "indication": "다양한 SC 전환 제품",
+          "endpoints": {
+            "market_products": { "value": 12, "unit": "개 제품 승인", "description": "ENHANZE 기반 승인 제품 수" }
+          },
+          "regimen": "rHuPH20 기반 SC 전환",
+          "advantage": "선발주자, 다수 파트너, 검증된 플랫폼",
+          "disadvantage": "ALT-B4 대비 특허 기간 짧음, 후발 경쟁 심화"
+        }
+      ]
+    }
+  },
+  "LCB14": {
+    "drugName": "LCB14",
+    "company": "리가켐바이오",
+    "currentPhase": "Phase 3 (중국)",
+    "previousResults": [
+      {
+        "phase": "Phase 1/2",
+        "conference": "ASCO 2024",
+        "date": "2024-06",
+        "indication": "HER2+ 유방암",
+        "regimen": "LCB14 단독",
+        "endpoints": {
+          "ORR": { "value": 54.5, "unit": "%", "description": "객관적 반응률" },
+          "DCR": { "value": 90.9, "unit": "%", "description": "질병통제율" },
+          "grade3PlusAE": { "value": 18, "unit": "%", "description": "3등급 이상 이상반응" }
+        },
+        "patientCount": 22,
+        "summary": "HER2+ 유방암에서 ORR 54.5%, DCR 90.9% 달성. ConjuALL 플랫폼 최초 상업화 후보로서 Phase 3 진입."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "HER2 ADC",
+      "competitors": [
+        {
+          "drug": "T-DM1 (Kadcyla)",
+          "company": "Genentech/로슈",
+          "phase": "FDA 승인",
+          "indication": "HER2+ 유방암",
+          "endpoints": {
+            "ORR": { "value": 43.5, "unit": "%" },
+            "PFS": { "value": 9.6, "unit": "개월" }
+          },
+          "regimen": "T-DM1 단독",
+          "advantage": "이미 승인, 광범위 사용",
+          "disadvantage": "LCB14 대비 ORR 낮음, 효능 열위"
+        },
+        {
+          "drug": "T-DXd (엔허투)",
+          "company": "아스트라제네카/다이이찌산쿄",
+          "phase": "FDA 승인",
+          "indication": "HER2+ 유방암",
+          "endpoints": {
+            "ORR": { "value": 79.7, "unit": "%" },
+            "PFS": { "value": 28.8, "unit": "개월" }
+          },
+          "regimen": "T-DXd 단독",
+          "advantage": "현재 최고 데이터의 HER2 ADC",
+          "disadvantage": "간질성 폐질환(ILD) 부작용, 중국 접근성 제한"
+        }
+      ]
+    }
+  },
+  "LCB71": {
+    "drugName": "LCB71",
+    "company": "리가켐바이오",
+    "currentPhase": "Phase 1b",
+    "previousResults": [
+      {
+        "phase": "Phase 1b",
+        "conference": "ASCO 2025",
+        "date": "2025-06",
+        "indication": "ROR1 양성 고형암/림프종",
+        "regimen": "LCB71 단독",
+        "endpoints": {
+          "ORR": { "value": 28.6, "unit": "%", "description": "객관적 반응률 (고형암)" },
+          "DCR": { "value": 71.4, "unit": "%", "description": "질병통제율" }
+        },
+        "patientCount": 14,
+        "summary": "ROR1 ADC로 고형암 및 림프종에서 초기 유효성 신호 확인. ConjuALL 플랫폼의 확장성 입증."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "ROR1 표적 치료제",
+      "competitors": [
+        {
+          "drug": "Zilovertamab vedotin",
+          "company": "머크(MSD)/VelosBio",
+          "phase": "Phase 2",
+          "indication": "림프종",
+          "endpoints": {
+            "ORR": { "value": 38, "unit": "%" }
+          },
+          "regimen": "단독",
+          "advantage": "빅파마 지원, ROR1 ADC 선도주자",
+          "disadvantage": "고형암 데이터 제한적"
+        }
+      ]
+    }
+  },
+  "VRN11": {
+    "drugName": "VRN11",
+    "company": "보로노이",
+    "currentPhase": "Phase 1a",
+    "previousResults": [
+      {
+        "phase": "Phase 1a 초기",
+        "conference": "AACR 2025",
+        "date": "2025-04",
+        "indication": "EGFR C797S 변이 NSCLC",
+        "regimen": "VRN11 단독 경구",
+        "endpoints": {
+          "DCR": { "value": 60, "unit": "%", "description": "질병통제율 (초기 코호트)" }
+        },
+        "patientCount": 10,
+        "summary": "오시머티닙 내성(C797S) 환자 대상 초기 코호트에서 질병통제율 60%. 4세대 EGFR TKI로서 미충족 수요 공략."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "4세대 EGFR TKI (C797S 표적)",
+      "competitors": [
+        {
+          "drug": "BLU-945",
+          "company": "Blueprint Medicines",
+          "phase": "Phase 1/2",
+          "indication": "EGFR C797S NSCLC",
+          "endpoints": {
+            "ORR": { "value": 20, "unit": "%" }
+          },
+          "regimen": "단독/오시머티닙 병용",
+          "advantage": "빅파마 파이프라인 중 가장 앞선 4세대 TKI",
+          "disadvantage": "단독 효능 제한적, 병용 필요"
+        },
+        {
+          "drug": "EAI045",
+          "company": "Novartis",
+          "phase": "전임상",
+          "indication": "EGFR C797S",
+          "endpoints": {},
+          "regimen": "세툭시맙 병용",
+          "advantage": "빅파마 자원",
+          "disadvantage": "임상 진입 전, 데이터 없음"
+        }
+      ]
+    }
+  },
+  "VRN10": {
+    "drugName": "VRN10",
+    "company": "보로노이",
+    "currentPhase": "Phase 1a",
+    "previousResults": [
+      {
+        "phase": "Phase 1a 초기",
+        "conference": "ASCO 2025",
+        "date": "2025-06",
+        "indication": "HER2+ 고형암",
+        "regimen": "VRN10 단독 경구",
+        "endpoints": {
+          "DCR": { "value": 50, "unit": "%", "description": "질병통제율" }
+        },
+        "patientCount": 8,
+        "summary": "HER2 변이 고형암 대상 Phase 1a 초기 코호트에서 질병통제율 50% 확인. 경구 HER2 TKI로서 접근성 차별화."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "HER2 TKI",
+      "competitors": [
+        {
+          "drug": "Tucatinib (투카티닙)",
+          "company": "시애틀 지네틱스/Pfizer",
+          "phase": "FDA 승인",
+          "indication": "HER2+ 유방암",
+          "endpoints": {
+            "ORR": { "value": 40.6, "unit": "%" },
+            "PFS": { "value": 7.8, "unit": "개월" }
+          },
+          "regimen": "투카티닙 + 트라스투주맙 + 카페시타빈",
+          "advantage": "이미 승인, 가장 선택적인 HER2 TKI",
+          "disadvantage": "병용 요법 필요, VRN10 대비 적응증 제한"
+        },
+        {
+          "drug": "Neratinib (네라티닙)",
+          "company": "Puma Biotechnology",
+          "phase": "FDA 승인",
+          "indication": "HER2+ 유방암",
+          "endpoints": {
+            "ORR": { "value": 29, "unit": "%" }
+          },
+          "regimen": "단독/병용",
+          "advantage": "승인 제품",
+          "disadvantage": "설사 부작용, 고형암 확장 제한적"
+        }
+      ]
+    }
+  },
+  "HL161 (바토클리맙)": {
+    "drugName": "HL161 (바토클리맙)",
+    "company": "한올바이오파마",
+    "currentPhase": "Phase 3",
+    "previousResults": [
+      {
+        "phase": "Phase 3 ADAPT MG 결과",
+        "conference": "EAN 2024",
+        "date": "2024-06",
+        "indication": "전신성 중증근무력증 (gMG)",
+        "regimen": "바토클리맙 SC 주 1회",
+        "endpoints": {
+          "MG_ADL_improvement": { "value": 4.7, "unit": "점 개선", "description": "MG-ADL 점수 개선" },
+          "responder_rate": { "value": 60, "unit": "%", "description": "반응률 (대조군 29% 대비)" },
+          "IgG_reduction": { "value": 75, "unit": "% 감소", "description": "혈청 IgG 감소율" }
+        },
+        "patientCount": 167,
+        "summary": "ADAPT-SC+ Phase 3: MG-ADL 4.7점 개선 (위약 1.4점). 반응률 60% vs 위약 29%. IgG 75% 감소. 로이반트 반환 후 한올 자체 개발로 전환."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "FcRn 항체 (자가면역 치료제)",
+      "competitors": [
+        {
+          "drug": "Efgartigimod (에프가티지모드)",
+          "company": "argenx",
+          "phase": "FDA 승인 (2021)",
+          "indication": "gMG, ITP, CIDP",
+          "endpoints": {
+            "MG_ADL_improvement": { "value": 4.0, "unit": "점 개선" },
+            "responder_rate": { "value": 68, "unit": "%" }
+          },
+          "regimen": "IV/SC 주 1회",
+          "advantage": "선발주자, 다수 적응증 승인",
+          "disadvantage": "바토클리맙 대비 IgG 감소율 낮음 (75% vs 60%)"
+        },
+        {
+          "drug": "Rozanolixizumab (로자놀릭시주맙)",
+          "company": "UCB",
+          "phase": "FDA 승인 (2023)",
+          "indication": "gMG",
+          "endpoints": {
+            "MG_ADL_improvement": { "value": 3.4, "unit": "점 개선" }
+          },
+          "regimen": "SC 주 1회",
+          "advantage": "승인 제품",
+          "disadvantage": "바토클리맙 대비 효능 데이터 열위"
+        },
+        {
+          "drug": "Nipocalimab (니포칼리맙)",
+          "company": "얀센/J&J",
+          "phase": "FDA 승인 (2024)",
+          "indication": "gMG",
+          "endpoints": {
+            "MG_ADL_improvement": { "value": 3.5, "unit": "점 개선" }
+          },
+          "regimen": "IV 격주",
+          "advantage": "빅파마 지원, IV 옵션",
+          "disadvantage": "바토클리맙 대비 데이터 열위"
+        }
+      ]
+    }
+  },
+  "PT320": {
+    "drugName": "PT320",
+    "company": "펩트론",
+    "currentPhase": "Phase 2",
+    "previousResults": [
+      {
+        "phase": "Phase 2",
+        "conference": "MDS 2024",
+        "date": "2024-09",
+        "indication": "파킨슨병",
+        "regimen": "PT320 SC 월 1회",
+        "endpoints": {
+          "MDS_UPDRS_III": { "value": 4.3, "unit": "점 개선", "description": "운동기능 개선 (OFF 상태)" },
+          "weight_reduction": { "value": 3.2, "unit": "kg", "description": "체중 감소 (부수 효과)" }
+        },
+        "patientCount": 45,
+        "summary": "파킨슨병 환자에서 운동기능 개선 및 체중감소 효과 확인. 월 1회 투여로 편의성 우수."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "GLP-1R 작용제 (파킨슨/비만)",
+      "competitors": [
+        {
+          "drug": "Semaglutide (오젬픽/위고비)",
+          "company": "노보 노디스크",
+          "phase": "FDA 승인",
+          "indication": "비만/당뇨",
+          "endpoints": {
+            "weight_reduction": { "value": 14.9, "unit": "%" }
+          },
+          "regimen": "SC 주 1회",
+          "advantage": "강력한 체중감소 효과, 광범위 승인",
+          "disadvantage": "주 1회 투여, 파킨슨 적응증 없음"
+        }
+      ]
+    }
+  },
+  "OLX101A": {
+    "drugName": "OLX101A",
+    "company": "올릭스",
+    "currentPhase": "Phase 2",
+    "previousResults": [
+      {
+        "phase": "Phase 2a",
+        "conference": "AAD 2024",
+        "date": "2024-03",
+        "indication": "비후성 반흔 (Hypertrophic Scar)",
+        "regimen": "OLX101A 국소 도포",
+        "endpoints": {
+          "VSS_score": { "value": 35, "unit": "% 개선", "description": "Vancouver Scar Scale 점수 개선" },
+          "scar_thickness": { "value": 40, "unit": "% 감소", "description": "반흔 두께 감소" }
+        },
+        "patientCount": 30,
+        "summary": "비후성 반흔 대상 Phase 2a에서 VSS 점수 35% 개선. 세계 최초 국소 도포 siRNA 치료제로서 의미."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "CTGF 표적 (반흔 치료)",
+      "competitors": [
+        {
+          "drug": "실리콘 시트/주사제 (표준치료)",
+          "company": "다수",
+          "phase": "표준치료",
+          "indication": "비후성 반흔",
+          "endpoints": {
+            "VSS_score": { "value": 20, "unit": "% 개선" }
+          },
+          "regimen": "실리콘 시트, 스테로이드 주사",
+          "advantage": "광범위 사용, 저렴",
+          "disadvantage": "제한적 효능, 재발률 높음"
+        }
+      ]
+    }
+  },
+  "유데나필": {
+    "drugName": "유데나필 (Udenafil)",
+    "company": "메지온",
+    "currentPhase": "Phase 3",
+    "previousResults": [
+      {
+        "phase": "Phase 3 FUEL 연구",
+        "conference": "ACC 2024",
+        "date": "2024-04",
+        "indication": "폰탄 순환 장애 (Fontan Circulation)",
+        "regimen": "유데나필 경구 1일 2회",
+        "endpoints": {
+          "peak_VO2": { "value": 8.3, "unit": "% 개선", "description": "최대 산소소비량 개선" },
+          "responder_rate": { "value": 40, "unit": "%", "description": "반응률" }
+        },
+        "patientCount": 400,
+        "summary": "폰탄 순환 장애 청소년 대상 Phase 3. 최대 산소소비량 8.3% 개선. FDA 허가 신청 준비 중 (미충족 수요 분야)."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "PDE5 억제제 (폰탄 순환)",
+      "competitors": [
+        {
+          "drug": "Sildenafil (실데나필)",
+          "company": "화이자/제네릭",
+          "phase": "오프라벨 사용",
+          "indication": "폰탄 순환 (오프라벨)",
+          "endpoints": {},
+          "regimen": "경구",
+          "advantage": "광범위 가용성, 저비용",
+          "disadvantage": "폰탄 적응증 미승인, 데이터 제한적"
+        }
+      ]
+    }
+  },
+  "FC303": {
+    "drugName": "FC303",
+    "company": "퓨처켐",
+    "currentPhase": "Phase 3",
+    "previousResults": [
+      {
+        "phase": "Phase 3",
+        "conference": "J Nuclear Med 2024",
+        "date": "2024-09",
+        "indication": "전립선암 PET 진단",
+        "regimen": "68Ga-PSMA FC303 단일 투여",
+        "endpoints": {
+          "sensitivity": { "value": 92, "unit": "%", "description": "민감도" },
+          "specificity": { "value": 88, "unit": "%", "description": "특이도" }
+        },
+        "patientCount": 150,
+        "summary": "전립선암 재발 진단에서 민감도 92%, 특이도 88% 달성. PSMA PET 진단제로서 FDA/식약처 허가 신청 준비."
+      }
+    ],
+    "competitorComparison": {
+      "sameTarget": "PSMA PET 진단제",
+      "competitors": [
+        {
+          "drug": "68Ga-PSMA-11",
+          "company": "Eckert & Ziegler (원조)",
+          "phase": "FDA 승인",
+          "indication": "전립선암 진단",
+          "endpoints": {
+            "sensitivity": { "value": 91, "unit": "%" },
+            "specificity": { "value": 88, "unit": "%" }
+          },
+          "regimen": "단일 IV 투여",
+          "advantage": "최초 승인 PSMA PET",
+          "disadvantage": "갈륨-68 발생기 의존 → FC303 대비 접근성 제한"
+        },
+        {
+          "drug": "18F-DCFPyL (Pylarify)",
+          "company": "Lantheus",
+          "phase": "FDA 승인",
+          "indication": "전립선암 진단",
+          "endpoints": {
+            "sensitivity": { "value": 88, "unit": "%" },
+            "specificity": { "value": 85, "unit": "%" }
+          },
+          "regimen": "IV",
+          "advantage": "F-18 기반 더 긴 반감기 → 원거리 배송 가능",
+          "disadvantage": "FC303 대비 민감도 소폭 열위"
+        }
+      ]
+    }
+  }
+}
