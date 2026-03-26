@@ -236,7 +236,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/인보사tg-c</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/tg-c-인보사-k</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -281,7 +281,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/hl036-타나프리맙</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/hl036-sc-아이메로프루바트</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -301,12 +301,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/olx702a</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/olx501a</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://bioinsight-nine.vercel.app/company/futurechem</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/fc303</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/fc303-18f-플로라스타민</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -356,7 +366,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/렉라자lazertinib</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/렉라자lazcluze-lazertinib</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -391,7 +401,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/ct-p13remsima</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/짐펜트라ct-p13-sc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -461,6 +471,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/백토서팁-골육종</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://bioinsight-nine.vercel.app/company/abclon</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -487,6 +502,11 @@
   </url>
   <url>
     <loc>https://bioinsight-nine.vercel.app/pipeline/pn주안과용</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/prd-101-pdrn-나노항암제</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

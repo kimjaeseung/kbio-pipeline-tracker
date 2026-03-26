@@ -17,6 +17,22 @@
       "status": "completed"
     },
     {
+      "id": "evt-oscotec-sanofi-20251201",
+      "date": "2025-12-01",
+      "dateType": "month",
+      "displayDate": "2025년 12월",
+      "company": "오스코텍",
+      "companyId": "oscotec",
+      "drug": "ADEL-Y01",
+      "drugId": "adel-y01",
+      "event": "사노피 기술이전 계약 — 최대 1.5조원 (선급금 1,180억원)",
+      "type": "deal",
+      "importance": "high",
+      "impact": "선급금 1,180억원 + 단계별 마일스톤 최대 1.5조원. 알츠하이머 타우 항체 최초 대형 기술이전.",
+      "whyItMatters": "알츠하이머 치료제 시장(50조원+)에서 타우 단백질 표적 항체 ADEL-Y01이 FIC 가능성을 인정받아 사노피가 대형 계약 체결. 선급금 1,180억원은 현금 직결 실적 개선 촉매.",
+      "status": "completed"
+    },
+    {
       "id": "evt-001",
       "date": "2026-06-01",
       "dateType": "half",

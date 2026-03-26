@@ -11,13 +11,22 @@ export default function CompanyCard({ company, onWatchToggle }) {
   const leadPipeline = getLeadPipeline(company.pipelines);
   const catColor = CATEGORY_COLORS[company.category] || '#64748b';
 
-  // Find tags for this company's pipelines
+  // Find all unique tags for this company's pipelines
   const companyTags = company.pipelines.flatMap(p => {
     const tagInfo = tagsData[p.drug];
     return tagInfo ? tagInfo.tags : [];
   });
   const hasGameChanger = companyTags.some(t => t.type === 'game-changer');
-  const topTag = companyTags.find(t => t.type === 'game-changer') || companyTags[0];
+  // Deduplicate by type, keeping highest confidence per type
+  const uniqueTagsMap = new Map();
+  companyTags.forEach(t => {
+    if (!uniqueTagsMap.has(t.type) || (t.confidence || 0) > (uniqueTagsMap.get(t.type).confidence || 0)) {
+      uniqueTagsMap.set(t.type, t);
+    }
+  });
+  // Sort: game-changer first, then by type priority
+  const TYPE_PRIORITY = { 'game-changer': 10, 'first-in-class': 8, 'best-in-class': 7, 'platform-expansion': 6, 'first-mover': 5, 'big-pharma-validated': 4, 'unmet-need': 3, 'watch': 1 };
+  const uniqueTags = [...uniqueTagsMap.values()].sort((a, b) => (TYPE_PRIORITY[b.type] || 0) - (TYPE_PRIORITY[a.type] || 0));
 
   return (
     <div
@@ -51,9 +60,14 @@ export default function CompanyCard({ company, onWatchToggle }) {
         }}>{company.category}</span>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8, flexWrap: 'wrap' }}>
-        <span style={{ fontSize: 11, color: '#64748b' }}>{company.ticker} · {company.market}</span>
-        {topTag && (
-          <GameChangerBadge type={topTag.type} label={topTag.label} confidence={topTag.confidence} size="sm" />
+        <span style={{ fontSize: 11, color: '#64748b', flexShrink: 0 }}>{company.ticker} · {company.market}</span>
+        {uniqueTags.slice(0, 3).map((t, i) => (
+          <GameChangerBadge key={i} type={t.type} label={t.label} confidence={t.confidence} size="sm" />
+        ))}
+        {uniqueTags.length > 3 && (
+          <span style={{ fontSize: 10, color: '#64748b', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '2px 6px', borderRadius: 4 }}>
+            +{uniqueTags.length - 3}
+          </span>
         )}
       </div>
 

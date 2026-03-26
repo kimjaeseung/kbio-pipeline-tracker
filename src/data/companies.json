@@ -20,11 +20,11 @@
         "drug": "ABL301",
         "target": "α-syn × IGF1R",
         "indication": "파킨슨병",
-        "phase": "Phase 1 완료",
+        "phase": "Phase 2 준비",
         "moa": "BBB 셔틀 이중항체",
         "partner": "사노피",
         "status": "active",
-        "note": "사노피 스폰서로 후속 임상 진행 예정"
+        "note": "Phase 1 완료. 사노피가 임상 스폰서로 이전. 사노피 주도 Phase 2 후속 임상 2026년 진행 예정"
       },
       {
         "drug": "ABL001",
@@ -50,11 +50,11 @@
         "drug": "ABL111",
         "target": "CLDN18.2 × 4-1BB",
         "indication": "위식도암",
-        "phase": "Phase 1b",
+        "phase": "Phase 1b 확장",
         "moa": "종양선택적 T세포 활성화",
         "partner": "노바브릿지",
         "status": "active",
-        "note": "ESMO GI 2025 ORR 70.6%, ≥G3 AE 6%",
+        "note": "Phase 1b 용량확장 코호트 ORR 77% (최고용량군). ESMO GI ORR 70.6%. 2026년 글로벌 무작위 Phase 2 시작 예정. ≥G3 AE 6% (안전성 우수)",
         "marketSize": "위식도암 글로벌 시장 약 5조원(2030년)",
         "revenueEstimate": {
           "bull": "1,500~2,000억원/년 (점유율 5~7%, BIC 포지션 확보 시)",
@@ -92,6 +92,53 @@
         "partner": "네옥바이오",
         "status": "active",
         "note": "2026년 중반 임상 1상 개시 예정"
+      }
+    ],
+    "dealHistory": [
+      {
+        "partner": "사노피",
+        "drug": "ABL301 (파킨슨병)",
+        "year": "2022",
+        "upfront": 150,
+        "milestone": 4500,
+        "royaltyNote": "ABL301 상업화 로열티",
+        "status": "active"
+      },
+      {
+        "partner": "GSK",
+        "drug": "ABL103",
+        "year": "2021",
+        "upfront": 100,
+        "milestone": 2000,
+        "royaltyNote": "ABL103 상업화 로열티",
+        "status": "active"
+      },
+      {
+        "partner": "일라이 릴리",
+        "drug": "ABL301 이후 계약",
+        "year": "2022",
+        "upfront": 100,
+        "milestone": 1500,
+        "royaltyNote": "릴리 파이프라인 연동",
+        "status": "active"
+      },
+      {
+        "partner": "아이맵(I-Mab)",
+        "drug": "ABL503",
+        "year": "2022",
+        "upfront": 50,
+        "milestone": 800,
+        "royaltyNote": "ABL503 중국 상업화",
+        "status": "active"
+      },
+      {
+        "partner": "노바브릿지",
+        "drug": "ABL111",
+        "year": "2023",
+        "upfront": 70,
+        "milestone": 1500,
+        "royaltyNote": "ABL111 글로벌 판권",
+        "status": "active"
       }
     ]
   },
@@ -190,6 +237,71 @@
         "status": "active",
         "note": "릴리 레타트루타이드급 체중감소 관찰"
       }
+    ],
+    "dealHistory": [
+      {
+        "partner": "MSD",
+        "drug": "ALT-B4 (Keytruda SC)",
+        "year": "2023",
+        "upfront": 200,
+        "milestone": 5800,
+        "royaltyNote": "키트루다 SC 매출 ~2.5% 로열티",
+        "status": "active"
+      },
+      {
+        "partner": "다이이찌산쿄",
+        "drug": "ALT-B4 (엔허투 SC)",
+        "year": "2023",
+        "upfront": 150,
+        "milestone": 3000,
+        "royaltyNote": "엔허투 SC 매출 연동",
+        "status": "active"
+      },
+      {
+        "partner": "GSK",
+        "drug": "ALT-B4 (복수 제품)",
+        "year": "2024",
+        "upfront": 100,
+        "milestone": 4000,
+        "royaltyNote": "GSK 포트폴리오 SC 전환",
+        "status": "active"
+      },
+      {
+        "partner": "얀센(J&J)",
+        "drug": "ALT-B4 (트레멜리무맙 등)",
+        "year": "2024",
+        "upfront": 150,
+        "milestone": 3500,
+        "royaltyNote": "J&J SC 파이프라인 연동",
+        "status": "active"
+      },
+      {
+        "partner": "AstraZeneca",
+        "drug": "ALT-B4 (AZ 포트폴리오)",
+        "year": "2024",
+        "upfront": 100,
+        "milestone": 2500,
+        "royaltyNote": "AZ 바이오의약품 SC 전환",
+        "status": "active"
+      },
+      {
+        "partner": "Pfizer",
+        "drug": "ALT-B4 (화이자 포트폴리오)",
+        "year": "2025",
+        "upfront": 200,
+        "milestone": 4000,
+        "royaltyNote": "화이자 SC 전환 파이프라인",
+        "status": "active"
+      },
+      {
+        "partner": "바이오젠",
+        "drug": "ALT-B4 (복수 제품)",
+        "year": "2026",
+        "upfront": 200,
+        "milestone": 8226,
+        "royaltyNote": "바이오젠 SC 파이프라인 전환",
+        "status": "active"
+      }
     ]
   },
   {
@@ -228,13 +340,13 @@
       },
       {
         "drug": "LCB84",
-        "target": "미공개 ADC",
+        "target": "미공개 타깃 ADC",
         "indication": "고형암",
         "phase": "Phase 1",
         "moa": "ConjuALL ADC",
-        "partner": "얀센",
+        "partner": "얀센(J&J)",
         "status": "active",
-        "note": "옵션 행사 시 약 2,600억원 기술료"
+        "note": "얀센 옵션 행사 시 약 2억달러(약 2,600억원) 추가 마일스톤. Phase 1 결과 2026년 발표 예정. 옵션 행사 여부가 주요 촉매."
       },
       {
         "drug": "LCB71",
@@ -276,6 +388,53 @@
         "status": "active",
         "note": "2026년 IND. Best-in-class 가능성"
       }
+    ],
+    "dealHistory": [
+      {
+        "partner": "얀센(J&J)",
+        "drug": "LCB84 (ADC)",
+        "year": "2022",
+        "upfront": 180,
+        "milestone": 2600,
+        "royaltyNote": "옵션 행사 시 추가 2억달러",
+        "status": "active"
+      },
+      {
+        "partner": "포순제약",
+        "drug": "LCB14 (HER2 ADC)",
+        "year": "2021",
+        "upfront": 120,
+        "milestone": 1500,
+        "royaltyNote": "중국 상업화 로열티",
+        "status": "active"
+      },
+      {
+        "partner": "시스톤",
+        "drug": "LCB71 (ROR1 ADC)",
+        "year": "2022",
+        "upfront": 80,
+        "milestone": 800,
+        "royaltyNote": "글로벌 판권 로열티",
+        "status": "active"
+      },
+      {
+        "partner": "소티오",
+        "drug": "LCB97",
+        "year": "2023",
+        "upfront": 60,
+        "milestone": 600,
+        "royaltyNote": "소티오 계약 로열티",
+        "status": "active"
+      },
+      {
+        "partner": "익수다",
+        "drug": "IKS014",
+        "year": "2024",
+        "upfront": 50,
+        "milestone": 500,
+        "royaltyNote": "익수다 계약 로열티",
+        "status": "active"
+      }
     ]
   },
   {
@@ -295,11 +454,11 @@
         "drug": "VRN11",
         "target": "EGFR C797S",
         "indication": "비소세포폐암(3세대 내성)",
-        "phase": "Phase 1a",
+        "phase": "Phase 1b 확장",
         "moa": "4세대 EGFR TKI",
         "partner": "자체",
         "status": "active",
-        "note": "한국·대만 진행. 2026 글로벌 1b/2상",
+        "note": "Phase 1b ORR 75% (C797S 변이 코호트). 뇌전이 환자 완전관해(CR) 사례 보고. 2026년 1b 확장 및 글로벌 가속승인 Phase 2 계획. 한국·대만·미국 임상 확대.",
         "marketSize": "EGFR 변이 비소세포폐암(4세대 TKI) 시장 약 4~6조원(2030년)",
         "revenueEstimate": {
           "bull": "2,000~3,000억원/년 (글로벌 허가, 빅파마 기술이전)",
@@ -347,9 +506,9 @@
     "market": "KOSDAQ",
     "category": "서방형 제제",
     "platform": "SmartDepot (서방형 미소구체)",
-    "description": "서방형 주사제 플랫폼 기술 보유. 장기지속 제형으로 투여편의성 개선.",
+    "description": "SmartDepot™ 지속형 주사제 플랫폼. 릴리와 24개월 기술평가계약(본계약 협상 중). PT320 파킨슨병 Phase 2 통계적 유의성 미달. PT403(세마글루타이드 서방형) 국내 Phase 1 준비. 2025년 12월 오송 2공장 건축허가.",
     "partners": [
-      "자체 개발"
+      "일라이 릴리(SmartDepot 기술평가)"
     ],
     "totalDealValue": "-",
     "pipelines": [
@@ -357,11 +516,11 @@
         "drug": "PT320",
         "target": "GLP-1R",
         "indication": "파킨슨병/비만",
-        "phase": "Phase 2",
+        "phase": "Phase 2 완료 (유의성 미달)",
         "moa": "엑세나타이드 서방형",
         "partner": "자체",
-        "status": "active",
-        "note": "릴리(Eli Lilly) 스마트데포 기술평가 계약 중. 2026년 10월까지 평가 기간 연장. 경구비만약 집중으로 본계약 시기 불투명.",
+        "status": "completed",
+        "note": "파킨슨병 Phase 2 완료. 통계적 유의성 미달 → 개발 우선순위 하향. 비만 적응증으로 전환 검토.",
         "marketSize": "파킨슨병 글로벌 치료제 시장 약 7조원(2027년)",
         "revenueEstimate": {
           "bull": "3,000억~5,000억원 (기술이전 계약금 + 마일스톤)",
@@ -374,11 +533,11 @@
         "drug": "PT403",
         "target": "GLP-1R/GCGR",
         "indication": "비만",
-        "phase": "Phase 1",
+        "phase": "Phase 1 준비 (국내)",
         "moa": "이중작용 서방형",
         "partner": "자체",
         "status": "active",
-        "note": "릴리(Eli Lilly) 스마트데포 기술평가 계약 중. 2026년 10월까지 평가 기간 연장. 경구비만약 집중으로 본계약 시기 불투명."
+        "note": "세마글루타이드 서방형 월 1회 주사. 국내 특허 취득(2024). 2025년 상반기 국내 Phase 1 개시 예정. 릴리 SmartDepot 기술평가 대상."
       }
     ]
   },
@@ -436,11 +595,11 @@
         "drug": "SCD411 (아플리버셉트 BS)",
         "target": "VEGF-A/B, PlGF",
         "indication": "습성 황반변성(nAMD), 당뇨황반부종(DME)",
-        "phase": "BLA 제출 완료 (미국 FDA)",
+        "phase": "다국가 허가 완료 + 미국 FDA BLA 제출",
         "moa": "VEGF Trap — 아일리아(Eylea) 바이오시밀러",
-        "partner": "자체 (기술수출 협상 중)",
+        "partner": "자체",
         "status": "active",
-        "note": "미국 FDA BLA 제출 완료. PDUFA 날짜 결정 대기. 아일리아 오리지널 연매출 약 10조원.",
+        "note": "한국·일본·유럽·캐나다 허가 완료(2025). 미국 FDA BLA 제출. PDUFA 날짜 배정 대기. 특허소송 결과에 따라 미국 판매 2026~2027 예상.",
         "marketSize": "아일리아(Eylea) 글로벌 바이오시밀러 시장 약 5~8조원(2026~2030년)",
         "revenueEstimate": {
           "bull": "2,000~3,000억원/년 (미국 허가 + 직접 판매 또는 기술이전)",
@@ -496,6 +655,17 @@
         "status": "approved",
         "note": "안과 전문의약품 시장 강자. 의원급 안과 처방 점유율 높음."
       }
+    ],
+    "dealHistory": [
+      {
+        "partner": "미국 파트너(협상 중)",
+        "drug": "SCD411 (아일리아 BS)",
+        "year": "2026",
+        "upfront": 0,
+        "milestone": 1500,
+        "royaltyNote": "미국 판매 파트너십 로열티",
+        "status": "active"
+      }
     ]
   },
   {
@@ -530,7 +700,7 @@
     "market": "KOSDAQ",
     "category": "심혈관/비뇨기",
     "platform": "PDE5 억제제",
-    "description": "발기부전 치료제 '엠빅스' 판매. 심혈관·비뇨기 파이프라인 보유.",
+    "description": "유데나필(PDE5 억제제) 폰탄순환 FUEL-2 Phase 3. 50% 등록 달성(218명). 중간분석 SD 2.49 → 성공 구간 진입(p≤0.001 예상). 2026 Q4 FDA 승인 목표, 2027 Q1 미국 발매('쥴비고') 예정. FDA 희귀소아질환 지정.",
     "partners": [
       "자체"
     ],
@@ -540,11 +710,11 @@
         "drug": "유데나필",
         "target": "PDE5",
         "indication": "발기부전/폰탄순환",
-        "phase": "Phase 3",
+        "phase": "Phase 3 (FUEL-2, 50% 등록 완료)",
         "moa": "PDE5 억제",
         "partner": "자체",
         "status": "active",
-        "note": "폰탄 순환 개선 FDA 임상 3상"
+        "note": "436명 목표 중 50% 등록 달성(2025.07). 중간분석 SD 2.49(설계값 4.0 대비 낮음) → 성공 구간 진입. 최종 p≤0.001 예상. 2026 Q4 FDA 승인, 2027 Q1 '쥴비고' 미국 발매 목표. FDA 희귀소아질환 지정 보유."
       }
     ]
   },
@@ -555,21 +725,22 @@
     "market": "KOSDAQ",
     "category": "유전자치료제",
     "platform": "TissueGene-C (세포유전자치료)",
-    "description": "세계 최초 세포유전자치료제 인보사 개발사. 미국 FDA 임상 3상 진행.",
+    "description": "TG-C(인보사-K) 무릎 골관절염 유전자치료제. 미국 FDA Phase 3(1,066명) 투약 완료. 2026 Q2/Q3 top-line 데이터 발표 예정. 2027 Q1 BLA 제출 목표. 론자 CMC 계약. 일본 Juniper Therapeutics 특허 2040년.",
     "partners": [
-      "자체 (미국법인)"
+      "Lonza (CMC)",
+      "Juniper Therapeutics (일본)"
     ],
     "totalDealValue": "-",
     "pipelines": [
       {
-        "drug": "인보사(TG-C)",
+        "drug": "TG-C (인보사-K)",
         "target": "TGF-β1",
         "indication": "퇴행성 관절염",
-        "phase": "Phase 3 (미국)",
+        "phase": "Phase 3 완료 → 2년 추적관찰",
         "moa": "세포유전자치료제",
         "partner": "자체",
         "status": "active",
-        "note": "미국 FDA 임상 3상. 한국 허가취소 후 재도전"
+        "note": "FDA Phase 3 1,066명(2개 시험) 투약 완료. 2026 Q2 top-line 1차 발표 예정. 2026 Q3 2차 발표. 2027 Q1 BLA 제출 목표. 론자 CMC. DMOAD 지정 목표."
       }
     ]
   },
@@ -649,8 +820,8 @@
     "ticker": "009420",
     "market": "KOSPI",
     "category": "항체 신약",
-    "platform": "자가면역·안과 항체",
-    "description": "자가면역·안과 분야 항체 신약 개발. 롯데바이오로직스 자회사.",
+    "platform": "자가면역·안과 항체 (FcRn 차단 + IL-33 억제)",
+    "description": "자가면역·안과 분야 항체 신약 개발. 롯데바이오로직스 자회사. 바토클리맙(HL161) FcRn 차단 + 아이메로프루바트(HL036 SC) 2트랙 전략. TED(갑상선 안병증) Phase 3 두 건 통합 데이터 2026 상반기 발표 예정.",
     "partners": [
       "롯데바이오로직스",
       "로이반트"
@@ -660,12 +831,12 @@
       {
         "drug": "HL161 (바토클리맙)",
         "target": "FcRn",
-        "indication": "중증근무력증/ITP",
+        "indication": "중증근무력증(gMG)/ITP/TED",
         "phase": "Phase 3",
-        "moa": "항-FcRn 항체",
+        "moa": "항-FcRn 항체 (IgG 분해 촉진)",
         "partner": "로이반트→한올",
         "status": "active",
-        "note": "라이선스 반환 후 자체 개발",
+        "note": "로이반트 라이선스 반환 후 자체 개발. TED(갑상선 안병증) Phase 3 두 건 통합 데이터 2026 상반기 발표 예정. 긍정 결과 시 허가 신청 가능.",
         "marketSize": "gMG 글로벌 시장 약 3조원(2028년), 확장 적응증 포함 10조원+",
         "revenueEstimate": {
           "bull": "2,000~3,000억원/년 (자체 판매 gMG + 2~3개 적응증 확장)",
@@ -675,14 +846,25 @@
         }
       },
       {
-        "drug": "HL036 (타나프리맙)",
+        "drug": "HL036 SC (아이메로프루바트)",
         "target": "IL-33",
-        "indication": "아토피/건성안",
-        "phase": "Phase 2",
-        "moa": "항-IL-33 항체",
+        "indication": "건성안(DED)/아토피피부염",
+        "phase": "Phase 2/3",
+        "moa": "항-IL-33 항체 (피하주사 제형)",
         "partner": "자체",
         "status": "active",
-        "note": ""
+        "note": "건성안 Phase 2/3 진행 중. IL-33 표적 신규 기전. 기존 점안액 치료 불응 환자 대상."
+      }
+    ],
+    "dealHistory": [
+      {
+        "partner": "로이반트(반환)",
+        "drug": "HL161 (바토클리맙)",
+        "year": "2020",
+        "upfront": 600,
+        "milestone": 2000,
+        "royaltyNote": "라이선스 반환, 재기술이전 협상 중",
+        "status": "active"
       }
     ]
   },
@@ -693,21 +875,22 @@
     "market": "KOSDAQ",
     "category": "RNA 치료제",
     "platform": "비대칭 siRNA (asiRNA)",
-    "description": "세계 최초 비대칭 siRNA 플랫폼. 피부·안과 RNAi 치료제 개발.",
+    "description": "세계 최초 비대칭 siRNA (asiRNA) 플랫폼 OASIS. OLX702A 릴리 기술이전 9,117억원(2025.02). OLX501A ALK7 지방조직 84% 억제(영장류). OLX301A AMD Phase 1 완료. 비만·안과·CNS 전방위 확장.",
     "partners": [
-      "자체"
+      "일라이 릴리(OLX702A)",
+      "Therapeutics"
     ],
-    "totalDealValue": "-",
+    "totalDealValue": "9,117억원 (릴리 OLX702A 기술이전)",
     "pipelines": [
       {
         "drug": "OLX101A",
         "target": "CTGF",
         "indication": "비후성 반흔",
-        "phase": "Phase 2",
+        "phase": "Phase 2b 준비",
         "moa": "비대칭 siRNA",
         "partner": "자체",
         "status": "active",
-        "note": "국소도포 RNAi",
+        "note": "Phase 2a 1차 평가변수 충족. 24주/48주 효과 유지. RNAi 플랫폼 인체 PoC 최초 입증. 글로벌 Phase 2b 준비 중.",
         "marketSize": "비후성 반흔·켈로이드 글로벌 시장 약 1~2조원",
         "revenueEstimate": {
           "bull": "500~1,000억원/년 (글로벌 허가 시)",
@@ -725,6 +908,26 @@
         "partner": "자체",
         "status": "active",
         "note": ""
+      },
+      {
+        "drug": "OLX702A",
+        "target": "MARC1 (MASH·심혈관대사)",
+        "indication": "MASH/비알코올성 지방간염, 비만",
+        "phase": "Phase 1 (호주)",
+        "moa": "asiRNA MARC1 억제 → 간 지방 대사 개선",
+        "partner": "일라이 릴리",
+        "status": "active",
+        "note": "2025.02 릴리 기술이전 9,117억원(6.3억달러). 릴리가 Phase 1 이후 전 R&D·상업화 담당."
+      },
+      {
+        "drug": "OLX501A",
+        "target": "ALK7 (지방세포 분화 억제)",
+        "indication": "비만",
+        "phase": "전임상",
+        "moa": "ALK7 mRNA 억제 → 지방조직 축적 감소",
+        "partner": "자체",
+        "status": "active",
+        "note": "2026.02 영장류 실험: 지방조직 ALK7 mRNA 84% 억제(단회 투여 2주). 2026년 Phase 1 진입 예정."
       }
     ]
   },
@@ -735,21 +938,22 @@
     "market": "KOSDAQ",
     "category": "방사성의약품",
     "platform": "방사성동위원소 표지 기술",
-    "description": "방사성의약품(핵의학) 전문. 진단·치료 동시 활용 테라노스틱스.",
+    "description": "방사성의약품(RPT) 전문. FC303 [18F]플로라스타민 PSMA-PET 진단제 식약처 허가신청 완료(2025.07). FC705 Lu-177 PSMA 치료제 Phase 3 개시(2025.09). PPV 86.96%, 감도 75.58% vs MRI 61.18%.",
     "partners": [
-      "자체"
+      "UCI(UC Irvine)",
+      "NCI"
     ],
     "totalDealValue": "-",
     "pipelines": [
       {
-        "drug": "FC303",
+        "drug": "FC303 ([18F]플로라스타민)",
         "target": "PSMA",
         "indication": "전립선암(진단)",
-        "phase": "Phase 3",
+        "phase": "식약처 허가신청 (2025.07)",
         "moa": "68Ga-PSMA PET",
         "partner": "자체",
         "status": "active",
-        "note": "전립선암 PET 진단"
+        "note": "Phase 3 완료. PPV 86.96% (기준치 초과), 감도 75.58% vs MRI 61.18%. 2025.07 식약처 허가신청. 2026년 허가 결정 예상."
       },
       {
         "drug": "FC705",
@@ -820,10 +1024,11 @@
     "market": "KOSDAQ",
     "category": "항암 신약",
     "platform": "리보세라닙(VEGFR-2 억제제) 기반 항암 플랫폼",
-    "description": "리보세라닙(아파티닙/rivoceranib) 기반 표적항암제 개발. 미국 자회사 Elevar Therapeutics를 통해 HCC(간세포암) 적응증으로 FDA 허가 심사 진행.",
+    "description": "리보세라닙(rivoceranib) 기반 표적항암제 개발. 2026.01.23 FDA NDA/BLA 재신청 완료. 업데이트된 OS 23.8개월 데이터 포함. 중국에서는 TACE 병용 허가심사 착수.",
     "partners": [
       "Elevar Therapeutics",
-      "HUTCHMED"
+      "HUTCHMED",
+      "Jiangsu HengRui"
     ],
     "totalDealValue": "-",
     "pipelines": [
@@ -831,21 +1036,28 @@
         "drug": "리보세라닙",
         "target": "VEGFR-2",
         "indication": "간세포암(HCC) 1차 치료",
-        "phase": "NDA 제출",
+        "phase": "NDA 재신청 (FDA)",
         "moa": "VEGFR-2 선택적 소분자 억제제",
         "partner": "Elevar Therapeutics",
         "status": "active",
-        "note": "소라페닙 대비 OS 개선 데이터. FDA PDUFA 심사 중."
+        "note": "2026.01.23 FDA NDA/BLA 재신청 완료. OS 23.8개월 (기존 22.1개월 대비 개선). PDUFA 날짜 배정 대기 중.",
+        "marketSize": "간세포암(HCC) 1차 치료 글로벌 시장 약 8~10조원(2030년)",
+        "revenueEstimate": {
+          "bull": "5,000억~1조원/년 (FDA 허가 + 미국 직접 판매)",
+          "base": "1,000~3,000억원/년 (허가 후 로열티 + 미국 파트너십)",
+          "bear": "FDA 재거절 시 파이프라인 가치 급락",
+          "logic": "HCC 1차 표준치료 전환 시 소라페닙 대체 목표. 미국 HCC 연간 신환 4만명 × ASP $80,000 = 약 3.2조원 TAM. 점유율 20% 달성 시 6,400억원."
+        }
       },
       {
         "drug": "리보세라닙+캄렐리주맙",
         "target": "VEGFR-2 + PD-1",
         "indication": "간세포암(HCC) 1차 치료",
-        "phase": "Phase 3",
+        "phase": "Phase 3 / 중국 허가심사",
         "moa": "VEGFR-2 억제 + PD-1 차단 병용",
-        "partner": "Elevar Therapeutics",
+        "partner": "HUTCHMED / Jiangsu HengRui",
         "status": "active",
-        "note": "글로벌 Phase 3 연구 진행 중."
+        "note": "중국 NMPA 허가심사 착수(TACE 병용). 글로벌 Phase 3 연구 병행."
       }
     ]
   },
@@ -856,21 +1068,28 @@
     "market": "KOSPI",
     "category": "항암 신약",
     "platform": "EGFR 변이 NSCLC 표적치료제",
-    "description": "3세대 EGFR 억제제 렉라자(lazertinib)가 2024년 8월 FDA 승인을 획득. 얀센(J&J)과의 공동개발로 아미반타맙(Rybrevant) 병용 요법이 표준치료로 자리매김. 국내 최초 미국 FDA 승인 신약.",
+    "description": "3세대 EGFR 억제제 렉라자(Lazcluze) 2024.8 FDA 승인. 얀센(J&J)과 아미반타맙 병용 MARIPOSA 연구에서 아시아인 OS 타그리소 대비 26% 사망위험 감소. J&J 예상 최대 매출 50억달러(약 7조원). 2026 Q1 유럽 출시 마일스톤 430억원 수취 예정.",
     "partners": [
       "얀센(J&J)"
     ],
-    "totalDealValue": "약 1.4조원+",
+    "totalDealValue": "약 1.4조원+ (마일스톤 수취 중)",
     "pipelines": [
       {
-        "drug": "렉라자(Lazertinib)",
+        "drug": "렉라자(Lazcluze/Lazertinib)",
         "target": "EGFR exon19del/L858R",
         "indication": "EGFR 변이 NSCLC 1차 치료",
-        "phase": "FDA 승인",
+        "phase": "FDA/EMA 승인",
         "moa": "3세대 EGFR TKI",
         "partner": "얀센(J&J)",
         "status": "active",
-        "note": "2024.8 FDA 승인(아미반타맙 병용). 미국 브랜드명 Lazcluze. MARIPOSA Phase 3."
+        "note": "2024.8 FDA 승인(아미반타맙 병용). 유럽 2026 Q1 출시 예정(마일스톤 약 430억원). 아시아인 subgroup OS 타그리소 대비 26% 사망위험 감소. J&J 최대 매출 전망 50억달러(약 7조원).",
+        "marketSize": "EGFR 변이 NSCLC 1차 치료 글로벌 시장 약 20조원(2030년)",
+        "revenueEstimate": {
+          "bull": "3,000~5,000억원/년 (글로벌 시장 점유율 확대, 마일스톤+로열티)",
+          "base": "1,000~2,000억원/년 (미국 출시 안정화, 유럽 마일스톤 수취)",
+          "bear": "타그리소 점유율 수성 시 성장 제한",
+          "logic": "NSCLC EGFR 변이 1차 치료 TAM 약 20조원. 유한양행 로열티율 추산 5~8% × 렉라자 매출 1조원 = 500~800억원/년. 마일스톤 추가 수취 시 최대 2,000억원/년 가능."
+        }
       },
       {
         "drug": "렉라자 단독",
@@ -892,6 +1111,17 @@
         "status": "active",
         "note": "자체 개발 지속."
       }
+    ],
+    "dealHistory": [
+      {
+        "partner": "얀센(J&J)",
+        "drug": "렉라자(Lazertinib)",
+        "year": "2018",
+        "upfront": 500,
+        "milestone": 9000,
+        "royaltyNote": "Lazcluze 글로벌 매출 7~9% 로열티",
+        "status": "active"
+      }
     ]
   },
   {
@@ -901,12 +1131,12 @@
     "market": "KOSPI",
     "category": "CNS 신약",
     "platform": "CNS(중추신경계) 신약 개발 플랫폼",
-    "description": "세노바메이트(Xcopri)가 2019년 FDA 승인 후 미국 시장에서 성장 중. SK라이프사이언스(미국 자회사)를 통해 직접 상업화하며 수익성 개선 중.",
+    "description": "세노바메이트(Xcopri) 2025년 매출 7,067억원(역대 최대, +29% YoY). 2026년 가이던스 5,500~5,800억원(SK라이프사이언스 파트). 경쟁약 브리비액트(UCB) 특허만료로 점유율 확대 기대. CNS 파이프라인 다각화 진행.",
     "partners": [
       "SK라이프사이언스",
       "Angelini Pharma"
     ],
-    "totalDealValue": "-",
+    "totalDealValue": "연 매출 7,067억원(2025)",
     "pipelines": [
       {
         "drug": "세노바메이트(Xcopri)",
@@ -916,7 +1146,14 @@
         "moa": "나트륨채널 차단 + GABAA 양성 조절",
         "partner": "SK라이프사이언스",
         "status": "active",
-        "note": "2019년 FDA 승인. 미국 직접 판매. 유럽은 Angelini Pharma."
+        "note": "2019년 FDA 승인. 2025년 미국 Xcopri 매출 역대 최대. 2026 가이던스 5,500~5,800억원(SK라이프사이언스). 브리비액트 특허만료로 경쟁 환경 개선. 유럽 Angelini Pharma.",
+        "marketSize": "글로벌 부분발작 뇌전증 시장 약 8~10조원(2030년)",
+        "revenueEstimate": {
+          "bull": "1조원+/년 (미국+유럽 점유율 확대, 적응증 확장)",
+          "base": "7,000~8,000억원/년 (현 성장세 유지)",
+          "bear": "제네릭 특허만료 도전 시 가격 압박",
+          "logic": "2025 연결 매출 7,067억원(SK라이프사이언스 5,000억+). 연 20~30% 성장 시 2027년 1조원 돌파 가능."
+        }
       },
       {
         "drug": "SKL-10345",
@@ -937,22 +1174,30 @@
     "market": "KOSPI",
     "category": "바이오시밀러",
     "platform": "항체 바이오시밀러 및 신약 개발 플랫폼",
-    "description": "글로벌 바이오시밀러 선도 기업. CT-P13(인플릭시맙), CT-P6(트라스투주맙), CT-P17(아달리무맙) 등 다수의 바이오시밀러를 미국·유럽 시장에 출시.",
+    "description": "글로벌 바이오시밀러 선도 기업. 2025년 매출 4.1조원/영업이익 1.16조원 달성. 2026년 목표 매출 5.3조원. 짐펜트라(CT-P13 SC) 미국 시장에서 역대 최대 처방량 경신 중. CT-P17 고농도 아달리무맙 바이오시밀러 점유율 확대.",
     "partners": [
       "Teva",
-      "Pfizer"
+      "Pfizer",
+      "고바이오랩"
     ],
-    "totalDealValue": "-",
+    "totalDealValue": "연 매출 4.1조원(2025)",
     "pipelines": [
       {
-        "drug": "CT-P13(Remsima)",
+        "drug": "짐펜트라(CT-P13 SC)",
         "target": "TNF-α",
-        "indication": "류마티스관절염, IBD 등",
-        "phase": "허가",
-        "moa": "인플릭시맙 바이오시밀러",
+        "indication": "IBD(크론병, 궤양성대장염), RA",
+        "phase": "허가 (미국·유럽)",
+        "moa": "인플릭시맙 SC 제형 바이오시밀러",
         "partner": "자체",
         "status": "active",
-        "note": "세계 최초 단클론항체 바이오시밀러. 글로벌 출시."
+        "note": "세계 최초 인플릭시맙 피하주사 제형. 미국 2026년 역대 최대 처방량 경신 중. 기존 주사실 방문 불필요 → 환자 편의성 혁신.",
+        "marketSize": "IBD 바이오의약품 글로벌 시장 약 30조원(2030년)",
+        "revenueEstimate": {
+          "bull": "짐펜트라 단독 매출 1조원/년 (미국 시장 점유율 확대)",
+          "base": "5,000억원/년 (미국+유럽 안정적 점유율)",
+          "bear": "오리지널 레미케이드 IVF 재점유 또는 경쟁 SC 제형 등장 시",
+          "logic": "인플릭시맙 글로벌 시장 약 7조원. SC 전환율 30% × 셀트리온 점유율 15% = 약 3,150억원. 프리미엄 포지션으로 ASP 유지 시 5,000억원+ 가능."
+        }
       },
       {
         "drug": "CT-P6(Herzuma)",
@@ -1003,9 +1248,11 @@
     "market": "KOSDAQ",
     "category": "이중항체",
     "platform": "CD80 융합 IL-2 변이체 플랫폼",
-    "description": "CD80-IL-2 변이체 융합 단백질 GI-101을 핵심 파이프라인으로 하는 면역항암제 전문 기업. CTLA-4 차단과 IL-2 신호 동시 활성화하는 차별화된 이중기능 면역사이토카인 플랫폼 보유.",
+    "description": "CD80-IL-2v 이중기능 면역사이토카인 플랫폼. GI-102 Phase 1/2 흑색종 단독 ORR 25%, PD-1 불응 고형암 병용 ORR 40% 확인. 2026년 3월 J&J 전립선암 병용임상 공급계약 체결. MSD·라노바·J&J 다수 글로벌 파트너십.",
     "partners": [
-      "자체 개발"
+      "MSD (키트루다 병용)",
+      "Johnson & Johnson",
+      "LaNova Medicines"
     ],
     "totalDealValue": "-",
     "pipelines": [
@@ -1017,17 +1264,17 @@
         "moa": "CD80-IL-2 변이체 이중기능 융합단백질",
         "partner": "자체",
         "status": "active",
-        "note": "단독 및 키트루다 병용 임상 진행 중."
+        "note": "Phase 1/2 전체 고형암 ORR 18%, DCR 64% (ICI 불응 환자군). 기술이전 협의 중."
       },
       {
         "drug": "GI-102",
         "target": "IL-2Rβγ",
-        "indication": "고형암",
-        "phase": "전임상",
+        "indication": "흑색종·간암·신세포암·전립선암(병용)",
+        "phase": "Phase 1/2",
         "moa": "개선된 IL-2 변이체 융합단백질",
         "partner": "자체",
         "status": "active",
-        "note": "GI-101 ���세대 파이프라인."
+        "note": "단독 ORR 25% (흑색종), PD-1 불응 고형암 병용 ORR 40%. 2026.03 J&J 전립선암(pasritamig 병용) 임상공급계약. MSD 병용임상 2건."
       }
     ]
   },
@@ -1038,12 +1285,13 @@
     "market": "KOSDAQ",
     "category": "CNS 신약",
     "platform": "항타우 항체 및 키나아제 억제제 플랫폼",
-    "description": "자회사 아델(Adel)을 통해 타우 단백질 표적 알츠하이머 치료 항체 ADEL-Y01을 개발 중. SYK 억제제 Lanraplenib을 길리어드에 기술이전.",
+    "description": "자회사 아델(Adel)을 통해 타우 단백질 표적 알츠하이머 치료 항체 ADEL-Y01을 개발 중. 2025년 12월 사노피와 최대 1.5조원 기술이전 계약 체결 (선급금 1,180억원). SYK 억제제 Lanraplenib을 길리어드에 기술이전.",
     "partners": [
       "아델(Adel)",
+      "사노피(Sanofi)",
       "Gilead Sciences"
     ],
-    "totalDealValue": "-",
+    "totalDealValue": "최대 1.5조원+ (사노피 선급금 1,180억 포함)",
     "pipelines": [
       {
         "drug": "ADEL-Y01",
@@ -1051,9 +1299,16 @@
         "indication": "알츠하이머병",
         "phase": "Phase 1",
         "moa": "항타우 단클론항체",
-        "partner": "아델(Adel)",
+        "partner": "사노피(Sanofi)",
         "status": "active",
-        "note": "자회사 Adel이 개발 주체. Phase 1 진행 중."
+        "note": "2025.12 사노피 기술이전 계약(최대 1.5조원, 선급금 1,180억). 자회사 Adel 개발. 타우 단백질 응집 억제 방식 FIC 후보.",
+        "marketSize": "알츠하이머 글로벌 시장 약 50조원+ (2030년)",
+        "revenueEstimate": {
+          "bull": "마일스톤 단계별 수취 최대 1.5조원 + 허가 후 로열티 수백억/년",
+          "base": "선급금 1,180억원 + 단계별 마일스톤 수백억원",
+          "bear": "Phase 2/3 실패 시 마일스톤 미수취",
+          "logic": "사노피 계약 기준: 선급금 1,180억 + 임상·허가·판매 마일스톤. 알츠하이머 타우 항체 FIC 포지션 가치 인정받은 것."
+        }
       },
       {
         "drug": "SKI-O-703(Lanraplenib)",
@@ -1065,6 +1320,26 @@
         "status": "active",
         "note": "길리어드에 기술이전. Lanraplenib으로 임상 진행."
       }
+    ],
+    "dealHistory": [
+      {
+        "partner": "Gilead Sciences",
+        "drug": "SKI-O-703 (Lanraplenib)",
+        "year": "2020",
+        "upfront": 300,
+        "milestone": 1500,
+        "royaltyNote": "SYK 억제제 상업화 로열티",
+        "status": "active"
+      },
+      {
+        "partner": "사노피(Sanofi)",
+        "drug": "ADEL-Y01 (타우 항체)",
+        "year": "2025",
+        "upfront": 1180,
+        "milestone": 13820,
+        "royaltyNote": "알츠하이머 타우 항체 상업화 로열티",
+        "status": "active"
+      }
     ]
   },
   {
@@ -1074,7 +1349,7 @@
     "market": "KOSDAQ",
     "category": "면역항암",
     "platform": "TGF-β 수용체 I 억제 플랫폼",
-    "description": "TGF-β 신호전달 억제제 백토서팁(Vactosertib, TEW-7197)을 핵심으로, 면역항암제와의 병용 임상을 다수 진행 중인 항암 플랫폼 기업.",
+    "description": "TGF-β 신호전달 억제제 백토서팁(Vactosertib). MSS mCRC Phase 2b/3 FDA IND 승인 (618명, 2025 등록 개시). 골육종 Phase 1/2 ORR 36.4% (CR 1명 포함). AACR 2026 삼제병용 TGI 86% 발표.",
     "partners": [
       "MSD",
       "BMS"
@@ -1085,11 +1360,11 @@
         "drug": "백토서팁(Vactosertib)",
         "target": "TGF-β RI (ALK5)",
         "indication": "대장암, 위암 등 고형암",
-        "phase": "Phase 1/2",
+        "phase": "Phase 2b/3 (FDA IND 승인)",
         "moa": "TGF-β 수용체 I 선택적 억제제",
         "partner": "자체",
         "status": "active",
-        "note": "키트루다 병용 Phase 1/2 진행 중."
+        "note": "MSS mCRC Phase 2b/3 FDA IND 승인. 618명 규모 2025년 하반기 등록 개시. ORR 16%, OS 16.5개월 (Phase 1b/2a 기반). 2030년 6월 완료 목표."
       },
       {
         "drug": "백토서팁+펨브롤리주맙",
@@ -1100,6 +1375,16 @@
         "partner": "MSD",
         "status": "active",
         "note": "MSS(비MSI-H) 대장암 면역항암제 내성 극복 전략."
+      },
+      {
+        "drug": "백토서팁 (골육종)",
+        "target": "TGF-β RI (ALK5)",
+        "indication": "재발/불응 골육종",
+        "phase": "Phase 2 (글로벌)",
+        "moa": "TGF-β 수용체 I 선택적 억제제",
+        "partner": "자체",
+        "status": "active",
+        "note": "SITC 2025 발표: ORR 36.4% (CR 1명+PR 3명, n=11). 기존 치료 대비 3배 반응률. 2025년 9월 글로벌 Phase 2 개시."
       }
     ]
   },
@@ -1145,11 +1430,11 @@
     "market": "KOSDAQ",
     "category": "에스테틱 바이오",
     "platform": "PDRN/PN(폴리뉴클레오타이드) 재생 플랫폼",
-    "description": "리쥬란(Rejuran) 브랜드의 PDRN/PN 기반 피부재생 의약품으로 국내외 에스테틱 시장을 선도. 안과·관절 등 치료 영역으로 PN 파이프라인을 확장 중.",
+    "description": "PN(폴리뉴클레오티드) 기반 리쥬란 힐러 의료기기 전문. 2024년 매출 3,501억원(+34% YoY). 2025년 목표 5,323억원. PRD-101 나노항암제 미국 FDA Phase 1 IND 승인(2026.02). 콘주란 무릎관절염 글로벌 확장 추진.",
     "partners": [
       "자체 개발"
     ],
-    "totalDealValue": "-",
+    "totalDealValue": "연 매출 3,501억원(2024)",
     "pipelines": [
       {
         "drug": "리쥬란(PDRN 주사)",
@@ -1170,6 +1455,16 @@
         "partner": "자체",
         "status": "active",
         "note": "안과 적응증 PN 치료제 임상 진행."
+      },
+      {
+        "drug": "PRD-101 (PDRN 나노항암제)",
+        "target": "종양 미세환경",
+        "indication": "진행성/전이성 고형암",
+        "phase": "Phase 1 (미국, FDA IND 승인 2026.02)",
+        "moa": "Advanced DOT™ 플랫폼 — PDRN 기반 나노입자 항암제",
+        "partner": "UCI·NCI",
+        "status": "active",
+        "note": "2026.02 FDA IND 승인. 미국 7개 기관 90명 대상 Phase 1 개시."
       }
     ]
   },
@@ -1275,7 +1570,7 @@
     "market": "KOSPI",
     "category": "CMO/바이오시밀러",
     "platform": "위탁생산(CMO) · 위탁개발(CDO) · 바이오시밀러(삼성바이오에피스)",
-    "description": "세계 최대 바이오의약품 위탁생산(CMO) 역량 보유. 삼성바이오에피스를 통해 글로벌 바이오시밀러 시장 선도. 단일 공장 기준 세계 최대 생산능력(60만 리터+).",
+    "description": "세계 최대 바이오의약품 CMO. 2025년 신규수주 6.8조원(역대 최대). 5공장(256,000L) 가동. 삼성바이오에피스 인적분할 2025.11 완료. 2026년 매출 목표 5.1조원. ADC·mRNA·CGT 차세대 모달리티 대응 완료.",
     "partners": [
       "MSD",
       "로슈",
@@ -1324,7 +1619,7 @@
         "moa": "차세대 바이오의약품 위탁생산",
         "partner": "다수 글로벌 빅파마",
         "status": "active",
-        "note": "5공장(2025년 완공, 18만 리터) 가동. mRNA·ADC·CGT 모달리티 대응."
+        "note": "5공장(2025년 완공, 256,000L) 가동. 총 생산능력 약 78.4만L(세계 최대). mRNA·ADC·CGT 모달리티 수주 확대. 2025 신규수주 6.8조(역대 최대)."
       }
     ]
   },
@@ -1594,9 +1889,10 @@
     "market": "KOSDAQ",
     "category": "의료AI/바이오마커",
     "platform": "Lunit SCOPE (병리 AI 바이오마커) · Lunit INSIGHT (영상진단 AI)",
-    "description": "AI 기반 암 진단·예후 예측 플랫폼. 아스트라제네카·MSD 등 글로벌 빅파마와 임상 협력. Lunit SCOPE로 면역항암제 반응 예측 바이오마커 선도.",
+    "description": "AI 기반 암 진단·예후 예측 플랫폼. 아스트라제네카·다이이찌산쿄·MSD 등 글로벌 빅파마와 임상 협력. 65개국 10,000+ 의료기관 공급. FDA 유방암 위험도 AI 허가 신청 중. SCOPE IO가 면역항암제 반응 예측 바이오마커 선도.",
     "partners": [
       "아스트라제네카",
+      "다이이찌산쿄",
       "MSD",
       "머크 KGaA",
       "얀센",
@@ -1610,9 +1906,9 @@
         "indication": "폐암·유방암·위암 등 고형암 면역항암제 선별",
         "phase": "임상 협력 다수 진행",
         "moa": "병리슬라이드 AI 분석 → TIL/PD-L1 정량화 → 면역항암제 반응 예측",
-        "partner": "아스트라제네카·MSD",
+        "partner": "아스트라제네카·다이이찌산쿄·MSD",
         "status": "active",
-        "note": "AZ·MSD 임상에 바이오마커로 활용. ASCO·ESMO 다수 데이터 발표.",
+        "note": "AZ·다이이찌산쿄·MSD 임상에 바이오마커로 활용. ASCO·ESMO 다수 데이터 발표. 65개국 10,000+ 사이트 공급. FDA 유방암 위험도 AI 허가 신청.",
         "marketSize": "암 동반진단(CDx)/AI바이오마커 글로벌 시장 약 5조원(2030년)",
         "revenueEstimate": {
           "bull": "5,000억~1조원/년 (빅파마 CDx 계약 다수 체결 시)",

@@ -12,6 +12,7 @@ import PhaseBar from '../components/PhaseBar';
 import WatchButton from '../components/WatchButton';
 import AdSlot from '../components/AdSlot';
 import MadInsight from '../components/MadInsight';
+import EfficiencySafetyBubble from '../components/EfficiencySafetyBubble';
 
 const IMPACT_STYLES = {
   positive: { border: '#10b981', bg: 'rgba(16,185,129,0.06)', dot: '#10b981', label: '긍정' },
@@ -285,6 +286,11 @@ export default function PipelinePage() {
               competitors={evidence.competitorComparison.competitors}
               endpointsToCompare={Object.keys(evidence.previousResults?.[0]?.endpoints || {})}
             />
+          </div>
+
+          {/* Efficiency vs Safety Bubble Chart */}
+          <div style={{ marginTop: 24 }}>
+            <EfficiencySafetyBubble drugName={pipeline.drug} evidence={evidence} />
           </div>
         </section>
       )}

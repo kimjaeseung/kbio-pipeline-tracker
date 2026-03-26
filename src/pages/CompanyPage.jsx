@@ -12,6 +12,7 @@ import CompanyEventTimeline from '../components/CompanyEventTimeline';
 import CompanyMadInsight from '../components/CompanyMadInsight';
 import AdSlot from '../components/AdSlot';
 import catalystsData from '../data/catalysts.json';
+import LOMilestoneWaterfall from '../components/LOMilestoneWaterfall';
 
 export default function CompanyPage() {
   const { companyId } = useParams();
@@ -91,6 +92,9 @@ export default function CompanyPage() {
 
       {/* Company Mad Insight */}
       <CompanyMadInsight companyId={company.id} />
+
+      {/* L/O Milestone Waterfall Chart */}
+      <LOMilestoneWaterfall company={company} />
 
       {/* Pipeline Roadmap — 시각화 타임라인 */}
       <section style={{ marginBottom: 32 }}>
