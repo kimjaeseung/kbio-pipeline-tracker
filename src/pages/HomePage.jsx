@@ -9,7 +9,6 @@ import { getWatchlist } from '../utils/watchlist';
 import CompanyCard from '../components/CompanyCard';
 import FilterBar from '../components/FilterBar';
 import UpcomingCatalysts from '../components/UpcomingCatalysts';
-import PipelineTimeline from '../components/PipelineTimeline';
 import RecentUpdates from '../components/RecentUpdates';
 import AdSlot from '../components/AdSlot';
 
@@ -20,16 +19,66 @@ const gameChangerCount = companies.filter(c =>
   c.pipelines.some(p => tagsData[p.drug]?.tags?.some(t => t.type === 'game-changer'))
 ).length;
 
+// 기업별 태그 목록 계산
+function getCompanyTags(company) {
+  const tagSet = new Set();
+  company.pipelines.forEach(p => {
+    (tagsData[p.drug]?.tags || []).forEach(t => tagSet.add(t.type));
+  });
+  return tagSet;
+}
+
+// 태그 우선순위 (딱지 있는 기업이 상단)
+function getTagPriority(company) {
+  const tags = getCompanyTags(company);
+  if (tags.has('game-changer')) return 10;
+  if (tags.has('first-in-class')) return 8;
+  if (tags.has('best-in-class')) return 7;
+  if (tags.has('platform-expansion')) return 6;
+  if (tags.has('first-mover')) return 5;
+  if (tags.has('big-pharma-validated')) return 4;
+  if (tags.has('unmet-need')) return 3;
+  if (tags.has('watch')) return 1;
+  return 0;
+}
+
+const TAG_FILTERS = [
+  { key: 'all',                 label: '전체',         emoji: '' },
+  { key: 'game-changer',        label: '게임체인저',    emoji: '🏆' },
+  { key: 'first-in-class',      label: 'First-in-Class', emoji: '🆕' },
+  { key: 'best-in-class',       label: 'Best-in-Class',  emoji: '🥇' },
+  { key: 'platform-expansion',  label: '플랫폼 확장',   emoji: '🔗' },
+  { key: 'big-pharma-validated',label: '빅파마 검증',   emoji: '🤝' },
+  { key: 'unmet-need',          label: '미충족 수요',   emoji: '⚡' },
+  { key: 'first-mover',         label: 'First Mover',  emoji: '🥇' },
+];
+
 export default function HomePage() {
   const navigate = useNavigate();
   const [search, setSearch] = useState('');
   const [filterCat, setFilterCat] = useState('전체');
-  const [sortBy, setSortBy] = useState('phase');
+  const [filterTag, setFilterTag] = useState('all');
+  const [sortBy, setSortBy] = useState('tag'); // 기본: 태그 우선 정렬
   const [view, setView] = useState('grid');
-  const [tab, setTab] = useState('all'); // 'all' | 'watchlist'
-  const [watchlistVersion, setWatchlistVersion] = useState(0); // force re-render
+  const [tab, setTab] = useState('all');
+  const [watchlistVersion, setWatchlistVersion] = useState(0);
 
   const watchlist = getWatchlist();
+
+  // 각 태그별 기업 수 카운트
+  const tagCounts = useMemo(() => {
+    const counts = {};
+    TAG_FILTERS.forEach(f => {
+      if (f.key === 'all') {
+        counts.all = companies.length;
+      } else {
+        counts[f.key] = companies.filter(c =>
+          c.pipelines.some(p => tagsData[p.drug]?.tags?.some(t => t.type === f.key))
+        ).length;
+      }
+    });
+    return counts;
+  }, []);
 
   const filtered = useMemo(() => {
     let list = tab === 'watchlist'
@@ -37,6 +86,14 @@ export default function HomePage() {
       : companies;
 
     if (filterCat !== '전체') list = list.filter(c => c.category === filterCat);
+
+    // 태그 필터
+    if (filterTag !== 'all') {
+      list = list.filter(c =>
+        c.pipelines.some(p => tagsData[p.drug]?.tags?.some(t => t.type === filterTag))
+      );
+    }
+
     if (search) {
       const q = search.toLowerCase();
       list = list.filter(c =>
@@ -49,8 +106,19 @@ export default function HomePage() {
         )
       );
     }
+
     const sorted = [...list];
-    if (sortBy === 'phase') {
+    if (sortBy === 'tag') {
+      // 태그 우선순위 → 같은 우선순위면 임상단계 내림차순
+      sorted.sort((a, b) => {
+        const pa = getTagPriority(a);
+        const pb = getTagPriority(b);
+        if (pb !== pa) return pb - pa;
+        const ma = Math.max(...a.pipelines.map(p => PHASE_ORDER[p.phase] || 0));
+        const mb = Math.max(...b.pipelines.map(p => PHASE_ORDER[p.phase] || 0));
+        return mb - ma;
+      });
+    } else if (sortBy === 'phase') {
       sorted.sort((a, b) => {
         const ma = Math.max(...a.pipelines.map(p => PHASE_ORDER[p.phase] || 0));
         const mb = Math.max(...b.pipelines.map(p => PHASE_ORDER[p.phase] || 0));
@@ -63,7 +131,7 @@ export default function HomePage() {
     }
     return sorted;
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filterCat, search, sortBy, tab, watchlistVersion]);
+  }, [filterCat, filterTag, search, sortBy, tab, watchlistVersion]);
 
   return (
     <div className="animate-fade-in">
@@ -97,7 +165,7 @@ export default function HomePage() {
       {/* Upcoming Catalysts */}
       <UpcomingCatalysts maxItems={4} />
 
-      {/* Tab + Filter */}
+      {/* Tab */}
       <div style={{ display: 'flex', gap: 4, marginBottom: 16, borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: 0 }}>
         <button
           onClick={() => setTab('all')}
@@ -114,6 +182,48 @@ export default function HomePage() {
         </button>
       </div>
 
+      {/* 태그 필터 pills */}
+      <div style={{ display: 'flex', gap: 8, marginBottom: 16, flexWrap: 'wrap' }}>
+        {TAG_FILTERS.map(f => {
+          const count = tagCounts[f.key] || 0;
+          const active = filterTag === f.key;
+          return (
+            <button
+              key={f.key}
+              onClick={() => setFilterTag(f.key)}
+              style={{
+                background: active ? 'rgba(245,158,11,0.15)' : 'rgba(255,255,255,0.04)',
+                border: `1px solid ${active ? 'rgba(245,158,11,0.5)' : 'rgba(255,255,255,0.1)'}`,
+                color: active ? '#fbbf24' : '#94a3b8',
+                borderRadius: 20,
+                padding: '5px 14px',
+                fontSize: 12,
+                fontWeight: active ? 700 : 400,
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 5,
+                transition: 'all 0.15s',
+              }}
+            >
+              {f.emoji && <span>{f.emoji}</span>}
+              {f.label}
+              <span style={{
+                fontSize: 10,
+                background: active ? 'rgba(245,158,11,0.2)' : 'rgba(255,255,255,0.08)',
+                color: active ? '#f59e0b' : '#64748b',
+                padding: '1px 6px',
+                borderRadius: 10,
+                minWidth: 18,
+                textAlign: 'center',
+              }}>
+                {count}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
       <FilterBar
         search={search} setSearch={setSearch}
         filterCat={filterCat} setFilterCat={setFilterCat}
@@ -123,6 +233,14 @@ export default function HomePage() {
 
       <div style={{ marginBottom: 10, fontSize: 12, color: '#64748b' }}>
         {filtered.length}개 기업
+        {filterTag !== 'all' && (
+          <span style={{ marginLeft: 8, color: '#f59e0b' }}>
+            · {TAG_FILTERS.find(f => f.key === filterTag)?.emoji} {TAG_FILTERS.find(f => f.key === filterTag)?.label} 필터 적용
+          </span>
+        )}
+        {sortBy === 'tag' && filterTag === 'all' && (
+          <span style={{ marginLeft: 8, color: '#64748b' }}>· 🏆 딱지 기업 우선 정렬</span>
+        )}
       </div>
 
       {/* Watchlist empty state */}
@@ -153,7 +271,7 @@ export default function HomePage() {
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12 }}>
             <thead>
               <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
-                {['기업명', '카테고리', '파이프라인', '리드 약물', '최고 임상단계', '주요 파트너', '누적 딜 규모'].map(h => (
+                {['기업명', '딱지', '카테고리', '파이프라인', '리드 약물', '최고 임상단계', '주요 파트너', '누적 딜 규모'].map(h => (
                   <th key={h} style={{ textAlign: 'left', padding: '10px 12px', color: '#64748b', fontWeight: 500, whiteSpace: 'nowrap' }}>{h}</th>
                 ))}
               </tr>
@@ -162,6 +280,13 @@ export default function HomePage() {
               {filtered.map(c => {
                 const lead = getLeadPipeline(c.pipelines);
                 const catColor = CATEGORY_COLORS[c.category] || '#64748b';
+                const companyTags = getCompanyTags(c);
+                const topTagEmoji = companyTags.has('game-changer') ? '🏆' :
+                  companyTags.has('first-in-class') ? '🆕' :
+                  companyTags.has('best-in-class') ? '🥇' :
+                  companyTags.has('platform-expansion') ? '🔗' :
+                  companyTags.has('big-pharma-validated') ? '🤝' :
+                  companyTags.has('unmet-need') ? '⚡' : '';
                 return (
                   <tr key={c.id} style={{ borderBottom: '1px solid rgba(255,255,255,0.04)', cursor: 'pointer' }}
                     onClick={() => navigate(`/company/${c.id}`)}
@@ -172,6 +297,7 @@ export default function HomePage() {
                       {c.name}
                       <span style={{ display: 'block', fontSize: 10, color: '#64748b', fontWeight: 400 }}>{c.ticker}</span>
                     </td>
+                    <td style={{ padding: '10px 12px', fontSize: 16 }}>{topTagEmoji}</td>
                     <td style={{ padding: '10px 12px' }}>
                       <span style={{ fontSize: 10, color: catColor, background: catColor + '18', padding: '2px 7px', borderRadius: 3 }}>{c.category}</span>
                     </td>

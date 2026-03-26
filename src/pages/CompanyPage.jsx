@@ -10,6 +10,7 @@ import GameChangerBadge from '../components/GameChangerBadge';
 import PhaseBar from '../components/PhaseBar';
 import WatchButton from '../components/WatchButton';
 import CompanyEventTimeline from '../components/CompanyEventTimeline';
+import CompanyMadInsight from '../components/CompanyMadInsight';
 import AdSlot from '../components/AdSlot';
 import catalystsData from '../data/catalysts.json';
 
@@ -88,6 +89,9 @@ export default function CompanyPage() {
           )}
         </div>
       </div>
+
+      {/* Company Mad Insight */}
+      <CompanyMadInsight companyId={company.id} />
 
       {/* Pipeline Roadmap — 시각화 타임라인 */}
       <section style={{ marginBottom: 32 }}>

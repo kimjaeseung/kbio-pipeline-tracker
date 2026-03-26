@@ -2,7 +2,7 @@ import { useState } from 'react';
 import madInsights from '../data/mad-insights.json';
 
 export default function MadInsight({ drugName }) {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
   const insight = madInsights[drugName];
   if (!insight) return null;
 

@@ -53,5 +53,60 @@
     "importance": "high",
     "source": "DART",
     "url": "https://dart.fss.or.kr"
+  },
+  {
+    "id": "chg-confirmed-001",
+    "date": "2025-09-15",
+    "company": "알테오젠",
+    "companyId": "alteogen",
+    "drug": "ALT-B4 (키트루다SC)",
+    "event": "FDA 승인 완료 — 키트루다SC(펨브롤리주맙 피하주사) 최초 허가",
+    "type": "regulatory",
+    "importance": "high",
+    "detail": "MSD의 키트루다 SC 제형에 알테오젠 Hybrozyme 기술 최초 적용 허가. 상업적 로열티 수익 시작. SC전환 플랫폼 상업화 이정표."
+  },
+  {
+    "id": "chg-confirmed-005",
+    "date": "2025-03-10",
+    "company": "루닛",
+    "companyId": "lunit",
+    "drug": "Lunit SCOPE IO",
+    "event": "아스트라제네카 임상 데이터 — SCOPE IO 바이오마커 유효성 발표",
+    "type": "data",
+    "importance": "high",
+    "detail": "AZ의 폐암 임상에서 SCOPE IO TIL 점수가 면역항암제 반응 예측 바이오마커로 유효성 확인. CDx 전환 가능성 증대."
+  },
+  {
+    "id": "chg-confirmed-004",
+    "date": "2024-10-20",
+    "company": "삼성바이오로직스",
+    "companyId": "samsung-biologics",
+    "drug": "SB27 (우스테키누맙 BS)",
+    "event": "FDA 승인 — 스텔라라(우스테키누맙) 바이오시밀러",
+    "type": "regulatory",
+    "importance": "high",
+    "detail": "삼성바이오에피스 개발. 스텔라라 오리지널 특허 만료에 맞춰 미국 시장 진입. 건선·크론병 적응증."
+  },
+  {
+    "id": "chg-confirmed-003",
+    "date": "2024-09-05",
+    "company": "HLB",
+    "companyId": "hlb",
+    "drug": "리보세라닙+캄렐리주맙",
+    "event": "FDA 승인 — 간세포암(HCC) 1차 치료 병용요법",
+    "type": "regulatory",
+    "importance": "high",
+    "detail": "CARES-310 임상 OS 22.1개월(vs 소라페닙 10.7개월). 사망 위험 38% 감소. 중국 허가에 이어 미국 FDA 승인 완료."
+  },
+  {
+    "id": "chg-confirmed-002",
+    "date": "2024-08-19",
+    "company": "유한양행",
+    "companyId": "yuhan",
+    "drug": "렉라자+리브레반트 (라제르티닙+아미반타맙)",
+    "event": "FDA 승인 — EGFR 변이 비소세포폐암 1차 치료 병용요법",
+    "type": "regulatory",
+    "importance": "high",
+    "detail": "MARIPOSA 임상 PFS 23.7개월(vs 타그리소 16.6개월). 타그리소 대비 질병 진행·사망 위험 30% 감소. 한국 신약의 글로벌 최초 FDA 1차 치료 승인."
   }
 ]

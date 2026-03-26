@@ -1657,34 +1657,53 @@
     "name": "큐리옥스바이오시스템즈",
     "ticker": "403870",
     "market": "KOSDAQ",
-    "category": "단일세포분석/바이오장비",
-    "platform": "Laminar Wash 단일세포 처리 플랫폼",
-    "description": "혈액 기반 단일세포 분석을 위한 Laminar Wash 원심분리 대체 기술 보유. 흐름세포분석·단일세포시퀀싱(scRNA-seq) 전처리 장비 개발. 글로벌 연구기관·병원 공급.",
+    "category": "세포분석장비/CAR-T인프라",
+    "platform": "Laminar Wash — 원심분리 대체 세포 세척 플랫폼",
+    "description": "원심분리기를 대체하는 층류(Laminar Wash) 세포 세척 기술 보유. CAR-T·면역세포 제조 공정에서 세포 회수율을 90%+로 극대화. 세포치료제 제조 원가 절감·품질 균일화의 핵심 장비. 베크만쿨터·BioLegend와 글로벌 파트너십.",
     "partners": [
-      "베크만쿨터",
-      "BioLegend"
+      "베크만쿨터 (Beckman Coulter)",
+      "BioLegend",
+      "Bio-Techne",
+      "Miltenyi Biotec (협의 중)"
     ],
-    "totalDealValue": "-",
+    "totalDealValue": "글로벌 파트너십 기반 장비+소모품 반복 매출 구조",
     "pipelines": [
       {
         "drug": "HydroSpin",
-        "target": "혈액 단일세포 처리",
-        "indication": "면역세포 분석, CAR-T 제조 품질관리",
+        "target": "혈액 단일세포 세척 효율화",
+        "indication": "CAR-T 제조, 면역세포 분석, 유세포분석(Flow Cytometry)",
         "phase": "시판 중 (글로벌)",
-        "moa": "층류(Laminar flow) 세척 원리 → 원심분리 없이 세포 손실 최소화",
-        "partner": "베크만쿨터",
+        "moa": "층류(Laminar flow) 세척 — 원심력 대신 부드러운 흐름으로 세포 무손상 세척",
+        "partner": "베크만쿨터 (글로벌 유통)",
         "status": "approved",
-        "note": "원심분리 대비 세포 회수율 2~3배. CAR-T 제조·면역학 연구실 채택 확대."
+        "note": "원심분리 대비 세포 회수율 2~3배(90%+). CAR-T 제조 공장·면역학 연구실 채택 확대. 베크만쿨터와 OEM 파트너십.",
+        "marketSize": "유세포분석 장비 시장 약 6조원 + CAR-T 전처리 장비 2~3조원 (TAM ~8~10조원)",
+        "revenueEstimate": {
+          "bull": "1,000~2,000억원/년 (CAR-T 공장 표준 장비 채택 시)",
+          "base": "300~600억원/년 (글로벌 파트너십 소모품 매출 확대)",
+          "bear": "100~200억원/년 (틈새 연구장비로 제한)",
+          "logic": "유세포분석 시장 6조원 × 점유율 2% = 1,200억원. 소모품 반복 수익 구조로 장비 판매 후 연간 30~40% 소모품 매출 발생."
+        }
       },
       {
         "drug": "HemoPalette",
-        "target": "전혈 단일세포 고속 처리",
-        "indication": "유세포분석, scRNA-seq 전처리",
+        "target": "전혈 단일세포 고속 처리·적혈구 제거",
+        "indication": "단일세포 RNA 시퀀싱(scRNA-seq) 전처리, 면역표현형 분석",
         "phase": "시판 중 (글로벌)",
-        "moa": "자동화 Laminar Wash → 적혈구 제거 + 단핵구 보존 동시 처리",
-        "partner": "BioLegend",
+        "moa": "자동화 Laminar Wash → 적혈구 선택 제거 + 단핵구 99%+ 보존 동시 처리",
+        "partner": "BioLegend (공동 마케팅)",
         "status": "approved",
-        "note": "BioLegend와 공동 마케팅. 단일세포 시퀀싱 전처리 표준화 목표."
+        "note": "단일세포 시퀀싱 전처리 표준화. BioLegend와 공동 마케팅 진행. 적혈구 오염 없이 면역세포만 분리."
+      },
+      {
+        "drug": "LAM-series (차세대 Laminar Wash)",
+        "target": "반자동/완전자동 세포 처리 라인",
+        "indication": "임상급 CAR-T 제조 GMP 라인 통합",
+        "phase": "개발 중 (2026 출시 예정)",
+        "moa": "GMP 등급 완전 자동화 Laminar Wash 시스템",
+        "partner": "-",
+        "status": "active",
+        "note": "상업용 CAR-T 제조 공장(삼성바이오로직스, 셀진 등) 대상 GMP 인증 자동화 버전. 2026년 출시 목표."
       }
     ]
   }

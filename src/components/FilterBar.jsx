@@ -35,6 +35,7 @@ export default function FilterBar({ search, setSearch, filterCat, setFilterCat, 
         {categories.map(c => <option key={c} value={c}>{c}</option>)}
       </select>
       <select value={sortBy} onChange={e => setSortBy(e.target.value)} style={selectStyle}>
+        <option value="tag">🏆 딱지 우선</option>
         <option value="phase">임상단계순</option>
         <option value="pipeline">파이프라인 수</option>
         <option value="name">가나다순</option>
