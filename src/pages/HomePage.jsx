@@ -9,7 +9,6 @@ import { getWatchlist } from '../utils/watchlist';
 import CompanyCard from '../components/CompanyCard';
 import FilterBar from '../components/FilterBar';
 import UpcomingCatalysts from '../components/UpcomingCatalysts';
-import RecentUpdates from '../components/RecentUpdates';
 import AdSlot from '../components/AdSlot';
 
 const totalPipelines = companies.reduce((s, c) => s + c.pipelines.length, 0);
@@ -158,9 +157,6 @@ export default function HomePage() {
           </div>
         ))}
       </div>
-
-      {/* Recent Updates */}
-      <RecentUpdates maxItems={5} />
 
       {/* Upcoming Catalysts */}
       <UpcomingCatalysts maxItems={4} />

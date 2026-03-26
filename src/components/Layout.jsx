@@ -42,6 +42,9 @@ export default function Layout({ children }) {
             <Link to="/calendar" style={navStyle('/calendar')}>
               📅 촉매 캘린더
             </Link>
+            <Link to="/glossary" style={navStyle('/glossary')}>
+              📖 바이오 사전
+            </Link>
             <Link to="/" onClick={(e) => { e.preventDefault(); navigate('/?tab=watchlist'); }} style={{
               color: watchlistCount > 0 ? '#f59e0b' : '#94a3b8',
               textDecoration: 'none',

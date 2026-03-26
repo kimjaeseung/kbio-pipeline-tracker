@@ -7,6 +7,7 @@ import PipelinePage from './pages/PipelinePage';
 import CalendarPage from './pages/CalendarPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
+import GlossaryPage from './pages/GlossaryPage';
 import './index.css';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/company/:companyId" element={<CompanyPage />} />
             <Route path="/pipeline/:drugId" element={<PipelinePage />} />
             <Route path="/calendar" element={<CalendarPage />} />
+            <Route path="/glossary" element={<GlossaryPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/terms" element={<TermsPage />} />
           </Routes>
