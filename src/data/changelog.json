@@ -1,5 +1,27 @@
 [
   {
+    "id": "chg-20260325-001",
+    "date": "2026-03-25",
+    "company": "알테오젠",
+    "companyId": "alteogen",
+    "drug": "ALT-B4 (Hybrozyme)",
+    "event": "바이오젠(Biogen)과 ALT-B4 기술이전 계약 체결 — 최대 8,675억원",
+    "type": "deal",
+    "importance": "high",
+    "detail": "바이오젠 인터내셔널과 Hybrozyme 기반 바이오의약품 2개 품목 SC 제형 개발 독점 라이선스 계약. 선급금 200억원, 마일스톤 최대 8,226억원, 로열티 별도. 바이오젠 옵션으로 3번째 품목 추가 가능. 누적 계약 규모 11.5조원+ 돌파."
+  },
+  {
+    "id": "chg-20260325-002",
+    "date": "2026-03-25",
+    "company": "고바이오랩",
+    "companyId": null,
+    "drug": "KC84/KBL382/KBL385 (마이크로바이옴)",
+    "event": "셀트리온에 IBS-D 신약 기술이전 — 2,052억원",
+    "type": "deal",
+    "importance": "medium",
+    "detail": "셀트리온이 설사형 과민성 대장증후군(IBS-D) 대상 마이크로바이옴 신약 3종 글로벌 독점 개발·상업화 권리 확보. 계약 규모는 자기자본(493억) 대비 417%."
+  },
+  {
     "id": "dart-sample-003",
     "date": "2026-03-20",
     "company": "알테오젠",

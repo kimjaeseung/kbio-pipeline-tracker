@@ -7,7 +7,6 @@ import { drugToSlug, getLeadPipeline } from '../utils/helpers';
 import PipelineTimeline from '../components/PipelineTimeline';
 import PipelineRoadmap from '../components/PipelineRoadmap';
 import GameChangerBadge from '../components/GameChangerBadge';
-import PhaseBar from '../components/PhaseBar';
 import WatchButton from '../components/WatchButton';
 import CompanyEventTimeline from '../components/CompanyEventTimeline';
 import CompanyMadInsight from '../components/CompanyMadInsight';
@@ -157,26 +156,6 @@ export default function CompanyPage() {
               })}
             </tbody>
           </table>
-        </div>
-      </section>
-
-      {/* Phase bar for each pipeline */}
-      <section>
-        <h2 style={{ fontSize: 16, fontWeight: 700, color: '#f1f5f9', marginBottom: 12, borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: 8 }}>
-          임상 단계 현황
-        </h2>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-          {company.pipelines.map((p, i) => (
-            <div key={i} style={{ display: 'grid', gridTemplateColumns: '180px 1fr', alignItems: 'start', gap: 12, marginBottom: 4 }}>
-              <span
-                style={{ fontSize: 12, color: '#cbd5e1', fontWeight: 600, cursor: 'pointer', lineHeight: 1.4, wordBreak: 'break-word', paddingTop: 2 }}
-                onClick={() => navigate(`/pipeline/${drugToSlug(p.drug)}`)}
-              >
-                {p.drug}
-              </span>
-              <PhaseBar phase={p.phase} />
-            </div>
-          ))}
         </div>
       </section>
 

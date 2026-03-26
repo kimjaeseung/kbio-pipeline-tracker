@@ -102,15 +102,16 @@
     "market": "KOSDAQ",
     "category": "플랫폼(SC전환)",
     "platform": "Hybrozyme (히알루로니다제 SC전환)",
-    "description": "정맥주사→피하주사 전환 플랫폼. 키트루다SC FDA 승인으로 상업화 달성. 2025년 매출 2,159억원.",
+    "description": "SC 전환 플랫폼 기술(Hybrozyme/ALT-B4) 보유. MSD 키트루다SC FDA 승인 완료. 바이오젠·GSK·다이이찌산쿄·얀센 등 7개 글로벌 파트너. 2026년 3월 바이오젠과 최대 8,675억원 계약 체결.",
     "partners": [
       "MSD(머크)",
       "아스트라제네카",
       "산도즈",
       "다이이찌산쿄",
-      "GSK(테사로)"
+      "GSK(테사로)",
+      "Biogen"
     ],
-    "totalDealValue": "약 10.7조원+",
+    "totalDealValue": "약 11.5조원+ (바이오젠 8,675억 포함 7개 파트너)",
     "pipelines": [
       {
         "drug": "ALT-B4 (키트루다SC)",
@@ -360,7 +361,7 @@
         "moa": "엑세나타이드 서방형",
         "partner": "자체",
         "status": "active",
-        "note": "월 1회 투여 서방형",
+        "note": "릴리(Eli Lilly) 스마트데포 기술평가 계약 중. 2026년 10월까지 평가 기간 연장. 경구비만약 집중으로 본계약 시기 불투명.",
         "marketSize": "파킨슨병 글로벌 치료제 시장 약 7조원(2027년)",
         "revenueEstimate": {
           "bull": "3,000억~5,000억원 (기술이전 계약금 + 마일스톤)",
@@ -377,7 +378,7 @@
         "moa": "이중작용 서방형",
         "partner": "자체",
         "status": "active",
-        "note": ""
+        "note": "릴리(Eli Lilly) 스마트데포 기술평가 계약 중. 2026년 10월까지 평가 기간 연장. 경구비만약 집중으로 본계약 시기 불투명."
       }
     ]
   },

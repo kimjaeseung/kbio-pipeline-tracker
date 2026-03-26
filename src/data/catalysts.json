@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "id": "evt-biogen-20260325",
+      "date": "2026-03-25",
+      "dateType": "exact",
+      "displayDate": "2026.03.25",
+      "company": "알테오젠",
+      "companyId": "alteogen",
+      "drug": "ALT-B4 (Hybrozyme)",
+      "drugId": "alt-b4-keytruda-sc-",
+      "event": "바이오젠 ALT-B4 기술이전 계약 — 최대 8,675억원",
+      "type": "deal",
+      "importance": "high",
+      "impact": "선급금 200억 + 마일스톤 최대 8,226억 + 로열티. 파트너사 7번째. 누적 계약 11.5조원+ 돌파.",
+      "whyItMatters": "바이오젠 포트폴리오(렘케이드 후계, 알츠하이머 등)의 SC 전환 독점 공급. 알테오젠 플랫폼 범위 신경과·희귀질환까지 확장.",
+      "status": "completed"
+    },
+    {
       "id": "evt-001",
       "date": "2026-06-01",
       "dateType": "half",
