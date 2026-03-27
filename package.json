@@ -8,7 +8,8 @@
     "build": "node scripts/generate-sitemap.js && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name=kbio-pipeline --branch=main --commit-dirty=true"
+    "fetch-stocks": "node --env-file=.env scripts/fetch-stock-data.js",
+    "deploy": "npm run fetch-stocks && npm run build && wrangler pages deploy dist --project-name=kbio-pipeline --branch=main --commit-dirty=true"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",

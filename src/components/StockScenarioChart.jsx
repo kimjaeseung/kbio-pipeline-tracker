@@ -4,12 +4,6 @@ import {
   Tooltip, Legend, ReferenceLine, ResponsiveContainer,
 } from 'recharts';
 
-function getYahooTicker(company) {
-  if (company.market === 'KOSPI') return `${company.ticker}.KS`;
-  if (company.market === 'KOSDAQ') return `${company.ticker}.KQ`;
-  return company.ticker;
-}
-
 function parseExpectedReturn(str) {
   if (!str || str.startsWith('N/A')) return null;
   const match = str.match(/\+?(\d+)~(\d+)%/);
@@ -113,27 +107,24 @@ export default function StockScenarioChart({ company, insights }) {
   const maxLoss = parseMaxLoss(insights?.view?.max_loss);
 
   useEffect(() => {
-    if (!company.ticker || !returnData) {
+    if (!company.id || !returnData) {
       setLoading(false);
       return;
     }
 
-    const ticker = getYahooTicker(company);
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=1y&interval=1wk`;
-
-    fetch(url, { headers: { Accept: 'application/json' } })
+    // 빌드 타임에 pre-fetch된 정적 JSON 읽기 (public/stock-data.json)
+    fetch('/stock-data.json')
       .then(r => {
-        if (!r.ok) throw new Error('non-200');
+        if (!r.ok) throw new Error('stock-data.json 없음');
         return r.json();
       })
-      .then(data => {
-        const result = data?.chart?.result?.[0];
-        if (!result) throw new Error('no result');
-        const timestamps = result.timestamp || [];
-        const closes = result.indicators?.quote?.[0]?.close || [];
-        const prices = timestamps
-          .map((ts, i) => ({ date: new Date(ts * 1000), price: closes[i] }))
-          .filter(d => d.price != null && !isNaN(d.price));
+      .then(json => {
+        const raw = json?.data?.[company.id];
+        if (!raw || raw.length === 0) throw new Error('데이터 없음');
+        // { date: timestamp_ms, price: number } 형태로 정규화
+        const prices = raw
+          .map(d => ({ date: new Date(d.date), price: d.price }))
+          .filter(d => d.price > 0);
         setHistorical(prices);
         setLoading(false);
       })
@@ -141,7 +132,7 @@ export default function StockScenarioChart({ company, insights }) {
         setApiError(true);
         setLoading(false);
       });
-  }, [company.ticker, company.market]); // eslint-disable-line
+  }, [company.id]); // eslint-disable-line
 
   const { chartData, futureMilestones } = useMemo(() => {
     if (!returnData) return { chartData: [], futureMilestones: [] };
@@ -349,7 +340,7 @@ export default function StockScenarioChart({ company, insights }) {
         >
           <span style={{ fontSize: 20 }}>📡</span>
           실시간 주가 데이터를 불러오지 못했습니다
-          <span style={{ fontSize: 11, color: '#334155' }}>Yahoo Finance API 일시 불가 — 위 시나리오 수치를 참고하세요</span>
+          <span style={{ fontSize: 11, color: '#334155' }}>npm run fetch-stocks 실행 후 재배포하면 주가 차트가 표시됩니다</span>
         </div>
       ) : (
         <div style={{ background: 'rgba(255,255,255,0.02)', borderRadius: 10, padding: '16px 8px 8px' }}>
