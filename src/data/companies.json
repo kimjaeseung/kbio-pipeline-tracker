@@ -1771,49 +1771,6 @@
     ]
   },
   {
-    "id": "icure",
-    "name": "아이큐어",
-    "ticker": "175250",
-    "market": "KOSDAQ",
-    "category": "경피(패치)제형",
-    "platform": "TDDS (경피약물전달시스템)",
-    "description": "경피패치(TDDS) 전문. 세계 최초 도네페질 패치(IQ143) 국내 시판, FDA IND 취득. 2025 매출 822억원(+64.4%) 역대 최대. 국내 치매 패치 시장 급성장 중.",
-    "partners": [],
-    "totalDealValue": "-",
-    "pipelines": [
-      {
-        "drug": "IQ143 (도네페질 패치)",
-        "target": "아세틸콜린에스터라아제(AChE)",
-        "indication": "알츠하이머 치매",
-        "phase": "시판 중 (국내) / 미국 FDA IND",
-        "moa": "도네페질 경피 패치 전달",
-        "partner": "자체",
-        "status": "active",
-        "note": "2021년 세계 최초 도네페질 패치 국내 허가. 2023년 FDA IND 승인(505(b)(2)). 미국 Corium ADLARITY 선점으로 전략 재검토 중. 2025 국내 매출 급성장."
-      },
-      {
-        "drug": "리바스티그민 패치",
-        "target": "AChE/BuChE",
-        "indication": "알츠하이머, 파킨슨 치매",
-        "phase": "시판 중 (국내/유럽)",
-        "moa": "리바스티그민 경피 전달",
-        "partner": "자체",
-        "status": "approved",
-        "note": ""
-      },
-      {
-        "drug": "IQ300 (프라미펙솔 패치)",
-        "target": "도파민 수용체",
-        "indication": "파킨슨병, 하지불안증후군",
-        "phase": "전임상",
-        "moa": "도파민 작용제 경피 전달",
-        "partner": "자체",
-        "status": "preclinical",
-        "note": ""
-      }
-    ]
-  },
-  {
     "id": "pharos-ibio",
     "name": "파로스아이바이오",
     "ticker": "203400",
@@ -2101,6 +2058,332 @@
         "partner": "자체",
         "status": "active",
         "note": "SLAS 2026 발표 예정."
+      }
+    ]
+  },
+  {
+    "id": "hanmi",
+    "name": "한미약품",
+    "ticker": "128940",
+    "market": "KOSPI",
+    "category": "비만/대사질환 신약",
+    "platform": "LAPSCovery(지속형) / OraScovery(경구전환) / AMEScovery",
+    "description": "국내 최다 신약 파이프라인 보유 제약사. GLP-1 기반 비만치료제 에페글레나타이드 2026년 국내 출시 목표. 누적 기술이전 국내 최대급. MSD·길리어드 파트너십.",
+    "partners": [
+      "MSD(머크)",
+      "길리어드"
+    ],
+    "totalDealValue": "약 5조원+",
+    "pipelines": [
+      {
+        "drug": "에페글레나타이드",
+        "target": "GLP-1 수용체",
+        "indication": "비만/2형 당뇨",
+        "phase": "Phase 3 완료 (국내출시 준비)",
+        "moa": "GLP-1 수용체 작용제 (LAPSCovery 주1회)",
+        "partner": "자체",
+        "status": "approved",
+        "note": "국내 3상(448명 40주) 평균 체중감소 9.75%, 최대 30%. 사노피 반환(2020) 후 자체 재개발. 2026년 하반기 국내 출시 목표."
+      },
+      {
+        "drug": "에피노페그듀타이드 (MK-6024)",
+        "target": "GLP-1 / GCG 이중수용체",
+        "indication": "MASH (대사이상 지방간염)",
+        "phase": "Phase 2b 완료",
+        "moa": "GLP-1/GCG 이중작용 펩타이드",
+        "partner": "MSD(머크)",
+        "status": "active",
+        "note": "MSD 스폰서 Phase 2b 완료. 2026~2027년 3상 진입 여부 결정. 2026.01 JP모건에서 MSD 발표 제외 → 주가 급락. 개발 지속 공식 입장."
+      },
+      {
+        "drug": "HM15275",
+        "target": "GLP-1 / GIP / GCG 삼중수용체",
+        "indication": "비만/고도비만",
+        "phase": "Phase 2",
+        "moa": "삼중수용체 작용제 (Best-in-Class 후보)",
+        "partner": "자체",
+        "status": "active",
+        "note": "Phase 1 완료(ADA 2025 발표). 2025년 하반기 FDA Phase 2 IND 승인 → 2026년 Phase 2 착수."
+      },
+      {
+        "drug": "HM17321",
+        "target": "UCN2 수용체",
+        "indication": "비만 (근육량 증가+지방 선택 감량)",
+        "phase": "Phase 1",
+        "moa": "UCN2 수용체 작용 — First-in-Class",
+        "partner": "자체",
+        "status": "active",
+        "note": "세계 최초 근육량 증가 + 지방 선택 감량 동시 구현 기전. 2025.10 FDA Phase 1 IND 신청. 상용화 목표 2031년."
+      },
+      {
+        "drug": "HM97662",
+        "target": "EZH1/2",
+        "indication": "진행성/전이성 고형암 (소세포암·난소암·전립선암)",
+        "phase": "Phase 1",
+        "moa": "EZH1/2 이중저해 (저분자화합물)",
+        "partner": "자체",
+        "status": "active",
+        "note": "ESMO 2025 발표. Phase 1(한국·호주 28명 7개 용량군) — PR·장기SD 관찰. 관리 가능한 안전성. 적응증 좁혀 Phase 2 설계 중."
+      },
+      {
+        "drug": "엔서퀴다 (OraScovery)",
+        "target": "PI3K",
+        "indication": "B세포 림프종",
+        "phase": "허가 (길리어드 파트너십)",
+        "moa": "경구 PI3K 억제제 (OraScovery 기술)",
+        "partner": "길리어드",
+        "status": "approved",
+        "note": "2025.09 길리어드 483억원 계약 체결."
+      }
+    ],
+    "dealHistory": [
+      {
+        "partner": "MSD(머크)",
+        "drug": "에피노페그듀타이드",
+        "year": "2021",
+        "upfront": 600,
+        "milestone": 9000,
+        "royaltyNote": "Phase 3 진입 마일스톤 대규모 예상",
+        "status": "active"
+      },
+      {
+        "partner": "길리어드",
+        "drug": "엔서퀴다 (OraScovery)",
+        "year": "2025",
+        "upfront": 483,
+        "milestone": 2000,
+        "royaltyNote": "글로벌 상업화 로열티",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "stpharm",
+    "name": "에스티팜",
+    "ticker": "237690",
+    "market": "KOSDAQ",
+    "category": "올리고뉴클레오타이드 CDMO",
+    "platform": "siRNA·ASO 올리고 CDMO (원임상→상업화)",
+    "description": "글로벌 올리고뉴클레오타이드(siRNA·ASO) CDMO 선도. 렉비오(노바티스)·도니달로센(아이오니스) 등 상업화 7개 제품 원료 공급. 2025년 매출 3,316억원 (+21% YoY). 탈중국 CDMO 수혜.",
+    "partners": [
+      "노바티스",
+      "아이오니스",
+      "제론",
+      "UCB"
+    ],
+    "totalDealValue": "수주잔고 2,040억원+",
+    "pipelines": [
+      {
+        "drug": "렉비오 원료 (inclisiran)",
+        "target": "PCSK9",
+        "indication": "고지혈증",
+        "phase": "상업화 공급 중",
+        "moa": "siRNA CDMO 공급",
+        "partner": "노바티스",
+        "status": "approved",
+        "note": "2025.07 1차 치료 단독 승인 → 처방 급증. 수주 직결."
+      },
+      {
+        "drug": "도니달로센 원료",
+        "target": "PKK (혈장칼리크레인)",
+        "indication": "유전성혈관부종(HAE)",
+        "phase": "상업화 공급 중",
+        "moa": "ASO CDMO 공급",
+        "partner": "아이오니스",
+        "status": "approved",
+        "note": "2025.08 FDA 승인 완료. 상업화 물량 공급 개시."
+      },
+      {
+        "drug": "라이텔로 원료 (imetelstat)",
+        "target": "텔로머라아제",
+        "indication": "골수이형성증후군(MDS)",
+        "phase": "상업화 공급 중",
+        "moa": "ASO CDMO 공급",
+        "partner": "제론",
+        "status": "approved",
+        "note": "혈액암 상업화 공급 중."
+      },
+      {
+        "drug": "올레자르센 원료 (Olezarsen/Tryngola)",
+        "target": "APOC3",
+        "indication": "중성지방혈증",
+        "phase": "상업화 공급 중",
+        "moa": "siRNA CDMO 공급",
+        "partner": "아이오니스",
+        "status": "approved",
+        "note": "추가 적응증 FDA 승인 기대. 수주 확대 예상."
+      },
+      {
+        "drug": "STP-0404",
+        "target": "HIV 역전사효소",
+        "indication": "에이즈(HIV) 치료",
+        "phase": "Phase 2a",
+        "moa": "저분자화합물 항바이러스",
+        "partner": "자체",
+        "status": "active",
+        "note": "2026년 기술이전 목표. CDMO 본업 외 자체 신약 파이프라인."
+      }
+    ],
+    "dealHistory": [
+      {
+        "partner": "노바티스 외 단일계약",
+        "drug": "심혈관질환 올리고 원료",
+        "year": "2026",
+        "upfront": 830,
+        "milestone": 0,
+        "royaltyNote": "1년 확정 수주 계약",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "hkinnoncare",
+    "name": "HK이노엔",
+    "ticker": "195940",
+    "market": "KOSDAQ",
+    "category": "위식도역류 신약 (P-CAB)",
+    "platform": "P-CAB (칼륨경쟁적 위산분비억제제)",
+    "description": "국산 제30호 신약 케이캡(테고프라잔) 보유. 2025년 매출 1조631억원 사상 최초 1조 돌파. 2026.01 미국 FDA NDA 제출 완료. 2027년 1월 미국 허가 목표.",
+    "partners": [
+      "세벨라파마",
+      "브레인트리(Braintree)"
+    ],
+    "totalDealValue": "글로벌 55개국 기술수출",
+    "pipelines": [
+      {
+        "drug": "케이캡 (테고프라잔, K-CAB)",
+        "target": "위벽세포 칼륨채널",
+        "indication": "NERD/EE/EE유지요법 (위식도역류질환)",
+        "phase": "시판 (국내) / FDA NDA 심사 중",
+        "moa": "P-CAB — 칼륨 경쟁적 위산분비억제",
+        "partner": "세벨라파마 / 브레인트리",
+        "status": "approved",
+        "note": "2026.01.09 미국 FDA NDA 제출 완료. 2027년 1월 PDUFA. TRIUMpH 3상에서 PPI 대비 우월성 입증(EE·중증 EE·유지요법). 국내 소화성궤양 원외처방 1위. 누적처방 9,233억원."
+      }
+    ],
+    "dealHistory": [
+      {
+        "partner": "세벨라파마 / 브레인트리",
+        "drug": "케이캡 (미국 권리)",
+        "year": "2021",
+        "upfront": 200,
+        "milestone": 3000,
+        "royaltyNote": "미국 판매 로열티 (허가 후 수령)",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "hugel",
+    "name": "휴젤",
+    "ticker": "145020",
+    "market": "KOSDAQ",
+    "category": "보툴리눔 에스테틱",
+    "platform": "보툴리눔 톡신 (레티보) + HA필러",
+    "description": "글로벌 메디컬 에스테틱 전문. 보툴리눔 톡신 미국·중국·유럽 허가 보유 국내 유일. 2025년 매출 4,251억원 역대 최대, 영업이익률 47.4%. 미국 Q4 북남미 매출 292억(YoY +310%).",
+    "partners": [
+      "베네브(Benevis)",
+      "CBC그룹"
+    ],
+    "totalDealValue": "-",
+    "pipelines": [
+      {
+        "drug": "레티보 (Letybo / 보툴렉스)",
+        "target": "아세틸콜린 분비",
+        "indication": "미간 주름 (미용 보툴리눔)",
+        "phase": "시판 (미국·중국·유럽·UAE)",
+        "moa": "보툴리눔 신경독소 A형",
+        "partner": "베네브(미국 유통)",
+        "status": "approved",
+        "note": "미국 FDA 2024.01 승인(3번째 도전). 2025.03 미국 본격 출시. 2025 북남미 연간 679억(YoY +105%). 2026년 하이브리드 직판모델 전환. 2028년 미국 M/S 10% 목표."
+      },
+      {
+        "drug": "HA필러 (더채움/리볼렉스)",
+        "target": "피부 볼륨",
+        "indication": "얼굴 윤곽 교정",
+        "phase": "시판 중",
+        "moa": "히알루론산 필러",
+        "partner": "자체",
+        "status": "approved",
+        "note": "2025년 매출 1,297억원(+1.7%). 60개국 수출."
+      },
+      {
+        "drug": "웰라쥬 (화장품)",
+        "target": "피부케어",
+        "indication": "화장품",
+        "phase": "시판 중",
+        "moa": "화장품 브랜드",
+        "partner": "자체",
+        "status": "approved",
+        "note": "2025년 매출 616억(+45.9% YoY) 급성장."
+      }
+    ],
+    "dealHistory": []
+  },
+  {
+    "id": "ckd",
+    "name": "종근당",
+    "ticker": "185750",
+    "market": "KOSPI",
+    "category": "심혈관·HDAC6 신약",
+    "platform": "HDAC6 억제제 (저분자) + ADC + 이중항체",
+    "description": "국내 8위 제약사. 2023년 노바티스와 CKD-510(HDAC6억제제) 1.7조원 기술이전 달성. CKD-510은 ADC가 아닌 저분자화합물. 2025년 매출 약 1.7조원.",
+    "partners": [
+      "노바티스",
+      "길리어드"
+    ],
+    "totalDealValue": "약 1.7조원",
+    "pipelines": [
+      {
+        "drug": "CKD-510",
+        "target": "HDAC6",
+        "indication": "심방세동 / 샤르코-마리-투스병(CMT)",
+        "phase": "Phase 2",
+        "moa": "HDAC6 억제제 (저분자화합물, NHA 기반) — First-in-Class 항부정맥",
+        "partner": "노바티스",
+        "status": "active",
+        "note": "2023.11 노바티스 1.7조원(계약금 1,061억) 기술이전. 노바티스 JP모건 2025 CRM 핵심 자산 명시. 2026.02 노바티스 실적 자료 Phase 2 공식 등재. 2025.05 마일스톤 69억 수령."
+      },
+      {
+        "drug": "CKD-702",
+        "target": "이중특이 항원",
+        "indication": "항암",
+        "phase": "Phase 1",
+        "moa": "이중특이 항체",
+        "partner": "자체",
+        "status": "active",
+        "note": ""
+      },
+      {
+        "drug": "CKD-508",
+        "target": "LDL 콜레스테롤",
+        "indication": "이상지질혈증",
+        "phase": "Phase 2 준비",
+        "moa": "저분자화합물 LDL 저하",
+        "partner": "자체",
+        "status": "active",
+        "note": "영국 Phase 1 완료. 2024.11 미국 FDA Phase 1 승인 → Phase 2 진입 준비."
+      },
+      {
+        "drug": "CKD-703",
+        "target": "c-MET",
+        "indication": "고형암 / MET증폭 비소세포폐암",
+        "phase": "Phase 1",
+        "moa": "c-MET 타겟 ADC",
+        "partner": "자체",
+        "status": "active",
+        "note": "2025년 Phase 1 개시. ADC 신규 파이프라인."
+      }
+    ],
+    "dealHistory": [
+      {
+        "partner": "노바티스",
+        "drug": "CKD-510 (HDAC6억제제)",
+        "year": "2023",
+        "upfront": 1061,
+        "milestone": 16239,
+        "royaltyNote": "Phase 3 진입 시 대규모 마일스톤 예정",
+        "status": "active"
       }
     ]
   }
