@@ -63,6 +63,11 @@ async function fetchGovt(company) {
     throw new Error('insufficient data');
   }
 
+  // 최신 1건에서 시총/주식수 추출 (내림차순으로 정렬되어 있음)
+  const latestItem = items[0];
+  const sharesOutstanding = parseInt(latestItem.lstgStCnt || '0');
+  const marketCap = parseInt(latestItem.mrktTotAmt || '0');
+
   // 날짜 오름차순 정렬, 주봉으로 다운샘플 (매주 금요일 또는 마지막 거래일)
   const sorted = items
     .map(item => ({
@@ -84,7 +89,11 @@ async function fetchGovt(company) {
     weekMap.set(week, point); // 같은 주 내 나중 날짜로 덮어쓰기
   }
 
-  return [...weekMap.values()].sort((a, b) => a.date - b.date);
+  return {
+    prices: [...weekMap.values()].sort((a, b) => a.date - b.date),
+    sharesOutstanding,
+    marketCap,
+  };
 }
 
 function getISOWeek(d) {
@@ -120,9 +129,10 @@ async function fetchYahoo(company) {
   const timestamps = result.timestamp || [];
   const closes = result.indicators?.quote?.[0]?.close || [];
 
-  return timestamps
+  const prices = timestamps
     .map((ts, i) => ({ date: ts * 1000, price: closes[i] }))
     .filter(d => d.price != null && !isNaN(d.price));
+  return { prices, sharesOutstanding: 0, marketCap: 0 }; // Yahoo는 시총 데이터 없음
 }
 
 // ─── main ────────────────────────────────────────────────────────────────────
@@ -157,13 +167,17 @@ async function main() {
 
   for (const company of companies) {
     try {
-      const data = await fetchCompany(company);
-      if (!data || data.length === 0) {
+      const fetched = await fetchCompany(company);
+      if (!fetched || !fetched.prices || fetched.prices.length === 0) {
         console.log(`  ⏭  ${company.name.padEnd(12)} 스킵 (ticker 없음 또는 비상장)`);
         continue;
       }
-      result[company.id] = data;
-      console.log(`  ✅ ${company.name.padEnd(12)} ${data.length}개 데이터 포인트`);
+      result[company.id] = {
+        prices: fetched.prices,
+        sharesOutstanding: fetched.sharesOutstanding,
+        marketCap: fetched.marketCap,
+      };
+      console.log(`  ✅ ${company.name.padEnd(12)} ${fetched.prices.length}개 포인트 | 시총 ${fetched.marketCap > 0 ? (fetched.marketCap / 1e12).toFixed(2) + '조' : 'N/A'}`);
       success++;
     } catch (e) {
       console.log(`  ❌ ${company.name.padEnd(12)} 실패: ${e.message}`);
