@@ -13,6 +13,8 @@ import CompanyMadInsight from '../components/CompanyMadInsight';
 import AdSlot from '../components/AdSlot';
 import catalystsData from '../data/catalysts.json';
 import LOMilestoneWaterfall from '../components/LOMilestoneWaterfall';
+import StockScenarioChart from '../components/StockScenarioChart';
+import madInsightsData from '../data/company-mad-insights.json';
 
 export default function CompanyPage() {
   const { companyId } = useParams();
@@ -172,6 +174,12 @@ export default function CompanyPage() {
         </h2>
         <CompanyEventTimeline companyId={company.id} />
       </section>
+
+      {/* Stock Scenario Chart */}
+      <StockScenarioChart
+        company={company}
+        insights={madInsightsData[company.id]}
+      />
     </div>
   );
 }
