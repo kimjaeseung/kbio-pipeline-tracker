@@ -171,12 +171,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/ybl-006</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/ybl-006-아크릭솔리맙-anti-pd-1</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/ybl-013</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/abl105-yh32367-her2-4-1bb</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/ybl-013-pd-l1-cd3</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -216,7 +221,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/ab-101</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/amb302-fgfr3-adc-bhv-1530</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/amb303-ror1-adc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -261,12 +271,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/apb-r3</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/apb-a1-anti-cd40l-lu-ag22515</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/apb-a1</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/apb-r3-evo301-anti-il-18</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -331,7 +341,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/cna3103</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/knp-101</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/knp-701</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/knp-501-shp2-억제제</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -341,7 +361,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/stc-001</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/nelmastobart-btn1a1</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -481,12 +501,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/ac101acdt-01</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/ac101-둘파타턱-dulpatatug</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/at101</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/at101-네스페셀-cd19-car-t</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -521,17 +541,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/gena-111</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://bioinsight-nine.vercel.app/company/prestige</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/pbp1510hd204</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/hd201-tuznue-트라스투주맙-바이오시밀러</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/pbp1502hd201-tuznue</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/hd204-베바시주맙-바이오시밀러</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -546,7 +571,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/met-0976</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/met-097i</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/met-233i</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -586,12 +616,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/cg-026806</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/cg-026806-아이발티노스타트-aivaltinostat</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/cg-806</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/cg-806-luxeptinib</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -621,7 +651,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/phi-101</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/phi-101-라스모티닙-lasmotinib</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -636,12 +666,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/rg-101</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/rz-001-htert-mrna-표적</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/rg-201</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/rz-003-apoe4-apoe2-3-rna-치환</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/rz-004-망막색소변성증</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -651,12 +686,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/ceres-pdt-시스템</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/thync-씽크</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/ceres-skin-booster</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/mobicare-모비케어</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -666,7 +701,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/vuno-med-boneage</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/vuno-med-deepcars</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -681,7 +716,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/vuno-med-deepcars</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/vuno-med-boneage</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -716,7 +751,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bioinsight-nine.vercel.app/pipeline/hydrospin</loc>
+    <loc>https://bioinsight-nine.vercel.app/pipeline/hydrospin-laminar-wash-c-free</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
